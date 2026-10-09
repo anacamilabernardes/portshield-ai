@@ -2,6 +2,8 @@
 
 **Sovereign Intelligence Platform for Port Infrastructure and Logistics Resilience**
 
+[Executive summary (English)](docs/executive-summary.md) | [Resumo em português](README.pt-BR.md)
+
 PortShield AI is an independent reference prototype for analyst-led assessment of port and logistics continuity. It demonstrates a local workflow that combines structured events, access-filtered evidence retrieval, transparent forecasting, network dependency analysis, and recorded human review.
 
 The proposed institutional architecture runs within the Ministry of Ports and Airports (MPOR) data center. This repository is a research and engineering prototype, with no claim of Ministry sponsorship, approval, production deployment, or access to institutional systems.
