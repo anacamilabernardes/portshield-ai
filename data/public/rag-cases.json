@@ -1,0 +1,8 @@
+[
+  {"id": "PUBLIC-QUERY-01", "question": "public data opening plan", "roles": ["analyst"], "expected_abstain": false},
+  {"id": "PUBLIC-QUERY-02", "question": "model serving quantization memory", "roles": ["analyst"], "expected_abstain": false},
+  {"id": "PUBLIC-QUERY-03", "question": "fine tuning quantization adapters", "roles": ["analyst"], "expected_abstain": false},
+  {"id": "SYNTH-QUERY-04", "question": "secret classified facility topology", "roles": ["analyst"], "expected_abstain": true},
+  {"id": "SYNTH-QUERY-05", "question": "public data opening plan", "roles": [], "expected_abstain": true},
+  {"id": "SYNTH-QUERY-06", "question": "elephant migration tracking", "roles": ["analyst"], "expected_abstain": true}
+]

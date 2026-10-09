@@ -1,0 +1,32 @@
+{
+  "01_data_exploration.ipynb": {
+    "schema_valid": true,
+    "cpu_cells_executed": 3,
+    "gpu_stages": "skipped by explicit environment gates"
+  },
+  "02_baseline_model.ipynb": {
+    "schema_valid": true,
+    "cpu_cells_executed": 4,
+    "gpu_stages": "skipped by explicit environment gates"
+  },
+  "03_qlora_finetuning.ipynb": {
+    "schema_valid": true,
+    "cpu_cells_executed": 3,
+    "gpu_stages": "skipped by explicit environment gates"
+  },
+  "04_quantization.ipynb": {
+    "schema_valid": true,
+    "cpu_cells_executed": 3,
+    "gpu_stages": "skipped by explicit environment gates"
+  },
+  "05_vllm_benchmark.ipynb": {
+    "schema_valid": true,
+    "cpu_cells_executed": 2,
+    "gpu_stages": "skipped by explicit environment gates"
+  },
+  "06_rag_evaluation.ipynb": {
+    "schema_valid": true,
+    "cpu_cells_executed": 4,
+    "gpu_stages": "skipped by explicit environment gates"
+  }
+}

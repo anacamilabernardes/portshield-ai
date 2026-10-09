@@ -1,0 +1,7 @@
+.git
+.venv
+models
+artifacts
+mlruns
+__pycache__
+*.zip

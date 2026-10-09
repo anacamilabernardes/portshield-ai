@@ -1,0 +1,18 @@
+groups:
+  - name: portshield-research
+    rules:
+      - alert: PortShieldUnavailable
+        expr: up{job="portshield"} == 0
+        for: 2m
+        labels: {severity: warning}
+        annotations: {summary: "API scrape unavailable; inspect IAM and readiness"}
+      - alert: PortShieldHighAbstention
+        expr: sum(rate(portshield_requests_total{status="abstain"}[5m])) / clamp_min(sum(rate(portshield_requests_total[5m])), 0.001) > 0.5
+        for: 10m
+        labels: {severity: warning}
+        annotations: {summary: "Review evidence freshness and taxonomy; threshold is illustrative"}
+      - alert: PortShieldInferenceErrors
+        expr: sum(rate(portshield_requests_total{status="error"}[5m])) > 0
+        for: 2m
+        labels: {severity: warning}
+        annotations: {summary: "Inspect upstream availability without logging request payloads"}

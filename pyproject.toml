@@ -1,16 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "portshield-ai"
 version = "0.1.0"
-description = "Synthetic reference prototype for sovereign port and logistics resilience analysis"
-requires-python = ">=3.11"
-dependencies = []
+description = "Public/synthetic sovereign maritime resilience research platform"
+requires-python = ">=3.11,<3.13"
+license = "MIT"
+dependencies = ["pydantic==2.11.3", "fastapi==0.115.12", "uvicorn==0.34.2", "httpx==0.28.1", "prometheus-client==0.21.1", "PyJWT[crypto]==2.10.1"]
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.5", "jsonschema==4.23.0", "ruff==0.11.7", "build==1.2.2.post1"]
+train = ["torch==2.6.0", "transformers==4.51.3", "peft==0.15.2", "accelerate==1.6.0", "datasets==3.5.0", "bitsandbytes==0.45.5", "numpy==2.2.5"]
+tracking = ["mlflow==2.22.0"]
+notebooks = ["jupyterlab==4.4.1", "matplotlib==3.10.1", "numpy==2.2.5"]
+toy = ["numpy==2.2.5"]
 
 [project.scripts]
+portshield-ai = "portshield_ai.cli:main"
 portshield = "portshield.__main__:main"
 
-[build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"
-
 [tool.setuptools.packages.find]
-include = ["portshield*"]
+where = ["src", "."]
+include = ["portshield_ai*", "portshield", "portshield.*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]

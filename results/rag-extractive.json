@@ -1,0 +1,61 @@
+{
+  "n": 6,
+  "method": "extractive_retrieval_baseline",
+  "abstention_precision": 1.0,
+  "abstention_recall": 1.0,
+  "answerable_coverage": 1.0,
+  "quote_support_proxy": 1.0,
+  "human_relevance": null,
+  "limitations": "Tiny regression suite; quote support is not entailment, relevance, completeness or factual truth.",
+  "cases": [
+    {
+      "id": "PUBLIC-QUERY-01",
+      "expected_abstain": false,
+      "abstained": false,
+      "quote_support_proxy": 1.0,
+      "source_ids": [
+        "PUBLIC-ANTAQ-PDA-NOTE-V1"
+      ]
+    },
+    {
+      "id": "PUBLIC-QUERY-02",
+      "expected_abstain": false,
+      "abstained": false,
+      "quote_support_proxy": 1.0,
+      "source_ids": [
+        "PUBLIC-VLLM-NOTE-V1",
+        "PUBLIC-PEFT-NOTE-V1"
+      ]
+    },
+    {
+      "id": "PUBLIC-QUERY-03",
+      "expected_abstain": false,
+      "abstained": false,
+      "quote_support_proxy": 1.0,
+      "source_ids": [
+        "PUBLIC-PEFT-NOTE-V1"
+      ]
+    },
+    {
+      "id": "SYNTH-QUERY-04",
+      "expected_abstain": true,
+      "abstained": true,
+      "quote_support_proxy": null,
+      "source_ids": []
+    },
+    {
+      "id": "SYNTH-QUERY-05",
+      "expected_abstain": true,
+      "abstained": true,
+      "quote_support_proxy": null,
+      "source_ids": []
+    },
+    {
+      "id": "SYNTH-QUERY-06",
+      "expected_abstain": true,
+      "abstained": true,
+      "quote_support_proxy": null,
+      "source_ids": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "validated_on": "2026-10-09",
+  "environment": "Windows, Python 3.12.14; isolated test dependencies",
+  "tests": {
+    "pytest_passed": 19,
+    "pytest_failed": 0,
+    "legacy_unittest_passed": 6,
+    "legacy_tests_included_in_pytest_total": true,
+    "warning": "Starlette/AnyIO deprecation warning; no test failures"
+  },
+  "checks_passed": [
+    "Ruff correctness rules E9/F63/F7/F82",
+    "Synthetic generator and authored labels, seed42, 240 records per split",
+    "JSON schemas exported from runtime contract",
+    "Six notebook schemas and CPU execution paths",
+    "YAML syntax for CI, monitoring, Docker Compose and Kubernetes",
+    "Local Markdown links",
+    "Python source distribution and wheel build",
+    "Private RAG extractive regression suite",
+    "Toy SVD and TT/MPO numerical reconstruction",
+    "Publication content guardrails"
+  ],
+  "not_executed": [
+    "CUDA SLM baseline, LoRA/QLoRA training and adapter merge",
+    "CUDA NF4 quantization and real vLLM serving",
+    "Real GPU latency/TTFT/throughput/VRAM benchmark",
+    "Generative RAG with real model",
+    "Docker build/run and Kubernetes deployment",
+    "GitHub-hosted CI execution",
+    "MLflow optional integration execution",
+    "Institutional IAM integration and independent domain evaluation"
+  ],
+  "metric_boundary": "CPU baseline and RAG measurements are small synthetic/public regression checks. GPU metrics remain null; no performance or production-readiness claim.",
+  "privacy": "Institutional PDFs, source mirror files, Git metadata, model weights, credentials, dependency directories and generated notebook outputs are excluded from the downloadable repository archive."
+}

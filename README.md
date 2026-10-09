@@ -1,65 +1,160 @@
 # PortShield AI
 
-**Sovereign Intelligence Platform for Port Infrastructure and Logistics Resilience**
+**Sovereign Maritime Critical Infrastructure Resilience**
 
-[Executive summary (English)](docs/executive-summary.md) | [Resumo em português](README.pt-BR.md)
+An independent Applied AI engineering reference for structured maritime event analysis on controlled
+infrastructure. PortShield explores whether domain specialization of a small open-weight model can
+preserve useful task quality while reducing compute relative to larger general-purpose models.
+**All included data is public or independently generated synthetic material. No sensitive MPOR data is included.**
 
-PortShield AI is an independent reference prototype for analyst-led assessment of port and logistics continuity. It demonstrates a local workflow that combines structured events, access-filtered evidence retrieval, transparent forecasting, network dependency analysis, and recorded human review.
+[Português](README.pt-BR.md) · [Architecture](docs/architecture.md) · [Evaluation](docs/evaluation-plan.md)
+· [Runbook](docs/deployment-runbook.md) · [Model card](docs/model-card.md) · [Disclaimer](DISCLAIMER.md)
 
-The proposed institutional architecture runs within the Ministry of Ports and Airports (MPOR) data center. This repository is a research and engineering prototype, with no claim of Ministry sponsorship, approval, production deployment, or access to institutional systems.
+## What you can run
 
-## Run the demonstration
+| Capability | Implementation and validation boundary |
+|---|---|
+| CPU baseline and synthetic event generator | Runnable, with schema validation and conservative abstention |
+| LoRA / QLoRA for Qwen2.5-1.5B-Instruct | Assistant-only supervised loss, held-out template validation; requires CUDA |
+| NF4 quantization and adapter merge | Local workflows; GPU execution not validated in this delivery |
+| vLLM and FastAPI | Private serving profile, JWT/demo auth, validated outputs and metrics |
+| Private RAG | Offline lexical retrieval; optional local vLLM generation limited to cited exact quotes |
+| Evaluation | JSON/schema validity, field accuracy, macro F1, abstention, quote support proxy |
+| Streaming benchmark | Concurrent latency, TTFT, request/token throughput; external server VRAM sampling |
+| Monitoring / MLOps | Prometheus metrics/rules; opt-in local MLflow aggregate logging |
+| SVD / MPO / Tensor Train | Runnable 16x16 toy experiment; no proprietary compression reproduction |
+| Forecasting, graphs, review | Existing transparent demo retained in `portshield/`; research only |
+| Production IAM, lakehouse, agents | Architecture and deployment examples; readiness gates remain open |
 
-Python 3.11 or newer is required. The demonstration uses the Python standard library and requires no API key, external service, GPU, or downloaded model.
+No model weights or trained adapter is bundled. See `results/validation.json` for actual local checks,
+and `results/baseline-cpu.json` for measured synthetic scores. No fabricated GPU measurements.
 
-```sh
-python -m portshield demo --output artifacts
-python -m unittest discover -s tests -v
+## Local quickstart (Python 3.11 or 3.12)
+
+Run all commands from repository root. Linux/macOS:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -e '.[dev,toy]'
+portshield-ai generate --seed 42 --per-class 40
+portshield-ai classify "Strong winds temporarily restricted vessel manoeuvres. Road access remains normal. No equipment failures."
+portshield-ai evaluate --out results/runs/baseline.json
+portshield-ai rag "public data opening plan"
+portshield-ai rag-evaluate
+python experiments/tensor_network_compression/toy.py
+python -m pytest -q
 ```
 
-Open `artifacts/report.json` to inspect the assessment. It includes synthetic event classifications, a four-week baseline forecast, graph connectivity scenarios, cited evidence, uncertainty notices, and mandatory human review. `artifacts/audit.jsonl` records a local hash-linked audit trail. Generated artifacts are excluded from Git.
+Windows PowerShell: activate with `.\.venv\Scripts\Activate.ps1`; use `pip install -e ".[dev,toy]"`.
+The CPU paths work on Windows. Use Linux/WSL2 plus supported NVIDIA CUDA hardware for the GPU profile.
 
-To record a demonstration review:
-
-```sh
-python -m portshield review --report artifacts/report.json --reviewer demo-analyst --decision acknowledge --reason "Synthetic exercise reviewed; no operational action authorized."
+```bash
+export AUTH_MODE=demo
+export PORTSHIELD_DEMO_TOKEN=$(python -c 'import secrets; print(secrets.token_urlsafe(32))')
+uvicorn portshield_ai.api:app --host 127.0.0.1 --port 8000
+# In another terminal with the same token:
+curl http://127.0.0.1:8000/v1/events/analyze -H "Authorization: Bearer $PORTSHIELD_DEMO_TOKEN" -H 'Content-Type: application/json' -d '{"text":"Normal operations. Road access normal. No equipment failure."}'
 ```
 
-The reviewer name is a demonstration input, not an authenticated identity. Real deployment must replace this input with institutionally authenticated identity and authorization.
+PowerShell equivalents: `$env:AUTH_MODE="demo"`; set `$env:PORTSHIELD_DEMO_TOKEN` to a generated random
+value of at least 24 characters. Demo mode is for public/synthetic localhost exercises only.
+Default JWT mode requires `OIDC_ISSUER`, `OIDC_AUDIENCE`, `OIDC_JWKS_URL`; see runbook.
 
-## Implemented and planned capabilities
+## SLM experiment: baseline → QLoRA → NF4 → vLLM
 
-| Capability | Repository status |
-| --- | --- |
-| Synthetic data and structured event taxonomy | Implemented |
-| Local evidence retrieval with source access filtering | Implemented: deterministic lexical baseline |
-| Forecasting and graph scenarios | Implemented: transparent, uncalibrated baselines |
-| Human review and hash-linked audit records | Implemented: local demonstration workflow |
-| SLM inference and LoRA/QLoRA fine-tuning | Planned; no trained model or measured model scores provided |
-| Private RAG with embeddings and a local model | Planned; the lexical baseline is not a generative RAG system |
-| Institutional IAM, encrypted storage, monitoring and hardened serving | Planned; required before institutional use |
+Model choice is a small, Apache-2.0 open-weight instruction model. Acquisition resolves an immutable
+Hub revision and hashes local files; inference and training use `local_files_only=True`, remote code disabled.
+The pinned research environment is a reproducibility starting point, not an assertion of current security approval.
+Review dependency vulnerabilities and create an environment lock before institutional deployment.
 
-No operational instruction is executed. The system supports evidence review and scenario discussion; it does not operate ports, allocate resources, or issue alerts to external parties.
+```bash
+python -m pip install -e '.[train]'
+# Only on an approved connected acquisition machine:
+python scripts/acquire_model.py
+# Transfer reviewed snapshot to an isolated GPU machine, then:
+portshield-ai evaluate --backend hf --model models/base --out results/runs/slm-base.json
+portshield-ai train --config configs/qlora.json
+portshield-ai evaluate --backend hf --model models/base --adapter models/adapter --four-bit --out results/runs/slm-qlora.json
+portshield-ai merge --base models/base --adapter models/adapter --out models/merged
+portshield-ai quantize --model models/merged --out models/nf4
+portshield-ai evaluate --backend hf --model models/nf4 --four-bit --out results/runs/slm-nf4.json
+```
 
-## Sovereign AI design
+For LoRA use `configs/lora.json`. Training and serving use separate environments because vLLM
+has its own torch/CUDA constraints. An optional larger local model can be acquired with `--repo`
+after its own license review; evaluate on the identical frozen test file. Never train on the test split.
+NF4 model weight compression does not imply equivalent KV-cache or total VRAM reduction.
 
-An approved small language model would extract and classify events, route tasks, explain quantitative outputs, cite retrieved evidence, and abstain when evidence is inadequate. Fine-tuning would teach task behavior and terminology. Current or restricted knowledge would remain in a permission-controlled private retrieval corpus rather than model weights.
+```bash
+# Install serving separately in a Linux CUDA environment, or use docker/compose.gpu.yml:
+python -m pip install vllm==0.8.5 bitsandbytes==0.45.5
+export VLLM_API_KEY=$(python -c 'import secrets; print(secrets.token_urlsafe(32))')
+HF_HUB_OFFLINE=1 vllm serve models/nf4 --served-model-name portshield --host 127.0.0.1 --port 8001 --quantization bitsandbytes --load-format bitsandbytes --max-model-len 2048 --gpu-memory-utilization 0.8 --api-key "$VLLM_API_KEY" --disable-log-requests
+portshield-ai evaluate --backend vllm --out results/runs/vllm-quality.json
+portshield-ai benchmark --concurrency 4 --out results/runs/vllm-benchmark.json
+```
 
-Forecasts and network calculations belong to dedicated quantitative components. The language model must not invent numbers or substitute fluent text for measured results. Training, inference, embeddings, adapters, corpora, and operational logs are intended to remain on premises. No external LLM API is used by this demonstration.
+Run `scripts/sample_gpu_memory.py` on the serving host concurrently with the benchmark and pass
+`--gpu-memory-file results/runs/gpu-memory.jsonl` to report peak device allocation. The file must cover
+the benchmark interval and the GPU must be exclusive. Without it, footprint is null.
+Use a new output per configuration. Warmup, prompt corpus, concurrency, GPU, precision, context length,
+driver, snapshot, adapter and dependency freeze must be recorded for meaningful comparisons.
 
-See [architecture](docs/architecture.md), [security and data governance](docs/security.md), [evaluation](docs/evaluation.md), and [roadmap](docs/roadmap.md).
+## RAG and MLOps
 
-## Data and limitations
+The included corpus is a tiny set of original summaries of public ANTAQ and technical pages, with
+source URLs, checksums and approval metadata. `portshield-ai rag 'public data opening plan'` runs
+extractive retrieval; add `--generative` for local vLLM quote selection. This is a minimal RAG path,
+not a validated maritime advice system. See [data provenance](data/README.md).
 
-All included ports, corridors, documents, and events are fictional and marked `synthetic`. No real facility vulnerability, privileged document, personal data, credential, or operational feed is included. Future public datasets require provenance and license review before ingestion. The baseline results are illustrative, not estimates of actual infrastructure risk. The project has no measured fine-tuning or RAG benchmark results.
+```bash
+python -m pip install -e '.[tracking]'
+export MLFLOW_TRACKING_URI=file:./mlruns
+portshield-ai evaluate --mlflow --out results/runs/tracked.json
+mlflow ui --host 127.0.0.1 --port 5000
+```
 
-## Repository layout
+## Delivery and governance
+
+Fine-tuning teaches stable task behavior; retrieval supplies changing authorized evidence.
+Quantitative models own numeric forecasts. Human reviewers own decisions. No operational action
+is executed. The reference architecture aligns with supplied PIDP principles: open-source-first,
+shared platform, Bronze–Silver–Gold, institutional ownership, lineage, IAM, MLOps and sovereignty.
+Institutional documents and internal programme details are excluded from the public artifact.
+
+| Version | Scope and promotion gate |
+|---|---|
+| V1 | Baseline + QLoRA + benchmark; frozen evaluation, measured quality/efficiency, reproducible model artifacts |
+| V2 | Reviewed public RAG; citation/abstention evaluation, no unauthorized retrieval, human relevance review |
+| V3 | Forecasting/anomaly detection; temporal backtests, leakage checks, calibrated uncertainty and drift |
+| V4 | Constrained agentic workflow + authenticated human review; replayable audit, approval before any action |
+
+Engineering Lead owns delivery and ADRs; Data Owner/Steward owns source approval; Applied AI Lead
+owns evaluation and model cards; Platform/Security owners own deployment controls. See
+[product requirements](docs/product-requirements.md), [risk register](docs/risk-register.md),
+[roadmap](docs/roadmap.md), [contributing](CONTRIBUTING.md) and [security](SECURITY.md).
+For first publication from the ZIP, use the [clean-archive GitHub guide](docs/github-publication.md).
 
 ```text
-portshield/         Dependency-free demonstration and CLI
-tests/              Behavioral checks for access filtering, abstention and analysis
-docs/               Architecture, evaluation, security and phased delivery
-.github/workflows/  Automated test checks
+src/portshield_ai/  API, contracts, generator, inference, training, RAG, evaluation, benchmarks
+portshield/        Retained dependency-free forecast/graph/human-review demo
+data/              Approved public summaries, synthetic splits, JSON schemas
+configs/           Model, training, source approval examples
+notebooks/         Six executable workflow notebooks (heavy stages explicitly gated)
+docs/adr/          Architectural decisions and consequences
+docker/            CPU API and private CUDA vLLM profiles
+deploy/k8s/        Restricted example deployment and default-deny networking
+monitoring/        Prometheus configuration and alert rules
+experiments/       Educational SVD and MPO/TT compression
+tests/             Behavioral, boundary, contract and authorization tests
+.github/workflows/ CPU CI, build, Docker validation and publication-content check
+results/           Real CPU verification; GPU comparison template with null measurements
 ```
 
-The repository currently has no open-source license grant. Publication is intended for a private repository; select and add a license before distributing it under open-source terms.
+MIT for original repository content. External weights and dependencies retain their licenses.
+No claim of CompactifAI reproduction or performance equivalence is made.
+Technical sources: [Qwen model card](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct),
+[PEFT quantization](https://huggingface.co/docs/peft/developer_guides/quantization),
+[Transformers 4.51.3 bitsandbytes](https://huggingface.co/docs/transformers/v4.51.3/quantization/bitsandbytes),
+[vLLM 0.8.5 bitsandbytes](https://docs.vllm.ai/en/v0.8.5/features/quantization/bnb.html).

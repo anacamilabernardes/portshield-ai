@@ -1,0 +1,83 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "event_type": {
+      "enum": [
+        "weather_disruption",
+        "land_access_disruption",
+        "equipment_failure",
+        "navigation_restriction",
+        "normal_operations",
+        "unknown"
+      ],
+      "title": "Event Type",
+      "type": "string"
+    },
+    "affected_function": {
+      "enum": [
+        "vessel_manoeuvring",
+        "land_access",
+        "cargo_handling",
+        "navigation",
+        "none",
+        "unknown"
+      ],
+      "title": "Affected Function",
+      "type": "string"
+    },
+    "operational_status": {
+      "enum": [
+        "partial_restriction",
+        "suspended",
+        "normal",
+        "unknown"
+      ],
+      "title": "Operational Status",
+      "type": "string"
+    },
+    "road_access": {
+      "enum": [
+        "normal",
+        "restricted",
+        "unknown"
+      ],
+      "title": "Road Access",
+      "type": "string"
+    },
+    "equipment_failure": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Equipment Failure"
+    },
+    "information_sufficiency": {
+      "enum": [
+        "sufficient",
+        "insufficient"
+      ],
+      "title": "Information Sufficiency",
+      "type": "string"
+    },
+    "human_review_required": {
+      "const": true,
+      "default": true,
+      "title": "Human Review Required",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "event_type",
+    "affected_function",
+    "operational_status",
+    "road_access",
+    "equipment_failure",
+    "information_sufficiency"
+  ],
+  "title": "EventAnalysis",
+  "type": "object"
+}

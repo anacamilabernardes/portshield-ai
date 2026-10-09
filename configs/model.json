@@ -1,0 +1,7 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "license": "Apache-2.0",
+  "revision_policy": "resolve immutable Hub commit at acquisition; record in models/base/provenance.json",
+  "trust_remote_code": false,
+  "offline_inference": true
+}

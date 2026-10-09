@@ -1,21 +1,18 @@
-# Proposed delivery roadmap
+# Version roadmap
 
-The phases below are planning assumptions, not funded commitments or evidence of institutional approval.
+| Release | Delivery | Exit evidence | Dependencies |
+|---|---|---|---|
+| V1 | Synthetic contract, CPU/SLM baselines, LoRA/QLoRA, quantization, private serving and benchmarks | Frozen tests, model/provenance hashes, measured quality and resource comparison | GPU and reviewed snapshot |
+| V2 | Public-corpus RAG, provenance, ACLs and citation/abstention review | Independent relevance review, missing-evidence/injection cases, no unauthorized retrieval | Data Steward and IAM |
+| V3 | Forecasting/anomaly product integrated with structured explanation | Temporal backtest, seasonal-naive comparator, horizon-wise MAE/RMSE, calibrated intervals, false-positive budget | Approved public time series |
+| V4 | Constrained workflow, authenticated human review, replayable audit | Role separation, idempotency, bounded steps, failure/rollback drill, no action without approval | Domain governance and immutable audit |
 
-| Phase | Outputs and admission gate |
-| --- | --- |
-| 0–3 months: design | Business scope, taxonomy, licensed public/synthetic corpus, hardware baseline, security design, analyst acceptance criteria |
-| 3–6 months: prototype | Baseline comparison, local SLM experiments, behavior fine-tuning, private RAG, forecast and graph evaluations; only public/synthetic data |
-| 6–12 months: controlled pilot | Formal authorization, institutional IAM and classification, selected approved data, analyst workflow, monitored deployment, rollback exercise |
-| 12–24 months: expansion | Additional approved use cases, measured capacity planning, drift monitoring, source lifecycle management and governance review |
+The retained `portshield/` mean forecast, fictional graph and local review are transparent demo baselines,
+not completion of V3/V4. Future anomaly detection compares residual/seasonal baselines before ML;
+LLM explanations cite numeric artifacts rather than generate forecasts. V4 agent uses explicit typed
+read-only tools and bounded planning; human approval precedes any authorized external effect.
 
-## Immediate engineering backlog
-
-1. Add versioned schemas and curated multilingual synthetic extraction/abstention datasets.
-2. Benchmark candidate local SLMs and confirm redistribution and adaptation licenses.
-3. Implement a model adapter and local retrieval interface with permission-aware integration tests.
-4. Establish temporal forecast benchmarks and capacity-aware graph validation.
-5. Replace demo identity and local logging with institutionally approved services.
-6. Gate releases on evaluation, threat tests, provenance, and analyst acceptance.
-
-Hardware needs, costs, service targets, and rollout dates remain to be measured and approved.
+Engineering checkpoints: problem/metric acceptance → provenance → baseline errors → model specialization
+tradeoff → source/identity controls → capacity and security → pilot usefulness → promote or stop.
+No calendar commitment is asserted without staffing and infrastructure. Larger architecture components
+are added only when bottlenecks and governance requirements justify them.

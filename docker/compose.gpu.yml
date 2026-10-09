@@ -1,0 +1,29 @@
+services:
+  vllm:
+    image: vllm/vllm-openai:v0.8.5
+    gpus: all
+    shm_size: 2gb
+    ports: ["127.0.0.1:8001:8001"]
+    volumes: ["../models:/models:ro"]
+    environment:
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+      HF_HUB_DISABLE_TELEMETRY: "1"
+      VLLM_API_KEY: ${VLLM_API_KEY:?Set a random private serving key}
+    command: ["--model", "/models/nf4", "--served-model-name", "portshield", "--host", "0.0.0.0", "--port", "8001", "--quantization", "bitsandbytes", "--load-format", "bitsandbytes", "--max-model-len", "2048", "--gpu-memory-utilization", "0.8", "--disable-log-requests"]
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports: ["127.0.0.1:8000:8000"]
+    environment:
+      AUTH_MODE: demo
+      PORTSHIELD_DEMO_TOKEN: ${PORTSHIELD_DEMO_TOKEN:?Set a random token at least 24 characters}
+      VLLM_API_KEY: ${VLLM_API_KEY:?Set a random private serving key}
+      MODEL_BACKEND: vllm
+      VLLM_URL: http://vllm:8001/v1
+    depends_on: ["vllm"]
+    read_only: true
+    tmpfs: ["/tmp"]
+    cap_drop: ["ALL"]
+    security_opt: ["no-new-privileges:true"]

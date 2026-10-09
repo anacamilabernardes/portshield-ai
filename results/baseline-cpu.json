@@ -1,0 +1,26 @@
+{
+  "n": 240,
+  "json_parse_validity": 1.0,
+  "schema_validity": 1.0,
+  "macro_f1_event_type": 1.0,
+  "exact_match": 1.0,
+  "abstention_rate": 0.16666666666666666,
+  "abstention_precision": 1.0,
+  "abstention_recall": 1.0,
+  "answerable_coverage": 1.0,
+  "field_accuracy": {
+    "event_type": 1.0,
+    "affected_function": 1.0,
+    "operational_status": 1.0,
+    "road_access": 1.0,
+    "equipment_failure": 1.0,
+    "information_sufficiency": 1.0,
+    "human_review_required": 1.0
+  },
+  "client_latency_seconds": {
+    "mean": 2.4383749784343916e-05,
+    "p95": 3.479999941191636e-05
+  },
+  "dataset": "data/synthetic/test.jsonl",
+  "limitations": "Synthetic template-held-out evaluation only; latency includes client processing. No TTFT or GPU memory measurement here."
+}

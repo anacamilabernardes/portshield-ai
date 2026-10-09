@@ -1,0 +1,49 @@
+{
+  "status": "unmeasured_gpu_comparison",
+  "variants": [
+    {
+      "name": "large-local-baseline",
+      "snapshot_sha256": null,
+      "adapter_sha256": null,
+      "macro_f1": null,
+      "schema_validity": null,
+      "ttft_p95_seconds": null,
+      "latency_p95_seconds": null,
+      "completion_tokens_per_second": null,
+      "peak_gpu_memory_mib": null
+    },
+    {
+      "name": "slm-base",
+      "snapshot_sha256": null,
+      "adapter_sha256": null,
+      "macro_f1": null,
+      "schema_validity": null,
+      "ttft_p95_seconds": null,
+      "latency_p95_seconds": null,
+      "completion_tokens_per_second": null,
+      "peak_gpu_memory_mib": null
+    },
+    {
+      "name": "slm-qlora",
+      "snapshot_sha256": null,
+      "adapter_sha256": null,
+      "macro_f1": null,
+      "schema_validity": null,
+      "ttft_p95_seconds": null,
+      "latency_p95_seconds": null,
+      "completion_tokens_per_second": null,
+      "peak_gpu_memory_mib": null
+    },
+    {
+      "name": "slm-merged-nf4-vllm",
+      "snapshot_sha256": null,
+      "adapter_sha256": null,
+      "macro_f1": null,
+      "schema_validity": null,
+      "ttft_p95_seconds": null,
+      "latency_p95_seconds": null,
+      "completion_tokens_per_second": null,
+      "peak_gpu_memory_mib": null
+    }
+  ]
+}

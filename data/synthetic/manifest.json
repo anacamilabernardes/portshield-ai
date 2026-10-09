@@ -1,0 +1,21 @@
+{
+  "generator_version": "1",
+  "seed": 42,
+  "data_class": "synthetic",
+  "license": "MIT",
+  "split_unit": "template_family",
+  "files": {
+    "train": {
+      "rows": 240,
+      "sha256": "aea0397a4c817338baca88ebcb16efeb62c69243ad992e8db858c659dfa40119"
+    },
+    "validation": {
+      "rows": 240,
+      "sha256": "0d389d4805d98c99d166416ef11835e0e89654b5782b036daca84e9ba192a6d1"
+    },
+    "test": {
+      "rows": 240,
+      "sha256": "b42af71d181fb57be6925eb44d795b8d10f9d7abe16aa1a6c26711e0e95f0ecc"
+    }
+  }
+}

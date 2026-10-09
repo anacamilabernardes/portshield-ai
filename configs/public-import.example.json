@@ -1,0 +1,13 @@
+{
+  "id": "PUBLIC-DOC-V1",
+  "data_class": "public",
+  "approved": false,
+  "license": "REPLACE_WITH_VERIFIED_TERMS",
+  "reviewer": "",
+  "url": "https://www.gov.br/antaq/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos",
+  "allowed_roles": [
+    "analyst"
+  ],
+  "retrieved_at": "2026-10-09",
+  "version": "1"
+}

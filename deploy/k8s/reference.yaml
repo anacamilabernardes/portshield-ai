@@ -1,0 +1,68 @@
+# Example only: replace image with a scanned, signed immutable digest.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: portshield
+  labels:
+    pod-security.kubernetes.io/enforce: restricted
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: portshield-config
+  namespace: portshield
+data:
+  AUTH_MODE: jwt
+  MODEL_BACKEND: baseline
+  # Operator must supply internal HTTPS OIDC_ISSUER, OIDC_AUDIENCE and OIDC_JWKS_URL.
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+  namespace: portshield
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: portshield-api}
+  template:
+    metadata:
+      labels: {app: portshield-api}
+    spec:
+      automountServiceAccountToken: false
+      securityContext: {runAsNonRoot: true, runAsUser: 10001, runAsGroup: 10001, seccompProfile: {type: RuntimeDefault}}
+      containers:
+        - name: api
+          image: portshield/api:replace-with-approved-digest
+          envFrom: [{configMapRef: {name: portshield-config}}]
+          ports: [{containerPort: 8000}]
+          resources:
+            requests: {cpu: "250m", memory: "256Mi"}
+            limits: {cpu: "1", memory: "512Mi"}
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities: {drop: [ALL]}
+          livenessProbe: {httpGet: {path: /healthz, port: 8000}, initialDelaySeconds: 5}
+          readinessProbe: {httpGet: {path: /readyz, port: 8000}, initialDelaySeconds: 5}
+          volumeMounts: [{name: tmp, mountPath: /tmp}]
+      volumes: [{name: tmp, emptyDir: {medium: Memory, sizeLimit: 64Mi}}]
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: api
+  namespace: portshield
+spec:
+  selector: {app: portshield-api}
+  ports: [{port: 8000, targetPort: 8000}]
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny
+  namespace: portshield
+spec:
+  podSelector: {}
+  policyTypes: [Ingress, Egress]
+  # Add reviewed policies for gateway, IAM, DNS and private model service before serving users.

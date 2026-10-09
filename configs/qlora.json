@@ -1,0 +1,13 @@
+{
+  "model_path": "models/base",
+  "method": "qlora",
+  "seed": 42,
+  "rank": 16,
+  "alpha": 32,
+  "max_length": 768,
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "train_file": "data/synthetic/train.jsonl",
+  "validation_file": "data/synthetic/validation.jsonl",
+  "output_dir": "models/adapter"
+}

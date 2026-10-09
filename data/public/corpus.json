@@ -1,0 +1,50 @@
+[
+  {
+    "id": "PUBLIC-ANTAQ-PDA-NOTE-V1",
+    "text": "ANTAQ publishes a public data opening plan. The public plan page provides current and previous plans and links to data opening activities. Consult the original source for the current scope and dates.",
+    "url": "https://www.gov.br/antaq/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos",
+    "provenance": "Original PortShield author summary of a public page; not a regulatory statement",
+    "data_class": "public",
+    "license": "MIT (original summary only; upstream material retains its own terms)",
+    "approved": true,
+    "reviewer": "repository-author",
+    "allowed_roles": [
+      "analyst"
+    ],
+    "version": "1",
+    "retrieved_at": "2026-10-09",
+    "sha256": "b88436af3ebe36df529cbf06b0896764960dbae7ea55e566f8a3bb2c7aebffcd"
+  },
+  {
+    "id": "PUBLIC-PEFT-NOTE-V1",
+    "text": "Parameter efficient fine tuning with quantization can use LoRA adapters. Prepare a quantized model for training before attaching the trainable adapters. Keep model license and hardware constraints under review.",
+    "url": "https://huggingface.co/docs/peft/developer_guides/quantization",
+    "provenance": "Original PortShield author summary of public technical documentation",
+    "data_class": "public",
+    "license": "MIT (original summary only; upstream material retains its own terms)",
+    "approved": true,
+    "reviewer": "repository-author",
+    "allowed_roles": [
+      "analyst"
+    ],
+    "version": "1",
+    "retrieved_at": "2026-10-09",
+    "sha256": "bb363820c088f77bd2bdf85c89d69339a0099a652553950c0242043dbe0cb4a3"
+  },
+  {
+    "id": "PUBLIC-VLLM-NOTE-V1",
+    "text": "vLLM supports bitsandbytes quantization for model serving. The server can load supported pre quantized checkpoints or quantize compatible model weights when loading. Evaluate memory and task quality on the chosen hardware.",
+    "url": "https://docs.vllm.ai/en/v0.8.5/features/quantization/bnb.html",
+    "provenance": "Original PortShield author summary of public technical documentation",
+    "data_class": "public",
+    "license": "MIT (original summary only; upstream material retains its own terms)",
+    "approved": true,
+    "reviewer": "repository-author",
+    "allowed_roles": [
+      "analyst"
+    ],
+    "version": "1",
+    "retrieved_at": "2026-10-09",
+    "sha256": "5a297797bbfa53e7d00846440f7f35219cefe61c2bb6546938edb7ceb4234bb7"
+  }
+]

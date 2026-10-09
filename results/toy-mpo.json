@@ -1,0 +1,50 @@
+{
+  "seed": 42,
+  "status": "toy_only",
+  "svd_rank2": {
+    "parameters": 66,
+    "relative_frobenius_error": 0.4702157241184874
+  },
+  "mpo": [
+    {
+      "bond": 1,
+      "original_parameters": 256,
+      "mpo_parameters": 16,
+      "parameter_ratio": 16.0,
+      "relative_frobenius_error": 0.017402561270355124,
+      "warning": "A ratio below 1 means expansion; dense reconstruction provides no inference speedup."
+    },
+    {
+      "bond": 2,
+      "original_parameters": 256,
+      "mpo_parameters": 48,
+      "parameter_ratio": 5.333333333333333,
+      "relative_frobenius_error": 0.015930496213291716,
+      "warning": "A ratio below 1 means expansion; dense reconstruction provides no inference speedup."
+    },
+    {
+      "bond": 4,
+      "original_parameters": 256,
+      "mpo_parameters": 160,
+      "parameter_ratio": 1.6,
+      "relative_frobenius_error": 0.011157332075961443,
+      "warning": "A ratio below 1 means expansion; dense reconstruction provides no inference speedup."
+    },
+    {
+      "bond": 8,
+      "original_parameters": 256,
+      "mpo_parameters": 288,
+      "parameter_ratio": 0.8888888888888888,
+      "relative_frobenius_error": 0.006029419157421565,
+      "warning": "A ratio below 1 means expansion; dense reconstruction provides no inference speedup."
+    },
+    {
+      "bond": 16,
+      "original_parameters": 256,
+      "mpo_parameters": 544,
+      "parameter_ratio": 0.47058823529411764,
+      "relative_frobenius_error": 1.0248478088768656e-14,
+      "warning": "A ratio below 1 means expansion; dense reconstruction provides no inference speedup."
+    }
+  ]
+}
