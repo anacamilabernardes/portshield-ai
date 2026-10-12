@@ -232,3 +232,8 @@ The [revised package](experiments/training-v2-candidate-v2/README.md) corrects b
 ## V2 adapter pilot: gains and regressions
 
 The [English report](results/qlora-v2/training-v2-20261012T062041Z-d8f05304/results/training-v2-20261012T062041Z-d8f05304/REPORT.md) records a fresh 54-example QLoRA pilot and a paired comparison with the existing adapter. On 12 development-validation cases, affected-function errors stayed at 8, road-access errors decreased from 5 to 3, operational-status errors increased from 5 to 7, and all-field exact matches increased from 0 to 1. On 12 previously examined diagnostic cases, exact matches increased from 3 to 7, with individual regressions preserved. **Do not replace the current adapter.** Event F1 alone is not an adoption criterion. The [evidence package](results/qlora-v2/training-v2-20261012T062041Z-d8f05304/README.md) includes all 48 responses, targets, field differences, configurations, input identities, source snapshots and hashes. Weights were backed up separately and verified locally. Neither evaluation collection is an independent final test.
+
+
+## V2 error review and next experiment plan
+
+The [annotation and error review](docs/experiments/v2-error-review/REVIEW.md) retains all 546 target fields across 78 records under the current policy and preserves 84 wrong-field instances across 48 responses. The [work plan](docs/experiments/v2-error-review/WORK-PLAN.md) defines proposed owners, dependencies and acceptance gates. Independent human adjudication and approval of numerical thresholds remain pending. No new training or promotion is claimed; keep the existing adapter. [Evidence and reproducible checks](docs/experiments/v2-error-review/README.md).

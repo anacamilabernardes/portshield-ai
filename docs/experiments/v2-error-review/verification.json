@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "records_reviewed": 78,
+  "field_decisions": 546,
+  "responses_recounted": 48,
+  "pairs": 24,
+  "field_error_instances": 84,
+  "metrics_equal_preserved_comparison": true,
+  "historical_labels_changed": false
+}

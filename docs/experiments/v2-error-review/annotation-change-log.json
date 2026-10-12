@@ -1,0 +1,8 @@
+{
+  "review": "assistant-assisted; not independent adjudication",
+  "records": 78,
+  "field_decisions": 546,
+  "label_changes": 0,
+  "historical_artifacts_modified": false,
+  "decision": "No mandatory correction found under the current policy; retain provisional labels and adjudicate policy flags before new training."
+}

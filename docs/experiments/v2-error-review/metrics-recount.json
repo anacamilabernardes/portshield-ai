@@ -1,0 +1,62 @@
+{
+  "validation": {
+    "current": {
+      "n": 12,
+      "exact_match_count": 0,
+      "schema_invalid_count": 7,
+      "raw_field_errors": {
+        "event_type": 6,
+        "affected_function": 8,
+        "operational_status": 5,
+        "road_access": 5,
+        "equipment_failure": 5,
+        "information_sufficiency": 4,
+        "human_review_required": 0
+      }
+    },
+    "v2": {
+      "n": 12,
+      "exact_match_count": 1,
+      "schema_invalid_count": 2,
+      "raw_field_errors": {
+        "event_type": 3,
+        "affected_function": 8,
+        "operational_status": 7,
+        "road_access": 3,
+        "equipment_failure": 3,
+        "information_sufficiency": 2,
+        "human_review_required": 0
+      }
+    }
+  },
+  "diagnostic": {
+    "current": {
+      "n": 12,
+      "exact_match_count": 3,
+      "schema_invalid_count": 2,
+      "raw_field_errors": {
+        "event_type": 5,
+        "affected_function": 2,
+        "operational_status": 2,
+        "road_access": 2,
+        "equipment_failure": 4,
+        "information_sufficiency": 2,
+        "human_review_required": 0
+      }
+    },
+    "v2": {
+      "n": 12,
+      "exact_match_count": 7,
+      "schema_invalid_count": 1,
+      "raw_field_errors": {
+        "event_type": 0,
+        "affected_function": 2,
+        "operational_status": 1,
+        "road_access": 1,
+        "equipment_failure": 3,
+        "information_sufficiency": 1,
+        "human_review_required": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,255 @@
+[
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0001",
+    "corrected": [
+      "event_type"
+    ],
+    "regressed": [
+      "operational_status",
+      "equipment_failure"
+    ],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0002",
+    "corrected": [],
+    "regressed": [
+      "operational_status",
+      "equipment_failure"
+    ],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0003",
+    "corrected": [
+      "road_access",
+      "equipment_failure"
+    ],
+    "regressed": [
+      "affected_function",
+      "operational_status"
+    ],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0004",
+    "corrected": [
+      "equipment_failure"
+    ],
+    "regressed": [
+      "affected_function"
+    ],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0005",
+    "corrected": [
+      "information_sufficiency"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0006",
+    "corrected": [
+      "information_sufficiency"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": true
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0007",
+    "corrected": [
+      "affected_function",
+      "equipment_failure"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0008",
+    "corrected": [
+      "affected_function"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0009",
+    "corrected": [
+      "operational_status",
+      "road_access",
+      "equipment_failure"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0010",
+    "corrected": [],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0011",
+    "corrected": [
+      "event_type"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "validation",
+    "id": "SYN-V2R-0012",
+    "corrected": [
+      "event_type"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0001",
+    "corrected": [
+      "event_type",
+      "equipment_failure"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": true
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0002",
+    "corrected": [],
+    "regressed": [
+      "equipment_failure"
+    ],
+    "current_exact": true,
+    "v2_exact": false
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0003",
+    "corrected": [
+      "equipment_failure"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": true
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0004",
+    "corrected": [
+      "event_type"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0005",
+    "corrected": [],
+    "regressed": [],
+    "current_exact": true,
+    "v2_exact": true
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0006",
+    "corrected": [],
+    "regressed": [],
+    "current_exact": true,
+    "v2_exact": true
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0007",
+    "corrected": [
+      "road_access",
+      "equipment_failure"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": true
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0008",
+    "corrected": [
+      "event_type"
+    ],
+    "regressed": [
+      "equipment_failure"
+    ],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0009",
+    "corrected": [],
+    "regressed": [
+      "equipment_failure"
+    ],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0010",
+    "corrected": [
+      "equipment_failure"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": true
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0011",
+    "corrected": [
+      "event_type",
+      "operational_status",
+      "information_sufficiency"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": false
+  },
+  {
+    "role": "diagnostic",
+    "id": "SYN-RESERVE-0012",
+    "corrected": [
+      "event_type"
+    ],
+    "regressed": [],
+    "current_exact": false,
+    "v2_exact": true
+  }
+]
