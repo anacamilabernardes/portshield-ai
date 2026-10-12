@@ -1,0 +1,14 @@
+{
+  "reference-metrics.json": "b6810fec7793c79a5b621f5729141af155a647823dd011ba8a2b7bfca0383f6c",
+  "event_confusion_matrix.csv": "7c8eb18f27266ca4f9d63d1cb1022904e1e0dfcd56fc5a7260b4ffc7eaf376b0",
+  "run-metadata.json": "1b0c117febc4f91f9f9874fdd065b175f98c564e0b65497dc12c536acd6f55ab",
+  "metrics.json": "c02aaa9126df3dff01678feea8d38e725059c05475626d93ac06b932b4bc1cb7",
+  "errors.json": "9cc16cc7f150cd71247a8fbeabfe5180fc474570924291f81aff7b97dea909b3",
+  "predictions.jsonl": "7afcc9a7160d6d81a16db26ddb6a1bed06f2fcdc5d8e0410933d280325943e0f",
+  "field_errors.json": "d15d577312bac3ee261dbd15236e3d5d7d36ff6f38cb74dcc31ba6eb3887a4dc",
+  "compare_no_prefix.py": "0deb43dbc6a5cf1fcfae25ae5871daad0f8ab3642a3b29f824e9f3f5dbb8989e",
+  "generation-config.json": "08928ddacc6211d81b09108051f8b79ca0fddf905dbebf5804ce16d4b1dc2ac5",
+  "test-no-prefix.jsonl": "1a257d3b8be3fb1a1c3fb3858a4445a57632f0f742ca141730b304bce85dd9c6",
+  "paired-comparison.json": "04147475e12c3360a12b369c9bf9b0a98fecc3798caba4fdd8466aefda1f0a2a",
+  "report.md": "1ac55bfd69d981cd0d2486f539635c3f96e13d322c29a5f5c931a68bad08844b"
+}

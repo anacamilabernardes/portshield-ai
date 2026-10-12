@@ -47,3 +47,8 @@ The previous three-case diagnostic and its failures remain valid separate eviden
 Only six distinct scenario bodies are represented; training leakage history is unchanged.
 See [comparison](experiments/prefix-v2-comparison.md) for provenance, latency, field-level
 counts and limits. This follow-up does not change the research-only status.
+
+
+## No-prefix paired diagnostic follow-up
+
+The same V1 adapter, without retraining, scored event macro F1 1.0000 after prefix removal, but all-field exact match fell from 169/240 to 160/240. There were 29 corrected weather records and 38 regressed road-access records; 40 rumor/function errors persisted. All outputs passed schema validation. The historical paired comparison supports investigation of prefix sensitivity, not a proven causal explanation. No variant is promoted on event F1 alone; research-only status is unchanged. See the [full comparison](experiments/no-prefix-comparison.md) for all fields, provenance and limitations.

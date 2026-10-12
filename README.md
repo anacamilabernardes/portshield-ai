@@ -192,3 +192,8 @@ A separate corrected-prefix adapter rerun reproduced the aggregate quality score
 unsupported road restrictions. Differences across opaque prefixes motivate a prefix-sensitivity
 hypothesis; causality has not been established. See the
 [reviewed analysis and original evidence](docs/experiments/prefix-v2-diagnostic-analysis.md).
+
+
+## No-prefix diagnostic comparison
+
+Removing opaque prefixes raised event macro F1 from 0.8609 to 1.0000, but reduced all-field exact match from 169/240 to 160/240. Weather classification improved while road-access errors increased; rumor-related function errors persisted. Neither variant is promoted on event F1 alone. See the [gains, regressions and preserved evidence](docs/experiments/no-prefix-comparison.md). Prefix sensitivity remains a hypothesis.

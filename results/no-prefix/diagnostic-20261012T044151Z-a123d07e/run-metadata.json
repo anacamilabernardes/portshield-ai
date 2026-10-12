@@ -1,0 +1,60 @@
+{
+  "run_id": "20261012T044151Z-a123d07e",
+  "status": "completed",
+  "started_at_utc": "2026-10-12T04:41:51.315168+00:00",
+  "comparison_run_id": "20261012T041428Z-f48de04f",
+  "source_archive_sha256": "37aaf61bb7af2a23ddf2127287b9c5bb23c65c965a8b92f96133c232fa216edf",
+  "dataset_sha256": "1a257d3b8be3fb1a1c3fb3858a4445a57632f0f742ca141730b304bce85dd9c6",
+  "original_dataset_sha256": "7c2d7b063ca152302e8e234480da68bfc5c939ec0e002575b8e7cac53cbf0fbe",
+  "change": "Removed only the leading Fictional exercise <opaque reference>: prefix.",
+  "adapter_hashes": {
+    "added_tokens.json": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+    "run-config.json": "1910cc4a87c99760b248045cdce73e228f4136459a9bb4907c46c9e55271118f",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "adapter_config.json": "06f2924a6966a4c83e1a24f3b1f05f5ef9ed547f20de26f60f4818b412ce0400",
+    "tokenizer.json": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+    "tokenizer_config.json": "f91b80bdb7722bdd0a25d79246fa79e513a7d4d78056b2eac8cbf92767937ab8",
+    "adapter_model.safetensors": "32fbfa11cb627c4444df25a1d5087805bc1ba2a67837b62e89ac1568bb56a0b9",
+    "special_tokens_map.json": "a36726f7fe394c1324021cac4a9ee3ad6c4f6285c0d98721f9b0b95888ec9905",
+    "README.md": "a8d3b70291c2bb9cbd18c96044bb4591d7ed387e29a56e7d48e0b4593c8d9813"
+  },
+  "base_acquisition_provenance": {
+    "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "files": {
+      "model.safetensors": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "config.json": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "README.md": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada"
+    }
+  },
+  "code_hashes": {
+    "inference.py": "9a397905b23bdb2a756f09cd6d2f6717f5afccba9c358a98261d55c2529cf2ab",
+    "prompts.py": "309d2a17ede8a45a114326d379789ce65be81e73a60202bf078c65ea4c49ee49",
+    "schema.py": "1eee8e6d29cedf70683774997b58552b695118591c506ef7e1770045918ad4f7",
+    "evaluation.py": "7d326b2cb5495f53f8273557ef687c11805b31cb6200e2a273a95bdcbf1fac8d"
+  },
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.51.3",
+    "peft": "0.15.2",
+    "accelerate": "1.6.0",
+    "pydantic": "2.11.3"
+  },
+  "python": "3.12.15 (main, Oct  9 2026, 15:22:32) [Clang 22.1.3 ]",
+  "gpu": "Tesla T4",
+  "comparison_limit": "Historical paired comparison; timing/order and numerical variation are not isolated.",
+  "generation_overrides": {
+    "max_new_tokens": 256,
+    "do_sample": false,
+    "pad_token_id": 151645
+  },
+  "completed_at_utc": "2026-10-12T04:57:31.588454+00:00",
+  "records_processed": 240
+}

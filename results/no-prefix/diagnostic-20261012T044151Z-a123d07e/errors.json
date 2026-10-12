@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "SYN-test-unknown-0028",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5077583749998666
+  },
+  {
+    "id": "SYN-test-equipment_failure-0016",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.458267209999576
+  },
+  {
+    "id": "SYN-test-unknown-0019",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.7265099850001207
+  },
+  {
+    "id": "SYN-test-equipment_failure-0037",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6815353060001144
+  },
+  {
+    "id": "SYN-test-unknown-0013",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4480364450000707
+  },
+  {
+    "id": "SYN-test-equipment_failure-0030",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.623802935999265
+  },
+  {
+    "id": "SYN-test-equipment_failure-0008",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.014114456000243
+  },
+  {
+    "id": "SYN-test-unknown-0023",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4449645649992817
+  },
+  {
+    "id": "SYN-test-equipment_failure-0002",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.172700768000141
+  },
+  {
+    "id": "SYN-test-unknown-0021",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4840329429998746
+  },
+  {
+    "id": "SYN-test-equipment_failure-0010",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.9376475620001656
+  },
+  {
+    "id": "SYN-test-equipment_failure-0000",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.685521446999701
+  },
+  {
+    "id": "SYN-test-unknown-0027",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.480716347999987
+  },
+  {
+    "id": "SYN-test-equipment_failure-0032",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.296447867000097
+  },
+  {
+    "id": "SYN-test-unknown-0032",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.417834989999392
+  },
+  {
+    "id": "SYN-test-equipment_failure-0001",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.543800039000416
+  },
+  {
+    "id": "SYN-test-equipment_failure-0023",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.187706425000215
+  },
+  {
+    "id": "SYN-test-equipment_failure-0009",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.693188490000466
+  },
+  {
+    "id": "SYN-test-equipment_failure-0034",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.719443728000442
+  },
+  {
+    "id": "SYN-test-equipment_failure-0018",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.64706345400009
+  },
+  {
+    "id": "SYN-test-equipment_failure-0007",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.725548472999435
+  },
+  {
+    "id": "SYN-test-unknown-0035",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.774426157000562
+  },
+  {
+    "id": "SYN-test-unknown-0020",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5024853180002538
+  },
+  {
+    "id": "SYN-test-equipment_failure-0028",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6474653969999054
+  },
+  {
+    "id": "SYN-test-unknown-0000",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.23731193399999
+  },
+  {
+    "id": "SYN-test-equipment_failure-0025",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6029944640004032
+  },
+  {
+    "id": "SYN-test-unknown-0034",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.873378882999532
+  },
+  {
+    "id": "SYN-test-unknown-0024",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.463007688000289
+  },
+  {
+    "id": "SYN-test-unknown-0030",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.3944510110004558
+  },
+  {
+    "id": "SYN-test-unknown-0014",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.550125986999774
+  },
+  {
+    "id": "SYN-test-unknown-0009",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4770098859999052
+  },
+  {
+    "id": "SYN-test-equipment_failure-0004",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.027150087999871
+  },
+  {
+    "id": "SYN-test-equipment_failure-0022",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.859231319999708
+  },
+  {
+    "id": "SYN-test-unknown-0038",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4703140400006305
+  },
+  {
+    "id": "SYN-test-equipment_failure-0029",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.608849611000551
+  },
+  {
+    "id": "SYN-test-equipment_failure-0035",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.661445970999921
+  },
+  {
+    "id": "SYN-test-equipment_failure-0020",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.033230519000426
+  },
+  {
+    "id": "SYN-test-unknown-0036",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4677190869997503
+  },
+  {
+    "id": "SYN-test-equipment_failure-0031",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.681168901000092
+  },
+  {
+    "id": "SYN-test-equipment_failure-0005",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.9651416229999086
+  },
+  {
+    "id": "SYN-test-unknown-0037",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.039296990999901
+  },
+  {
+    "id": "SYN-test-unknown-0018",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4389864520007905
+  },
+  {
+    "id": "SYN-test-unknown-0031",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.482132561999606
+  },
+  {
+    "id": "SYN-test-unknown-0010",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.502526009000576
+  },
+  {
+    "id": "SYN-test-equipment_failure-0011",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.7200606500000504
+  },
+  {
+    "id": "SYN-test-equipment_failure-0012",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.7546022389997233
+  },
+  {
+    "id": "SYN-test-equipment_failure-0033",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6968103879999035
+  },
+  {
+    "id": "SYN-test-equipment_failure-0026",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.9455224989997078
+  },
+  {
+    "id": "SYN-test-equipment_failure-0027",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6906143710002652
+  },
+  {
+    "id": "SYN-test-unknown-0004",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.466248916999575
+  },
+  {
+    "id": "SYN-test-unknown-0015",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.401855797999815
+  },
+  {
+    "id": "SYN-test-equipment_failure-0019",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.417169125000328
+  },
+  {
+    "id": "SYN-test-unknown-0007",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4136100380001153
+  },
+  {
+    "id": "SYN-test-unknown-0025",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.510116337999534
+  },
+  {
+    "id": "SYN-test-equipment_failure-0024",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6389194260000295
+  },
+  {
+    "id": "SYN-test-equipment_failure-0038",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.9967472789994645
+  },
+  {
+    "id": "SYN-test-equipment_failure-0003",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6805146469996544
+  },
+  {
+    "id": "SYN-test-unknown-0001",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4636465889998362
+  },
+  {
+    "id": "SYN-test-equipment_failure-0015",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.108217310000327
+  },
+  {
+    "id": "SYN-test-equipment_failure-0017",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.637274582999453
+  },
+  {
+    "id": "SYN-test-unknown-0008",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.472555829999692
+  },
+  {
+    "id": "SYN-test-unknown-0003",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.51734294400012
+  },
+  {
+    "id": "SYN-test-unknown-0029",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.217562347999774
+  },
+  {
+    "id": "SYN-test-unknown-0017",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.3976076520002607
+  },
+  {
+    "id": "SYN-test-equipment_failure-0014",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.7412820460003786
+  },
+  {
+    "id": "SYN-test-equipment_failure-0036",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.021996469999976
+  },
+  {
+    "id": "SYN-test-unknown-0016",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4178113380003197
+  },
+  {
+    "id": "SYN-test-unknown-0002",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.445041191999735
+  },
+  {
+    "id": "SYN-test-equipment_failure-0013",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6281453640003747
+  },
+  {
+    "id": "SYN-test-unknown-0026",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.9245652699992206
+  },
+  {
+    "id": "SYN-test-equipment_failure-0021",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.8061989940006242
+  },
+  {
+    "id": "SYN-test-equipment_failure-0039",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6809220089999144
+  },
+  {
+    "id": "SYN-test-unknown-0005",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4405687329999637
+  },
+  {
+    "id": "SYN-test-equipment_failure-0006",
+    "template_family": "equipment_failure-2",
+    "text": "Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.61358330999974
+  },
+  {
+    "id": "SYN-test-unknown-0022",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5811483609995776
+  },
+  {
+    "id": "SYN-test-unknown-0006",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.3967359409998608
+  },
+  {
+    "id": "SYN-test-unknown-0011",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4149924670000473
+  },
+  {
+    "id": "SYN-test-unknown-0039",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4091421960001753
+  },
+  {
+    "id": "SYN-test-unknown-0012",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.483932461999757
+  },
+  {
+    "id": "SYN-test-unknown-0033",
+    "template_family": "unknown-2",
+    "text": "A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.201662506000503
+  }
+]

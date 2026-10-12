@@ -116,3 +116,8 @@ Per-record durations should not be presented as a controlled serving-performance
 Preserve the results; investigate the no-prefix condition before another training run. Continue
 reviewing annotation semantics and building diverse, independently reviewed scenario groups.
 The model remains research-only with required human review.
+
+
+## Subsequent no-prefix comparison (2026-10-12)
+
+The proposed no-prefix diagnostic has now been completed using the same adapter and paired records. Event F1 rose to 1.0000, but all-field exact match fell to 160/240, with 29 corrections and 38 regressions. The [reviewed comparison](no-prefix-comparison.md) preserves the new evidence separately and describes prefix sensitivity as a hypothesis. The original findings above remain the historical record.

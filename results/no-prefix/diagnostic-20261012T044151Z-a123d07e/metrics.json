@@ -1,0 +1,22 @@
+{
+  "n": 240,
+  "json_parse_validity": 1.0,
+  "schema_validity": 1.0,
+  "macro_f1_event_type": 1.0,
+  "exact_match": 0.6666666666666666,
+  "abstention_rate": 0.16666666666666666,
+  "abstention_precision": 1.0,
+  "abstention_recall": 1.0,
+  "answerable_coverage": 1.0,
+  "field_accuracy": {
+    "event_type": 1.0,
+    "affected_function": 0.8333333333333334,
+    "operational_status": 1.0,
+    "road_access": 0.8333333333333334,
+    "equipment_failure": 1.0,
+    "information_sufficiency": 1.0,
+    "human_review_required": 1.0
+  },
+  "inference_error_count": 0,
+  "note": "New no-prefix run compared with a prior opaque-prefix diagnostic; not a simultaneous controlled experiment."
+}
