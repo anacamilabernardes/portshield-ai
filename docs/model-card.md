@@ -37,3 +37,13 @@ scenarios yielded only one schema-valid, checked-field-correct response for each
 The adapter is research-only; no operational approval is claimed. Training loss near zero,
 generalization and semantic consistency remain unresolved. Proposed annotation changes are
 documented in [policy V2](data/annotation-policy-v2.md) and are not yet applied to the code.
+
+## Corrected-prefix evaluation follow-up
+
+The existing V1 adapter was evaluated without retraining on the same scenario bodies with
+opaque prefixes: event macro-F1 0.8609, all-field exact match 169/240 (70.42%), schema validity
+100%, abstention recall 100%. The base model scored 0.2825 macro-F1 and 0% exact match.
+The previous three-case diagnostic and its failures remain valid separate evidence.
+Only six distinct scenario bodies are represented; training leakage history is unchanged.
+See [comparison](experiments/prefix-v2-comparison.md) for provenance, latency, field-level
+counts and limits. This follow-up does not change the research-only status.

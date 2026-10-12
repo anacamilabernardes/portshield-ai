@@ -40,7 +40,7 @@
     "docs/evaluation.md": "0934769a9fc7953555c14c58a1fccc0c5ca2511fcc863e6317f9ba53076609cb",
     "docs/executive-summary.md": "d3513767216a596314f2c97bdc3326ab5ace37471891aff56ab122ed2468928b",
     "docs/github-publication.md": "54c873c1a050bfac3b600a7d6e92cb50f6f73b94359dc1b86fb784521e6b9955",
-    "docs/model-card.md": "576028ac7e22ff171f6da4fe0335b46b1c6cbd2bee306d7538b6854e997c2b8d",
+    "docs/model-card.md": "593db183d550bd663359a2705bf4ac29ff9e4cf91472af73e4b4cb720a7d85fa",
     "docs/pidp-alignment.md": "27868b3213e315f16f4207795abeeca2c886de41e240dfbd4e5a77c975235a44",
     "docs/product-requirements.md": "b29e35af010c94afa49c4e458b171dc5a93cb4c1638c7bddae67c9c7fd99c241",
     "docs/risk-register.md": "f49ae2a51096236eb906ef4a138391db0e67be991f5a53715328ea87e65da85d",
@@ -65,7 +65,7 @@
     "portshield/core.py": "59c37c21905598b90fa2932b2564723d073cdbe15f14326f5fa9c6024a694481",
     "portshield/demo.py": "7d451d24005281f97127034631039bf7db39201deee3b911b37b0980bf90336f",
     "pyproject.toml": "76c71503e4fb6db93d8aea912e8d870fe134b7ad186c722a23d379a05dc69dde",
-    "README.md": "e748962ad5eaf6592ac10e7defca3c8cc692a0a2fcdb3c86efea2f0c7cef7fbe",
+    "README.md": "cc110fc6c3a76d6b1fdb4f636cef0333182b30d87e0fd5bee7a0a6a79fb4de1c",
     "README.pt-BR.md": "e16904019f7d8a1416540501899256eb14a0037c8ccce573210e237434fde49f",
     "results/baseline-cpu.json": "797c454583a1b5ba0154a49b48374b35f9b14099cd9052a220551558134e58cb",
     "results/comparison-template.json": "d0ce50503de38fef435b502ad42f800c2eb5d5ea5281994cb5e22c1a50ca4780",
@@ -110,6 +110,11 @@
     "results/qlora-v1/report.md": "4ef49e7be4ef47c3957521c1e8ce742839a71f86da57fa9c42da27f4040acc9e",
     "results/qlora-v1/three-scenario-console.txt": "46bbe23e29890c0399e2d0024ab86953d767892949dbf4f74de8d43dba8d2c3b",
     "results/qlora-v1/three-scenario-diagnostic.json": "b404da3b79068c5cfee0e531d95e918ae76f423fe0ccc34c9f353430bae23096",
-    ".gitattributes": "f48b7757ebacffa20b1dc08286fd8cc4a05495777d9311ae875735fc216fc687"
+    ".gitattributes": "f48b7757ebacffa20b1dc08286fd8cc4a05495777d9311ae875735fc216fc687",
+    "results/prefix-v2/qwen-base-prefix-v2.json": "e40651e25bb09d3f3d73b2fe635f189e8f66d6bea636576dfbeb8bc1d481cd54",
+    "results/prefix-v2/qwen-adapter-prefix-v2.json": "df8a7f9cf247ae6b15e9dc4fefdb507daf3919dd15a8630b587d078a4a62d467",
+    "results/prefix-v2/test-prefix-v2.jsonl": "7c2d7b063ca152302e8e234480da68bfc5c939ec0e002575b8e7cac53cbf0fbe",
+    "docs/experiments/prefix-v2-comparison.md": "e26c7b8c7e83308cfa4900508ab77657cf09d3d21e353bae1b14be9e34ce80c4",
+    "results/prefix-v2/README.md": "6d365559e02fa3d5992c938b8c48e3b3d582f6a8952ed1dac5d4ccd3954a7d88"
   }
 }

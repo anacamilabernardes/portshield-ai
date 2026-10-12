@@ -173,3 +173,14 @@ Technical sources: [Qwen model card](https://huggingface.co/Qwen/Qwen2.5-1.5B-In
 [PEFT quantization](https://huggingface.co/docs/peft/developer_guides/quantization),
 [Transformers 4.51.3 bitsandbytes](https://huggingface.co/docs/transformers/v4.51.3/quantization/bitsandbytes),
 [vLLM 0.8.5 bitsandbytes](https://docs.vllm.ai/en/v0.8.5/features/quantization/bnb.html).
+
+## Corrected-prefix evaluation update
+
+The existing V1 adapter achieved **0.861 event macro-F1 and 70.4% all-field exact match**
+on the corrected-prefix test, compared with **0.283 and 0%** for the base Qwen model.
+Adapter schema validity and abstention recall remained 100%. The test still contains only
+six scenario bodies repeated across 240 records, and the adapter was trained on V1 inputs.
+These results do not establish independent domain generalization.
+
+See the [four-way comparison and limitations](docs/experiments/prefix-v2-comparison.md)
+and [original corrected-prefix reports](results/prefix-v2/README.md).

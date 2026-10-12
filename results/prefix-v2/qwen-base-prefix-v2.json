@@ -1,0 +1,26 @@
+{
+  "n": 240,
+  "json_parse_validity": 0.8208333333333333,
+  "schema_validity": 0.4875,
+  "macro_f1_event_type": 0.28253968253968254,
+  "exact_match": 0.0,
+  "abstention_rate": 0.008333333333333333,
+  "abstention_precision": 1.0,
+  "abstention_recall": 0.05,
+  "answerable_coverage": 0.575,
+  "field_accuracy": {
+    "event_type": 0.32083333333333336,
+    "affected_function": 0.4791666666666667,
+    "operational_status": 0.4875,
+    "road_access": 0.4875,
+    "equipment_failure": 0.008333333333333333,
+    "information_sufficiency": 0.4875,
+    "human_review_required": 0.4875
+  },
+  "client_latency_seconds": {
+    "mean": 2.352398368025002,
+    "p95": 2.828260691999958
+  },
+  "dataset": "data/synthetic/test-prefix-v2.jsonl",
+  "limitations": "Synthetic template-held-out evaluation only; latency includes client processing. No TTFT or GPU memory measurement here."
+}
