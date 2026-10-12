@@ -1,0 +1,37 @@
+{
+  "affected_function": {
+    "mismatches_in_valid_outputs": 40,
+    "invalid_outputs": 0,
+    "strict_total_errors": 40
+  },
+  "equipment_failure": {
+    "mismatches_in_valid_outputs": 0,
+    "invalid_outputs": 0,
+    "strict_total_errors": 0
+  },
+  "event_type": {
+    "mismatches_in_valid_outputs": 29,
+    "invalid_outputs": 0,
+    "strict_total_errors": 29
+  },
+  "human_review_required": {
+    "mismatches_in_valid_outputs": 0,
+    "invalid_outputs": 0,
+    "strict_total_errors": 0
+  },
+  "information_sufficiency": {
+    "mismatches_in_valid_outputs": 0,
+    "invalid_outputs": 0,
+    "strict_total_errors": 0
+  },
+  "operational_status": {
+    "mismatches_in_valid_outputs": 0,
+    "invalid_outputs": 0,
+    "strict_total_errors": 0
+  },
+  "road_access": {
+    "mismatches_in_valid_outputs": 2,
+    "invalid_outputs": 0,
+    "strict_total_errors": 2
+  }
+}

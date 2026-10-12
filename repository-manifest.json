@@ -65,7 +65,7 @@
     "portshield/core.py": "59c37c21905598b90fa2932b2564723d073cdbe15f14326f5fa9c6024a694481",
     "portshield/demo.py": "7d451d24005281f97127034631039bf7db39201deee3b911b37b0980bf90336f",
     "pyproject.toml": "76c71503e4fb6db93d8aea912e8d870fe134b7ad186c722a23d379a05dc69dde",
-    "README.md": "cc110fc6c3a76d6b1fdb4f636cef0333182b30d87e0fd5bee7a0a6a79fb4de1c",
+    "README.md": "08017aad54b8232fb32e6c4212139854d22500d57e6ec21efb2c0173b5ec747e",
     "README.pt-BR.md": "e16904019f7d8a1416540501899256eb14a0037c8ccce573210e237434fde49f",
     "results/baseline-cpu.json": "797c454583a1b5ba0154a49b48374b35f9b14099cd9052a220551558134e58cb",
     "results/comparison-template.json": "d0ce50503de38fef435b502ad42f800c2eb5d5ea5281994cb5e22c1a50ca4780",
@@ -114,7 +114,20 @@
     "results/prefix-v2/qwen-base-prefix-v2.json": "e40651e25bb09d3f3d73b2fe635f189e8f66d6bea636576dfbeb8bc1d481cd54",
     "results/prefix-v2/qwen-adapter-prefix-v2.json": "df8a7f9cf247ae6b15e9dc4fefdb507daf3919dd15a8630b587d078a4a62d467",
     "results/prefix-v2/test-prefix-v2.jsonl": "7c2d7b063ca152302e8e234480da68bfc5c939ec0e002575b8e7cac53cbf0fbe",
-    "docs/experiments/prefix-v2-comparison.md": "e26c7b8c7e83308cfa4900508ab77657cf09d3d21e353bae1b14be9e34ce80c4",
-    "results/prefix-v2/README.md": "6d365559e02fa3d5992c938b8c48e3b3d582f6a8952ed1dac5d4ccd3954a7d88"
+    "docs/experiments/prefix-v2-comparison.md": "60eed2262d15deb475ef6f58f165c1a7ed968020d4bd6fff73f4de9e319cc6ef",
+    "results/prefix-v2/README.md": "6d365559e02fa3d5992c938b8c48e3b3d582f6a8952ed1dac5d4ccd3954a7d88",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/diagnose_prefix_v2.py": "0259820e8796c39b3d33419057f882e1c0892ccfc6f09267bd96af54f77bd005",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/event_confusion_matrix.csv": "bffb8c3cc27b14b5867a7ff7337ca98afea4d2f046f444eb279e78f5827934d2",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/run-metadata.json": "d8f25fcacbc74f243278b4df65173cbb3afc3ef3b5bb8939d0ad2a834f7d6598",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/metrics.json": "43025f59d231e504a976b1fec3d20e6618f939144a554e6eea808f730814e3b3",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/artifact-hashes.json": "1df680cdc91c8e584695797d62b3d9daa511499a9024a317d9a7ddd3b75975af",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/errors.json": "91b52d79dbaeee403bfc4bcc6bb775bf97c907b9fc6c0fb24c2465baa2ccd5ce",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/predictions.jsonl": "f258aca28dcc29cdd04dc2796eb290577e9dcab7bef5ba7ef4bd2cbe80614f9f",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/field_errors.json": "7ddb1b4c490e83eba3880d6f8baeb61cfb55b5b807c3bf7bf8c6628432bb5fd4",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/test-prefix-v2.jsonl": "7c2d7b063ca152302e8e234480da68bfc5c939ec0e002575b8e7cac53cbf0fbe",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/generation-config.json": "08928ddacc6211d81b09108051f8b79ca0fddf905dbebf5804ce16d4b1dc2ac5",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/report.md": "8d8d4740343a43d13f933a5e466b538f97453514e6a9b47d201915bc8d17e95f",
+    "docs/experiments/prefix-v2-diagnostic-analysis.md": "f005b915d42668dbfac68d836d2f90ed924ad86522db312ffa07c49584b9aca3",
+    "results/prefix-v2/diagnostic-20261012T041428Z-f48de04f/README.md": "b88c0ab165de7e72fb679721bfd6af5df5401ba0a241f56061da66e70c915be9"
   }
 }

@@ -100,3 +100,10 @@ diagnostic rerun with model/dataset hashes, prompt and environment metadata. Do 
 newly generated predictions as the original run's missing outputs. Inspect event confusion
 and road-access errors, then implement the reviewed annotation policy and diverse independent
 scenario groups before deciding on another training run.
+
+## Subsequent diagnostic evidence
+
+A separate per-example rerun is now available in [the diagnostic analysis](prefix-v2-diagnostic-analysis.md).
+It matches these aggregate adapter quality scores and identifies concrete error patterns.
+It does not recover the original evaluation's missing individual responses. Prefix sensitivity
+remains a hypothesis pending controlled comparison; no retraining was performed.

@@ -1,0 +1,7 @@
+expected / predicted,weather_disruption,land_access_disruption,equipment_failure,navigation_restriction,normal_operations,unknown,INVALID
+weather_disruption,11,0,0,29,0,0,0
+land_access_disruption,0,40,0,0,0,0,0
+equipment_failure,0,0,40,0,0,0,0
+navigation_restriction,0,0,0,40,0,0,0
+normal_operations,0,0,0,0,40,0,0
+unknown,0,0,0,0,0,40,0

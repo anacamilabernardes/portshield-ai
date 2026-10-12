@@ -1,0 +1,2487 @@
+[
+  {
+    "id": "SYN-test-unknown-0028",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise aec811f46c: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5811455100001695
+  },
+  {
+    "id": "SYN-test-unknown-0019",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 3006b43781: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.461685545000364
+  },
+  {
+    "id": "SYN-test-unknown-0013",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 166758ffde: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6461746760001006
+  },
+  {
+    "id": "SYN-test-unknown-0023",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 844d687f1d: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.498478078000062
+  },
+  {
+    "id": "SYN-test-unknown-0021",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise e66e6db5c2: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.476000261000081
+  },
+  {
+    "id": "SYN-test-weather_disruption-0021",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 7c2d34e118: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.070323300999917
+  },
+  {
+    "id": "SYN-test-unknown-0027",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 7a849b71fb: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6323525380003048
+  },
+  {
+    "id": "SYN-test-unknown-0032",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 3532abeac2: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.525312911000583
+  },
+  {
+    "id": "SYN-test-equipment_failure-0001",
+    "template_family": "equipment_failure-2",
+    "text": "Fictional exercise a7eda1622c: Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.557420011999966
+  },
+  {
+    "id": "SYN-test-weather_disruption-0020",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise d7bfdfc592: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.9874938109996947
+  },
+  {
+    "id": "SYN-test-weather_disruption-0037",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise bfa1dff01f: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.058240874000148
+  },
+  {
+    "id": "SYN-test-equipment_failure-0018",
+    "template_family": "equipment_failure-2",
+    "text": "Fictional exercise bfdb87133d: Equipment failure partially restricted cargo handling.",
+    "expected": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"restricted\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "partial_restriction",
+      "road_access": "restricted",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "road_access": {
+        "expected": "unknown",
+        "predicted": "restricted"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.096616885000003
+  },
+  {
+    "id": "SYN-test-weather_disruption-0010",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise de3f216125: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.518461474000105
+  },
+  {
+    "id": "SYN-test-weather_disruption-0007",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 6fc81ed416: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.038883444000021
+  },
+  {
+    "id": "SYN-test-weather_disruption-0038",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise c3484a2748: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.033107357000517
+  },
+  {
+    "id": "SYN-test-weather_disruption-0013",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 06ea41eb0a: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.457752450000044
+  },
+  {
+    "id": "SYN-test-unknown-0035",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 841648d45e: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.57831741300015
+  },
+  {
+    "id": "SYN-test-unknown-0020",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 246f19b894: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.185429811999711
+  },
+  {
+    "id": "SYN-test-unknown-0000",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise cafa86b310: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5553476049999517
+  },
+  {
+    "id": "SYN-test-unknown-0034",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise b0ce506109: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6573506189997715
+  },
+  {
+    "id": "SYN-test-weather_disruption-0033",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 4ef78c1b2f: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.137688763999904
+  },
+  {
+    "id": "SYN-test-unknown-0024",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 74a3c9ae68: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.80774928899973
+  },
+  {
+    "id": "SYN-test-weather_disruption-0002",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise ea4ce4204a: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.58164883200061
+  },
+  {
+    "id": "SYN-test-unknown-0030",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise d922b82599: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.683701492000182
+  },
+  {
+    "id": "SYN-test-weather_disruption-0030",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 923c5dfbb4: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.842730168000344
+  },
+  {
+    "id": "SYN-test-unknown-0014",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 64bdc3447d: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5239645550000205
+  },
+  {
+    "id": "SYN-test-weather_disruption-0001",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise c89a6cf10b: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.107375890000185
+  },
+  {
+    "id": "SYN-test-unknown-0009",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 209743b78c: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.382752385000458
+  },
+  {
+    "id": "SYN-test-weather_disruption-0014",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise fabfcc92a3: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.163375739000003
+  },
+  {
+    "id": "SYN-test-weather_disruption-0022",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 74ddbe24a6: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.939182795999841
+  },
+  {
+    "id": "SYN-test-unknown-0038",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 5e221e5177: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.228366945000744
+  },
+  {
+    "id": "SYN-test-weather_disruption-0000",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 79cef29102: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.9844949400003316
+  },
+  {
+    "id": "SYN-test-weather_disruption-0018",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 0adf8388b7: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.0307745729996896
+  },
+  {
+    "id": "SYN-test-unknown-0036",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 2e987ed99f: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.552217464000023
+  },
+  {
+    "id": "SYN-test-weather_disruption-0032",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise aa5cc68994: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.421434956999292
+  },
+  {
+    "id": "SYN-test-weather_disruption-0005",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 9fab1a10d4: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.6980803570004355
+  },
+  {
+    "id": "SYN-test-unknown-0037",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise a98d3272a7: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.466707118999693
+  },
+  {
+    "id": "SYN-test-unknown-0018",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 3aba149677: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.363658806000785
+  },
+  {
+    "id": "SYN-test-unknown-0031",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 964ef85ae3: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.587523264999618
+  },
+  {
+    "id": "SYN-test-unknown-0010",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 9422068d32: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5518970990005982
+  },
+  {
+    "id": "SYN-test-weather_disruption-0008",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 87a213aac7: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.9448919950000345
+  },
+  {
+    "id": "SYN-test-weather_disruption-0025",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 010e8f0139: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.2073475800007145
+  },
+  {
+    "id": "SYN-test-weather_disruption-0039",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 0e8387f4b9: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.4180489159998615
+  },
+  {
+    "id": "SYN-test-unknown-0004",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise ef8e3323a8: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.118066826999893
+  },
+  {
+    "id": "SYN-test-unknown-0015",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 07a48596da: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4880094469999676
+  },
+  {
+    "id": "SYN-test-weather_disruption-0034",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 4897bc0125: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.707779062000554
+  },
+  {
+    "id": "SYN-test-unknown-0007",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise ca487a7667: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4828298249994987
+  },
+  {
+    "id": "SYN-test-weather_disruption-0024",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise a80f3a63f8: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.82393417700041
+  },
+  {
+    "id": "SYN-test-weather_disruption-0011",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 9bf51272ad: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.082663883999885
+  },
+  {
+    "id": "SYN-test-weather_disruption-0035",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise ffe6d0f618: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.3523052189993905
+  },
+  {
+    "id": "SYN-test-unknown-0025",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 0103abf69e: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.923111551999682
+  },
+  {
+    "id": "SYN-test-weather_disruption-0016",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 1c4be21389: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.019877529999576
+  },
+  {
+    "id": "SYN-test-weather_disruption-0006",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 232dfb8153: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.108861948000595
+  },
+  {
+    "id": "SYN-test-unknown-0001",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise eae8a2aa73: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5569307269997807
+  },
+  {
+    "id": "SYN-test-weather_disruption-0027",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 02a834b7c9: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.9861045410007137
+  },
+  {
+    "id": "SYN-test-unknown-0008",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 9b45cab72b: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.6868761719997565
+  },
+  {
+    "id": "SYN-test-unknown-0003",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 0cd6fa58ed: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4696688540007017
+  },
+  {
+    "id": "SYN-test-unknown-0029",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 87e6005164: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.556971877000251
+  },
+  {
+    "id": "SYN-test-unknown-0017",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 95fc1f28c4: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.19409599500068
+  },
+  {
+    "id": "SYN-test-weather_disruption-0031",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 1b367759e0: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.869647953000822
+  },
+  {
+    "id": "SYN-test-unknown-0016",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 564bbc3223: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5200271929998053
+  },
+  {
+    "id": "SYN-test-unknown-0002",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 24f0e481c4: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.473555660000784
+  },
+  {
+    "id": "SYN-test-unknown-0026",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 15ab00fe9e: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.7625814350003566
+  },
+  {
+    "id": "SYN-test-weather_disruption-0029",
+    "template_family": "weather_disruption-2",
+    "text": "Fictional exercise 1404f4a460: Gale conditions partially restricted vessel manoeuvring. Road access remains normal. No equipment failures.",
+    "expected": {
+      "affected_function": "vessel_manoeuvring",
+      "equipment_failure": false,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "partial_restriction",
+      "road_access": "normal"
+    },
+    "raw_response": "{\"affected_function\": \"vessel_manoeuvring\", \"equipment_failure\": false, \"event_type\": \"navigation_restriction\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"partial_restriction\", \"road_access\": \"normal\"}",
+    "prediction": {
+      "event_type": "navigation_restriction",
+      "affected_function": "vessel_manoeuvring",
+      "operational_status": "partial_restriction",
+      "road_access": "normal",
+      "equipment_failure": false,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "event_type": {
+        "expected": "weather_disruption",
+        "predicted": "navigation_restriction"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.533928466999896
+  },
+  {
+    "id": "SYN-test-unknown-0005",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 09274d5f1e: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.7355415379997794
+  },
+  {
+    "id": "SYN-test-unknown-0022",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 607837230c: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.5571478550000393
+  },
+  {
+    "id": "SYN-test-unknown-0006",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise e0cf040d57: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.543433508999442
+  },
+  {
+    "id": "SYN-test-unknown-0011",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise 92a7c142fa: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.506544066999595
+  },
+  {
+    "id": "SYN-test-unknown-0039",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise b1088a0f5e: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.4618885279996903
+  },
+  {
+    "id": "SYN-test-unknown-0012",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise afad6c9b11: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 3.43383433300005
+  },
+  {
+    "id": "SYN-test-unknown-0033",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise b0506db075: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "inference_error": null,
+    "validation_error": null,
+    "inference_seconds": 4.267352884000502
+  }
+]

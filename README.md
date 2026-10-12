@@ -184,3 +184,11 @@ These results do not establish independent domain generalization.
 
 See the [four-way comparison and limitations](docs/experiments/prefix-v2-comparison.md)
 and [original corrected-prefix reports](results/prefix-v2/README.md).
+
+### Per-example diagnostic evidence
+
+A separate corrected-prefix adapter rerun reproduced the aggregate quality scores and identified
+29 weather-to-navigation event confusions, 40 unverified cargo-impact assignments, and two
+unsupported road restrictions. Differences across opaque prefixes motivate a prefix-sensitivity
+hypothesis; causality has not been established. See the
+[reviewed analysis and original evidence](docs/experiments/prefix-v2-diagnostic-analysis.md).
