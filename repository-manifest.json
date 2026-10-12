@@ -65,7 +65,7 @@
     "portshield/core.py": "59c37c21905598b90fa2932b2564723d073cdbe15f14326f5fa9c6024a694481",
     "portshield/demo.py": "7d451d24005281f97127034631039bf7db39201deee3b911b37b0980bf90336f",
     "pyproject.toml": "76c71503e4fb6db93d8aea912e8d870fe134b7ad186c722a23d379a05dc69dde",
-    "README.md": "e386aed1278a666f6262183dd58a1011c2c8781d3560efcf979c0be6c0250f49",
+    "README.md": "716fd92a8fc360ff1b5d4ade9c2c6bcb28c2b73be2d20ebe37e1cc1bc34e263d",
     "README.pt-BR.md": "e16904019f7d8a1416540501899256eb14a0037c8ccce573210e237434fde49f",
     "results/baseline-cpu.json": "797c454583a1b5ba0154a49b48374b35f9b14099cd9052a220551558134e58cb",
     "results/comparison-template.json": "d0ce50503de38fef435b502ad42f800c2eb5d5ea5281994cb5e22c1a50ca4780",
@@ -190,6 +190,20 @@
     "results/reserved-12/reserved-comparison-20261012T053216Z-3b6e9ac5/evaluation-input/manifest.json": "ad0dafa21522c340f01589d76bdcd4921b8012d3386601b82783a70086702827",
     "results/reserved-12/reserved-comparison-20261012T053216Z-3b6e9ac5/evaluation-input/README.md": "ab64f8f007a38af35d59118c36e296688e6d68f3f2e1c0e4f549e098ff2f60da",
     "results/reserved-12/reserved-comparison-20261012T053216Z-3b6e9ac5/evaluation-input/records.jsonl": "57b1bbf66994c827fe7cb61433092e038ce3fdf16b8ba3b6f5306a8ae61839b0",
-    "results/reserved-12/reserved-comparison-20261012T053216Z-3b6e9ac5/evaluation-input/review-record.json": "8def8afabc90dacf424ac2afbb8ae01255121cd0faf643e5d1c078b94e82dbc0"
+    "results/reserved-12/reserved-comparison-20261012T053216Z-3b6e9ac5/evaluation-input/review-record.json": "8def8afabc90dacf424ac2afbb8ae01255121cd0faf643e5d1c078b94e82dbc0",
+    "experiments/training-v2-candidate-v1/build_dataset.py": "8adf30ae7a47eb1f485cac570c9fa35babbae78ee3e600e01efb33f530785fb5",
+    "experiments/training-v2-candidate-v1/CHANGELOG.md": "882a660108a0418531d0c86bb6f4f875226a736b6de6dc37ba389574125f164f",
+    "experiments/training-v2-candidate-v1/data/training-v2-candidate-v1/annotations.jsonl": "0a40d9cf6f5a889a1a131481ef0bd71302838a3ea83b98fafa55df5d8900926b",
+    "experiments/training-v2-candidate-v1/data/training-v2-candidate-v1/contrast-groups.json": "82103711002c681cb9db2eae10614ca2bbb5c6ec764629d444d35f9e51b2bd08",
+    "experiments/training-v2-candidate-v1/data/training-v2-candidate-v1/train.jsonl": "ffb32ecb4004e57090b8896c093278484f9a91ba6d0ef1fd5b7c709aa87ca3b4",
+    "experiments/training-v2-candidate-v1/data/training-v2-candidate-v1/validation.jsonl": "6997a25f7c24f7f093ec96b4edb4251ef5a975d1ea8b576e416d600fde4812f3",
+    "experiments/training-v2-candidate-v1/package_dataset.py": "9199be6b4ee001a7749a9a3c1ac988209e44cf5851f996552686f207d4b244a8",
+    "experiments/training-v2-candidate-v1/README.md": "cf13fab1f2d25963ee2e72c509e593e92c27a9a68697e276a56e9e03a3f2642a",
+    "experiments/training-v2-candidate-v1/review-record.json": "48d3a03b96e2ab21a2913e00d05c27b458e9768b7586bf5e5d22725b269b5b9d",
+    "experiments/training-v2-candidate-v1/REVIEW.md": "85517d7e86f0392f5265eacc996b35064251ea97281b7fd7cdac7e3c3994e7ed",
+    "experiments/training-v2-candidate-v1/schema_snapshot.py": "1eee8e6d29cedf70683774997b58552b695118591c506ef7e1770045918ad4f7",
+    "experiments/training-v2-candidate-v1/validate_dataset.py": "98627e3c1f39729e9f1caa060a6588646afd20b13a848c69bdbce5581d669490",
+    "experiments/training-v2-candidate-v1/validation.json": "e7b154716e6f7c0ae421fda85c4239c5ce69756ab84ca37f492d37a8755cc795",
+    "experiments/training-v2-candidate-v1/manifest.json": "1f1fe060b980ece5b87a50aabd54642395b78178021af1e18355dade4054e958"
   }
 }

@@ -1,0 +1,58 @@
+{
+  "schema_valid_records": 54,
+  "train_records": 36,
+  "validation_records": 18,
+  "contrast_groups": 24,
+  "shared_families": 0,
+  "duplicate_texts": 0,
+  "all_seven_fields_have_rationales": true,
+  "contrast_invariants_checked": true,
+  "historical_sources_checked": [
+    {
+      "path": "src/p/data/synthetic/train.jsonl",
+      "rows": 240,
+      "sha256": "78efd82ea6afb84a2d9afa3355d9705ab7778ccf33beb9dfab4bffd0370a69c2"
+    },
+    {
+      "path": "src/p/data/synthetic/validation.jsonl",
+      "rows": 240,
+      "sha256": "7f0d44e80d14b63ebf9b18abda25c30a07cc6dc902395d8c086b63a08d707a3a"
+    },
+    {
+      "path": "src/p/data/synthetic/test.jsonl",
+      "rows": 240,
+      "sha256": "d2e9f08bab2323fb3aa878800b311bbdcfaaf03ac7a147e519fff6ef0b16b63d"
+    },
+    {
+      "path": "contrastive-examples/examples.jsonl",
+      "rows": 15,
+      "sha256": "aa6db022b83f26a9866362b61b01a4734b1bbe092fedd81b94fd075a823c5624"
+    },
+    {
+      "path": "evaluation-reserve/github-publication/records.jsonl",
+      "rows": 12,
+      "sha256": "57b1bbf66994c827fe7cb61433092e038ce3fdf16b8ba3b6f5306a8ae61839b0"
+    }
+  ],
+  "exact_overlap_with_checked_sources": 0,
+  "semantic_independence_proven": false,
+  "independent_human_review_completed": false,
+  "class_counts": {
+    "train": {
+      "unknown": 6,
+      "weather_disruption": 6,
+      "equipment_failure": 8,
+      "navigation_restriction": 8,
+      "normal_operations": 4,
+      "land_access_disruption": 4
+    },
+    "validation": {
+      "unknown": 2,
+      "weather_disruption": 3,
+      "equipment_failure": 4,
+      "navigation_restriction": 5,
+      "normal_operations": 2,
+      "land_access_disruption": 2
+    }
+  }
+}

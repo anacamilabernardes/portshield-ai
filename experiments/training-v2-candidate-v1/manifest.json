@@ -1,0 +1,31 @@
+{
+  "version": "training-v2-candidate-v1",
+  "date": "2026-10-12",
+  "status": "user_reported_review_completed",
+  "independent_review_verified": false,
+  "language": "en",
+  "data_class": "synthetic",
+  "train": 36,
+  "validation": 18,
+  "contrast_groups": 24,
+  "test_split": null,
+  "trained": false,
+  "historical_labels_modified": false,
+  "source_of_design": "Observed field-level errors in prior diagnostic comparisons; no diagnostic rows copied.",
+  "schema_snapshot_sha256": "1eee8e6d29cedf70683774997b58552b695118591c506ef7e1770045918ad4f7",
+  "files": {
+    "build_dataset.py": "8adf30ae7a47eb1f485cac570c9fa35babbae78ee3e600e01efb33f530785fb5",
+    "CHANGELOG.md": "882a660108a0418531d0c86bb6f4f875226a736b6de6dc37ba389574125f164f",
+    "data/training-v2-candidate-v1/annotations.jsonl": "0a40d9cf6f5a889a1a131481ef0bd71302838a3ea83b98fafa55df5d8900926b",
+    "data/training-v2-candidate-v1/contrast-groups.json": "82103711002c681cb9db2eae10614ca2bbb5c6ec764629d444d35f9e51b2bd08",
+    "data/training-v2-candidate-v1/train.jsonl": "ffb32ecb4004e57090b8896c093278484f9a91ba6d0ef1fd5b7c709aa87ca3b4",
+    "data/training-v2-candidate-v1/validation.jsonl": "6997a25f7c24f7f093ec96b4edb4251ef5a975d1ea8b576e416d600fde4812f3",
+    "package_dataset.py": "9199be6b4ee001a7749a9a3c1ac988209e44cf5851f996552686f207d4b244a8",
+    "README.md": "cf13fab1f2d25963ee2e72c509e593e92c27a9a68697e276a56e9e03a3f2642a",
+    "review-record.json": "48d3a03b96e2ab21a2913e00d05c27b458e9768b7586bf5e5d22725b269b5b9d",
+    "REVIEW.md": "85517d7e86f0392f5265eacc996b35064251ea97281b7fd7cdac7e3c3994e7ed",
+    "schema_snapshot.py": "1eee8e6d29cedf70683774997b58552b695118591c506ef7e1770045918ad4f7",
+    "validate_dataset.py": "98627e3c1f39729e9f1caa060a6588646afd20b13a848c69bdbce5581d669490",
+    "validation.json": "e7b154716e6f7c0ae421fda85c4239c5ce69756ab84ca37f492d37a8755cc795"
+  }
+}
