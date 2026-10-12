@@ -1,0 +1,23 @@
+{
+  "version": "training-v2-candidate-v2",
+  "parent_version": "training-v2-candidate-v1",
+  "parent_commit": "ab3e80cc1931daef1c7334c430dc0fbc76f20e98",
+  "status": "assistant_reviewed_new_split_and_new_validation_pending_user_review",
+  "trained": false,
+  "files": {
+    "build_revision.py": "985ec630dad1dba88309a46504f8482e72a6c4960648dc6080783f8f12db5cb8",
+    "README.md": "00c35a040ae7e827abc2e36cb09ff3d384a42bffc4e33052910352e9d50655de",
+    "REVIEW.md": "82b7faf8e12572b9c5203b410391d978b4f7eae72c6ec108aa4d5402fe1a8579",
+    "schema_snapshot.py": "1eee8e6d29cedf70683774997b58552b695118591c506ef7e1770045918ad4f7",
+    "source/annotations.jsonl": "0a40d9cf6f5a889a1a131481ef0bd71302838a3ea83b98fafa55df5d8900926b",
+    "source/contrast-groups.json": "82103711002c681cb9db2eae10614ca2bbb5c6ec764629d444d35f9e51b2bd08",
+    "source/original-records.jsonl": "638f824314c9a5f262a88e835027943fcd03c56931fb50bafb30588907cd4964",
+    "data/training-v2-candidate-v2/cross-split-similarity.json": "164cae20a8adce1f5027a0c61cb2783d2dc8db9516e0516a5bc3d1aa96d69616",
+    "data/training-v2-candidate-v2/family-map.json": "613df169bbfe9f4e56aad5c451b032cc061bd4488e2b7862b4b4d1863d1cbd30",
+    "data/training-v2-candidate-v2/field-review.jsonl": "1d68a5792157aba2f3701864f1cdd115fe23d05578d4045a665edd340752a75f",
+    "data/training-v2-candidate-v2/split-changes.jsonl": "15c9251af0f9307d32976ff775217cad216d92a18b042e48136f8083ca0b255f",
+    "data/training-v2-candidate-v2/train.jsonl": "8402af0643c85297777413546df761ea6560d05c607bf70f867b7910b26a9850",
+    "data/training-v2-candidate-v2/validation-report.json": "5109de25c7c4f4f6a21db594a5f5b5a26ff1e5f7a90522c007d2d4a37cbab0bb",
+    "data/training-v2-candidate-v2/validation.jsonl": "ba7a3a188e6421efb95b0c8c038b61c0516fd58f1f59bcc6346834202b678382"
+  }
+}

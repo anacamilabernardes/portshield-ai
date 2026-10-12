@@ -1,0 +1,72 @@
+{
+  "train": {
+    "weather_claim_verification": [
+      "r01",
+      "r05"
+    ],
+    "mechanical_claim_verification": [
+      "r02",
+      "r06"
+    ],
+    "unresolved_cargo_claim": [
+      "r03",
+      "r04"
+    ],
+    "confirmed_cargo_fault": [
+      "a01",
+      "a05",
+      "s01",
+      "s04"
+    ],
+    "weather_cargo_road_scope": [
+      "a02"
+    ],
+    "navigation_restriction_scope": [
+      "a03",
+      "a04",
+      "a06",
+      "s02",
+      "s05"
+    ],
+    "global_normal_operation": [
+      "e01",
+      "e04",
+      "e06"
+    ],
+    "weather_manoeuvre_equipment_scope": [
+      "e02",
+      "e05"
+    ],
+    "road_access_disruption": [
+      "e03",
+      "s03",
+      "s06"
+    ]
+  },
+  "validation": {
+    "conflicting_current_sources": [
+      "SYN-V2R-0011",
+      "SYN-V2R-0012"
+    ],
+    "navigation_lifted_order": [
+      "SYN-V2R-0007",
+      "SYN-V2R-0008"
+    ],
+    "normal_after_recovery": [
+      "SYN-V2R-0009",
+      "SYN-V2R-0010"
+    ],
+    "rail_only_land_disruption": [
+      "SYN-V2R-0003",
+      "SYN-V2R-0004"
+    ],
+    "tug_fault_primary_vs_cargo": [
+      "SYN-V2R-0005",
+      "SYN-V2R-0006"
+    ],
+    "weather_current_bulletin": [
+      "SYN-V2R-0001",
+      "SYN-V2R-0002"
+    ]
+  }
+}

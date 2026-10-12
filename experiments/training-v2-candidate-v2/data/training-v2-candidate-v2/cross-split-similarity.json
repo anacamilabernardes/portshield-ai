@@ -1,0 +1,105 @@
+{
+  "method": "set-of-word Jaccard; no threshold proves semantic independence",
+  "top_pairs": [
+    {
+      "train_id": "SYN-V2-0036",
+      "validation_id": "SYN-V2R-0008",
+      "token_jaccard": 0.26666666666666666
+    },
+    {
+      "train_id": "SYN-V2-0042",
+      "validation_id": "SYN-V2R-0008",
+      "token_jaccard": 0.24193548387096775
+    },
+    {
+      "train_id": "SYN-V2-0014",
+      "validation_id": "SYN-V2R-0003",
+      "token_jaccard": 0.23728813559322035
+    },
+    {
+      "train_id": "SYN-V2-0042",
+      "validation_id": "SYN-V2R-0009",
+      "token_jaccard": 0.23076923076923078
+    },
+    {
+      "train_id": "SYN-V2-0034",
+      "validation_id": "SYN-V2R-0008",
+      "token_jaccard": 0.22950819672131148
+    },
+    {
+      "train_id": "SYN-V2-0038",
+      "validation_id": "SYN-V2R-0008",
+      "token_jaccard": 0.22950819672131148
+    },
+    {
+      "train_id": "SYN-V2-0014",
+      "validation_id": "SYN-V2R-0004",
+      "token_jaccard": 0.22807017543859648
+    },
+    {
+      "train_id": "SYN-V2-0028",
+      "validation_id": "SYN-V2R-0002",
+      "token_jaccard": 0.2222222222222222
+    },
+    {
+      "train_id": "SYN-V2-0029",
+      "validation_id": "SYN-V2R-0003",
+      "token_jaccard": 0.22033898305084745
+    },
+    {
+      "train_id": "SYN-V2-0041",
+      "validation_id": "SYN-V2R-0010",
+      "token_jaccard": 0.21739130434782608
+    },
+    {
+      "train_id": "SYN-V2-0013",
+      "validation_id": "SYN-V2R-0003",
+      "token_jaccard": 0.21666666666666667
+    },
+    {
+      "train_id": "SYN-V2-0028",
+      "validation_id": "SYN-V2R-0003",
+      "token_jaccard": 0.21666666666666667
+    },
+    {
+      "train_id": "SYN-V2-0029",
+      "validation_id": "SYN-V2R-0006",
+      "token_jaccard": 0.21052631578947367
+    },
+    {
+      "train_id": "SYN-V2-0019",
+      "validation_id": "SYN-V2R-0002",
+      "token_jaccard": 0.20634920634920634
+    },
+    {
+      "train_id": "SYN-V2-0053",
+      "validation_id": "SYN-V2R-0006",
+      "token_jaccard": 0.20454545454545456
+    },
+    {
+      "train_id": "SYN-V2-0020",
+      "validation_id": "SYN-V2R-0003",
+      "token_jaccard": 0.2033898305084746
+    },
+    {
+      "train_id": "SYN-V2-0014",
+      "validation_id": "SYN-V2R-0010",
+      "token_jaccard": 0.2
+    },
+    {
+      "train_id": "SYN-V2-0019",
+      "validation_id": "SYN-V2R-0003",
+      "token_jaccard": 0.2
+    },
+    {
+      "train_id": "SYN-V2-0032",
+      "validation_id": "SYN-V2R-0009",
+      "token_jaccard": 0.19607843137254902
+    },
+    {
+      "train_id": "SYN-V2-0032",
+      "validation_id": "SYN-V2R-0008",
+      "token_jaccard": 0.1935483870967742
+    }
+  ]
+}

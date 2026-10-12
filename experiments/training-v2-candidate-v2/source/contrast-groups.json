@@ -1,0 +1,320 @@
+[
+  {
+    "group": "r01",
+    "theme": "verification_of_impact",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0001",
+      "SYN-V2-0002"
+    ],
+    "allowed_changed_fields": [
+      "event_type",
+      "affected_function",
+      "operational_status",
+      "equipment_failure",
+      "information_sufficiency"
+    ]
+  },
+  {
+    "group": "r02",
+    "theme": "verification_of_impact",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0003",
+      "SYN-V2-0004"
+    ],
+    "allowed_changed_fields": [
+      "event_type",
+      "affected_function",
+      "operational_status",
+      "equipment_failure",
+      "information_sufficiency"
+    ]
+  },
+  {
+    "group": "r03",
+    "theme": "verification_of_impact",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0005",
+      "SYN-V2-0006"
+    ],
+    "allowed_changed_fields": [
+      "event_type",
+      "affected_function",
+      "operational_status",
+      "equipment_failure",
+      "information_sufficiency"
+    ]
+  },
+  {
+    "group": "r04",
+    "theme": "verification_of_impact",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0007",
+      "SYN-V2-0008"
+    ],
+    "allowed_changed_fields": [
+      "event_type",
+      "affected_function",
+      "operational_status",
+      "equipment_failure",
+      "information_sufficiency"
+    ]
+  },
+  {
+    "group": "r05",
+    "theme": "verification_of_impact",
+    "split": "validation",
+    "ids": [
+      "SYN-V2-0009",
+      "SYN-V2-0010"
+    ],
+    "allowed_changed_fields": [
+      "event_type",
+      "affected_function",
+      "operational_status",
+      "equipment_failure",
+      "information_sufficiency"
+    ]
+  },
+  {
+    "group": "r06",
+    "theme": "verification_of_impact",
+    "split": "validation",
+    "ids": [
+      "SYN-V2-0011",
+      "SYN-V2-0012"
+    ],
+    "allowed_changed_fields": [
+      "event_type",
+      "affected_function",
+      "operational_status",
+      "equipment_failure",
+      "information_sufficiency"
+    ]
+  },
+  {
+    "group": "a01",
+    "theme": "field_specific_road_evidence",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0013",
+      "SYN-V2-0014",
+      "SYN-V2-0015"
+    ],
+    "allowed_changed_fields": [
+      "road_access"
+    ]
+  },
+  {
+    "group": "a02",
+    "theme": "field_specific_road_evidence",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0016",
+      "SYN-V2-0017",
+      "SYN-V2-0018"
+    ],
+    "allowed_changed_fields": [
+      "road_access"
+    ]
+  },
+  {
+    "group": "a03",
+    "theme": "field_specific_road_evidence",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0019",
+      "SYN-V2-0020",
+      "SYN-V2-0021"
+    ],
+    "allowed_changed_fields": [
+      "road_access"
+    ]
+  },
+  {
+    "group": "a04",
+    "theme": "field_specific_road_evidence",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0022",
+      "SYN-V2-0023",
+      "SYN-V2-0024"
+    ],
+    "allowed_changed_fields": [
+      "road_access"
+    ]
+  },
+  {
+    "group": "a05",
+    "theme": "field_specific_road_evidence",
+    "split": "validation",
+    "ids": [
+      "SYN-V2-0025",
+      "SYN-V2-0026",
+      "SYN-V2-0027"
+    ],
+    "allowed_changed_fields": [
+      "road_access"
+    ]
+  },
+  {
+    "group": "a06",
+    "theme": "field_specific_road_evidence",
+    "split": "validation",
+    "ids": [
+      "SYN-V2-0028",
+      "SYN-V2-0029",
+      "SYN-V2-0030"
+    ],
+    "allowed_changed_fields": [
+      "road_access"
+    ]
+  },
+  {
+    "group": "e01",
+    "theme": "equipment_unknown_vs_excluded",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0031",
+      "SYN-V2-0032"
+    ],
+    "allowed_changed_fields": [
+      "equipment_failure"
+    ]
+  },
+  {
+    "group": "e02",
+    "theme": "equipment_unknown_vs_excluded",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0033",
+      "SYN-V2-0034"
+    ],
+    "allowed_changed_fields": [
+      "equipment_failure"
+    ]
+  },
+  {
+    "group": "e03",
+    "theme": "equipment_unknown_vs_excluded",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0035",
+      "SYN-V2-0036"
+    ],
+    "allowed_changed_fields": [
+      "equipment_failure"
+    ]
+  },
+  {
+    "group": "e04",
+    "theme": "equipment_unknown_vs_excluded",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0037",
+      "SYN-V2-0038"
+    ],
+    "allowed_changed_fields": [
+      "equipment_failure"
+    ]
+  },
+  {
+    "group": "e05",
+    "theme": "equipment_unknown_vs_excluded",
+    "split": "validation",
+    "ids": [
+      "SYN-V2-0039",
+      "SYN-V2-0040"
+    ],
+    "allowed_changed_fields": [
+      "equipment_failure"
+    ]
+  },
+  {
+    "group": "e06",
+    "theme": "equipment_unknown_vs_excluded",
+    "split": "validation",
+    "ids": [
+      "SYN-V2-0041",
+      "SYN-V2-0042"
+    ],
+    "allowed_changed_fields": [
+      "equipment_failure"
+    ]
+  },
+  {
+    "group": "s01",
+    "theme": "event_type_vs_operational_state",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0043",
+      "SYN-V2-0044"
+    ],
+    "allowed_changed_fields": [
+      "operational_status"
+    ]
+  },
+  {
+    "group": "s02",
+    "theme": "event_type_vs_operational_state",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0045",
+      "SYN-V2-0046"
+    ],
+    "allowed_changed_fields": [
+      "operational_status"
+    ]
+  },
+  {
+    "group": "s03",
+    "theme": "event_type_vs_operational_state",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0047",
+      "SYN-V2-0048"
+    ],
+    "allowed_changed_fields": [
+      "operational_status"
+    ]
+  },
+  {
+    "group": "s04",
+    "theme": "event_type_vs_operational_state",
+    "split": "train",
+    "ids": [
+      "SYN-V2-0049",
+      "SYN-V2-0050"
+    ],
+    "allowed_changed_fields": [
+      "operational_status"
+    ]
+  },
+  {
+    "group": "s05",
+    "theme": "event_type_vs_operational_state",
+    "split": "validation",
+    "ids": [
+      "SYN-V2-0051",
+      "SYN-V2-0052"
+    ],
+    "allowed_changed_fields": [
+      "operational_status"
+    ]
+  },
+  {
+    "group": "s06",
+    "theme": "event_type_vs_operational_state",
+    "split": "validation",
+    "ids": [
+      "SYN-V2-0053",
+      "SYN-V2-0054"
+    ],
+    "allowed_changed_fields": [
+      "operational_status"
+    ]
+  }
+]

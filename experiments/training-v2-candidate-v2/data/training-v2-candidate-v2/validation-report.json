@@ -1,0 +1,61 @@
+{
+  "records": 66,
+  "field_decisions": 462,
+  "existing_records_reviewed": 54,
+  "existing_field_decisions": 378,
+  "existing_label_changes": 0,
+  "old_validation_rows_moved_to_train": 18,
+  "new_validation_rows": 12,
+  "train_families": 9,
+  "validation_families": 6,
+  "shared_families": 0,
+  "duplicate_texts": 0,
+  "excluded_sources": [
+    {
+      "path": "evaluation-reserve\\github-publication\\records.jsonl",
+      "sha256": "57b1bbf66994c827fe7cb61433092e038ce3fdf16b8ba3b6f5306a8ae61839b0",
+      "n": 12
+    },
+    {
+      "path": "contrastive-examples\\examples.jsonl",
+      "sha256": "aa6db022b83f26a9866362b61b01a4734b1bbe092fedd81b94fd075a823c5624",
+      "n": 15
+    },
+    {
+      "path": "src\\p\\data\\synthetic\\train.jsonl",
+      "sha256": "78efd82ea6afb84a2d9afa3355d9705ab7778ccf33beb9dfab4bffd0370a69c2",
+      "n": 240
+    },
+    {
+      "path": "src\\p\\data\\synthetic\\validation.jsonl",
+      "sha256": "7f0d44e80d14b63ebf9b18abda25c30a07cc6dc902395d8c086b63a08d707a3a",
+      "n": 240
+    },
+    {
+      "path": "src\\p\\data\\synthetic\\test.jsonl",
+      "sha256": "d2e9f08bab2323fb3aa878800b311bbdcfaaf03ac7a147e519fff6ef0b16b63d",
+      "n": 240
+    }
+  ],
+  "exact_overlap_with_available_exclusions": 0,
+  "semantic_independence_proven": false,
+  "independent_human_review_completed": false,
+  "class_counts": {
+    "train": {
+      "unknown": 8,
+      "weather_disruption": 9,
+      "equipment_failure": 12,
+      "navigation_restriction": 13,
+      "normal_operations": 6,
+      "land_access_disruption": 6
+    },
+    "validation": {
+      "weather_disruption": 2,
+      "land_access_disruption": 2,
+      "equipment_failure": 2,
+      "navigation_restriction": 2,
+      "normal_operations": 2,
+      "unknown": 2
+    }
+  }
+}

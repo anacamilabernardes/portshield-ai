@@ -214,6 +214,11 @@ The [2026-10-12 annotation review](docs/data/label-review-2026-10-12/label-revie
 The [12-case synthetic evaluation pilot](data/evaluation/holdout-candidate-v1/README.md) is reserved for evaluation only. The project owner reported completing review; texts and target values remain unchanged. Inputs, labels, hashes, protocol and the review record are included. The [paired base-versus-adapter evaluation](results/reserved-12/reserved-comparison-20261012T053216Z-3b6e9ac5/README.md) completed on 2026-10-12: all-field exact match was 1/12 versus 3/12, affected-function errors 4 versus 2, and road-access errors 2 versus 2. Individual event-type and equipment-field regressions remain. These examined cases now serve as regression diagnostics for future changes; no model is selected solely on event F1. Previously inspected cases remain development or regression diagnostics. This GitHub-published set is exposed, not a blind holdout; independent reviewer status and real-world generalization are not established.
 
 
-## Reviewed training revision V2
+## Reviewed training revision V2 — original split superseded
 
 The [54-example training revision](experiments/training-v2-candidate-v1/README.md) contains 36 training and 18 development-validation examples in 24 intact contrast groups. It targets unverified cargo impact, field-specific road evidence, unknown versus excluded equipment failure, and event type versus operational status. All seven fields have annotation rationales. The project owner reported completing review and authorized publication; independent reviewer status is unverified. Historical data and the 12 examined diagnostic cases remain unchanged and excluded. No new training has been performed.
+
+
+## Family-level training revision V2 candidate 2
+
+The [revised package](experiments/training-v2-candidate-v2/README.md) corrects broader-family overlap in the original split: all 54 existing examples now stay in training across nine families, and 12 new development-validation examples occupy six separate structural families. All 378 original target values were reviewed and retained. The package includes the 462-field audit, split-change log, preserved source snapshot, overlap screening, validation and hashes. Candidate 1 remains available for provenance; use candidate 2 for the revised split. Publication was authorized by the project owner, but human review of the 12 new examples has not been confirmed. No new training has been performed, and no blind-test or proven semantic-independence claim is made.
