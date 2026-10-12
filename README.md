@@ -12,6 +12,8 @@ preserve useful task quality while reducing compute relative to larger general-p
 
 [PortShield executive summary: experiment, results and contribution](docs/portshield-executive-summary.md)
 
+[Technical demonstration — recorded inference and error analysis](demos/technical-demo/README.md): a synthetic development replay showing why valid output format does not guarantee correct content. The selected success is V2's only complete match among 12 validation cases; a known failure and aggregate regressions are shown alongside it. **Do not replace the existing adapter with V2.**
+
 ## What you can run
 
 | Capability | Implementation and validation boundary |

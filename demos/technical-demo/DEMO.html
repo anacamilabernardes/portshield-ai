@@ -1,0 +1,66 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>PortShield AI — Evidence replay</title>
+<style>body{font:17px/1.55 system-ui,sans-serif;max-width:1000px;margin:40px auto;padding:0 24px;color:#182638;background:#f7f9fc}h1,h2{color:#123b59}section{background:white;border:1px solid #ccd7e1;border-radius:12px;padding:24px;margin:24px 0}pre{background:#edf2f6;padding:16px;overflow:auto;font-size:14px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;text-align:left;border-bottom:1px solid #ddd}.bad{background:#fff1ed}.good{background:#effaf2}a{color:#165c91}blockquote{border-left:4px solid #4485aa;padding-left:16px}.notice{background:#e7effa;padding:16px}small{overflow-wrap:anywhere}@media print{body{background:white;font-size:12px}section{break-inside:avoid}pre{white-space:pre-wrap}}</style>
+<h1>PortShield AI: a short technical demonstration</h1>
+<p>Ana Camila Bernardes · October 2026 · Suggested duration: 4–5 minutes</p>
+<p class="notice"><strong>Recorded inference; live local verification.</strong> Inputs and raw responses come from completed Colab runs. Opening this page does not call a model. Running <code>python demo.py</code> rechecks the original Pydantic schema, field comparisons and evidence hashes. No GPU or model weights are required for this replay.</p>
+<p><strong>What runs:</strong> recorded input → preserved adapter output → schema validation → strict comparison with synthetic reference labels → investigation of differences. Reference labels are available for this evaluation; they would require annotation in real use.</p>
+<section><h2>1. A fully correct recorded response</h2>
+<p><strong>Record:</strong> SYN-V2R-0006 · V2 adapter · development validation</p>
+<h3>Input report</h3><blockquote>The assessment concerns vessel manoeuvring, not the terminal cargo line. A tug engineer verified a steering-actuator failure, and the pilot confirms assisted vessel turns continue at reduced capacity using a spare tug. Cargo unloading continues normally. No road-access assessment is available.</blockquote>
+<h3>Structured response</h3><pre>{
+  &quot;affected_function&quot;: &quot;vessel_manoeuvring&quot;,
+  &quot;equipment_failure&quot;: true,
+  &quot;event_type&quot;: &quot;equipment_failure&quot;,
+  &quot;human_review_required&quot;: true,
+  &quot;information_sufficiency&quot;: &quot;sufficient&quot;,
+  &quot;operational_status&quot;: &quot;partial_restriction&quot;,
+  &quot;road_access&quot;: &quot;unknown&quot;
+}</pre>
+<details><summary>Original response, exactly as saved</summary><pre>{&quot;affected_function&quot;: &quot;vessel_manoeuvring&quot;, &quot;equipment_failure&quot;: true, &quot;event_type&quot;: &quot;equipment_failure&quot;, &quot;human_review_required&quot;: true, &quot;information_sufficiency&quot;: &quot;sufficient&quot;, &quot;operational_status&quot;: &quot;partial_restriction&quot;, &quot;road_access&quot;: &quot;unknown&quot;}</pre></details>
+<h3>Validation and comparison</h3><p>JSON parsing: PASS · Original schema: PASS · All-field match: <strong>PASS</strong></p>
+<table><tr><th>Field</th><th>Expected</th><th>Existing adapter</th><th>V2 adapter</th><th>V2 check</th></tr>
+<tr class="good"><td>event_type</td><td>&quot;equipment_failure&quot;</td><td>&quot;equipment_failure&quot;</td><td>&quot;equipment_failure&quot;</td><td>Correct</td></tr>
+<tr class="good"><td>affected_function</td><td>&quot;vessel_manoeuvring&quot;</td><td>&quot;vessel_manoeuvring&quot;</td><td>&quot;vessel_manoeuvring&quot;</td><td>Correct</td></tr>
+<tr class="good"><td>operational_status</td><td>&quot;partial_restriction&quot;</td><td>&quot;partial_restriction&quot;</td><td>&quot;partial_restriction&quot;</td><td>Correct</td></tr>
+<tr class="good"><td>road_access</td><td>&quot;unknown&quot;</td><td>&quot;unknown&quot;</td><td>&quot;unknown&quot;</td><td>Correct</td></tr>
+<tr class="good"><td>equipment_failure</td><td>true</td><td>true</td><td>true</td><td>Correct</td></tr>
+<tr class="good"><td>information_sufficiency</td><td>&quot;sufficient&quot;</td><td>&quot;insufficient&quot;</td><td>&quot;sufficient&quot;</td><td>Correct</td></tr>
+<tr class="good"><td>human_review_required</td><td>true</td><td>true</td><td>true</td><td>Correct</td></tr>
+</table>
+<p><a href="https://github.com/anacamilabernardes/portshield-ai/tree/6dc029640681e7b6a3110be91257dd52c8e2eb6c/results/qlora-v2/training-v2-20261012T062041Z-d8f05304/results/training-v2-20261012T062041Z-d8f05304/v2-validation-predictions.jsonl">Published V2 responses</a> · <a href="https://github.com/anacamilabernardes/portshield-ai/tree/6dc029640681e7b6a3110be91257dd52c8e2eb6c/results/qlora-v2/training-v2-20261012T062041Z-d8f05304/results/training-v2-20261012T062041Z-d8f05304/current-validation-predictions.jsonl">Published existing-adapter responses</a></p></section>
+<section><h2>2. A schema-valid response with three substantive errors</h2>
+<p><strong>Record:</strong> SYN-V2R-0001 · V2 adapter · development validation</p>
+<h3>Input report</h3><blockquote>The 06:00 bulletin attributed a halt in vessel docking to a tug fault. At 07:00 the duty officer withdrew that attribution: inspection found the tug sound, and instrument readings confirmed a lightning exclusion remains the sole reason docking is stopped. Classify the situation at 07:00. Road access is not covered.</blockquote>
+<h3>Structured response</h3><pre>{
+  &quot;affected_function&quot;: &quot;none&quot;,
+  &quot;equipment_failure&quot;: null,
+  &quot;event_type&quot;: &quot;weather_disruption&quot;,
+  &quot;human_review_required&quot;: true,
+  &quot;information_sufficiency&quot;: &quot;sufficient&quot;,
+  &quot;operational_status&quot;: &quot;partial_restriction&quot;,
+  &quot;road_access&quot;: &quot;unknown&quot;
+}</pre>
+<details><summary>Original response, exactly as saved</summary><pre>{&quot;affected_function&quot;: &quot;none&quot;, &quot;equipment_failure&quot;: null, &quot;event_type&quot;: &quot;weather_disruption&quot;, &quot;human_review_required&quot;: true, &quot;information_sufficiency&quot;: &quot;sufficient&quot;, &quot;operational_status&quot;: &quot;partial_restriction&quot;, &quot;road_access&quot;: &quot;unknown&quot;}</pre></details>
+<h3>Validation and comparison</h3><p>JSON parsing: PASS · Original schema: PASS · All-field match: <strong>FAIL</strong></p>
+<table><tr><th>Field</th><th>Expected</th><th>Existing adapter</th><th>V2 adapter</th><th>V2 check</th></tr>
+<tr class="good"><td>event_type</td><td>&quot;weather_disruption&quot;</td><td>&quot;equipment_failure&quot;</td><td>&quot;weather_disruption&quot;</td><td>Correct</td></tr>
+<tr class="bad"><td>affected_function</td><td>&quot;vessel_manoeuvring&quot;</td><td>&quot;cargo_handling&quot;</td><td>&quot;none&quot;</td><td>Incorrect</td></tr>
+<tr class="bad"><td>operational_status</td><td>&quot;suspended&quot;</td><td>&quot;suspended&quot;</td><td>&quot;partial_restriction&quot;</td><td>Incorrect</td></tr>
+<tr class="good"><td>road_access</td><td>&quot;unknown&quot;</td><td>&quot;unknown&quot;</td><td>&quot;unknown&quot;</td><td>Correct</td></tr>
+<tr class="bad"><td>equipment_failure</td><td>false</td><td>false</td><td>null</td><td>Incorrect</td></tr>
+<tr class="good"><td>information_sufficiency</td><td>&quot;sufficient&quot;</td><td>&quot;sufficient&quot;</td><td>&quot;sufficient&quot;</td><td>Correct</td></tr>
+<tr class="good"><td>human_review_required</td><td>true</td><td>true</td><td>true</td><td>Correct</td></tr>
+</table>
+<h3>Investigating the error</h3><ol>
+<li><strong>Scope:</strong> docking is explicitly stopped. The affected function should be <code>vessel_manoeuvring</code>, rather than <code>none</code>.</li>
+<li><strong>Status:</strong> “docking is stopped” supports <code>suspended</code>. V2 returns <code>partial_restriction</code>.</li>
+<li><strong>Equipment evidence:</strong> the updated inspection found the tug sound. The label is <code>false</code>; <code>null</code> would mean unknown.</li>
+</ol><p>The existing adapter already got status and equipment right here. V2 corrected the event type but regressed on those two fields, while affected function remained incorrect. Schema validation accepts all these values: it cannot determine whether the narrative supports them.</p>
+<p><strong>Evidence, not a causal claim:</strong> the saved text and responses establish the observed mismatches. They do not prove why the model produced them. Investigate temporal updates, field scope and explicit negation in additional reviewed development examples.</p>
+<p><a href="https://github.com/anacamilabernardes/portshield-ai/tree/6dc029640681e7b6a3110be91257dd52c8e2eb6c/results/qlora-v2/training-v2-20261012T062041Z-d8f05304/results/training-v2-20261012T062041Z-d8f05304/v2-validation-predictions.jsonl">Published V2 responses</a> · <a href="https://github.com/anacamilabernardes/portshield-ai/tree/6dc029640681e7b6a3110be91257dd52c8e2eb6c/results/qlora-v2/training-v2-20261012T062041Z-d8f05304/results/training-v2-20261012T062041Z-d8f05304/current-validation-predictions.jsonl">Published existing-adapter responses</a></p></section>
+<section><h2>3. Why one successful example is not enough</h2>
+<p>Across all 12 validation examples, affected-function errors stayed at 8; road-access errors fell from 5 to 3; operational-status errors rose from 5 to 7; fully correct records increased from 0 to 1. The successful case above is that single V2 exact match, deliberately paired with a known failure for explanation.</p>
+<p><strong>Decision: do not promote the V2 adapter.</strong> These are synthetic development cases, not an independent final test. Neither adapter has demonstrated operational readiness.</p>
+<h3>Evidence trail</h3><p>The record ID connects the input, expected labels, original output and field differences. The source snapshot identifies the validation rules. The saved generation settings, training configuration and hashes identify the experiment. The local replay verifies all 24 validation responses, not just the two selected for display.</p>
+<p><a href="https://github.com/anacamilabernardes/portshield-ai/tree/6dc029640681e7b6a3110be91257dd52c8e2eb6c/results/qlora-v2/training-v2-20261012T062041Z-d8f05304/results/training-v2-20261012T062041Z-d8f05304/REPORT.md">Full report</a> · <a href="https://github.com/anacamilabernardes/portshield-ai/tree/6dc029640681e7b6a3110be91257dd52c8e2eb6c/results/qlora-v2/training-v2-20261012T062041Z-d8f05304/results/training-v2-20261012T062041Z-d8f05304/training-config.json">Training configuration</a> · <a href="https://github.com/anacamilabernardes/portshield-ai/tree/6dc029640681e7b6a3110be91257dd52c8e2eb6c/results/qlora-v2/training-v2-20261012T062041Z-d8f05304/results/training-v2-20261012T062041Z-d8f05304/v2-generation-config.json">Generation settings</a> · <a href="evidence-manifest.json">Local evidence hashes</a></p>
+<p>AI assistance was used to prepare this demonstration and its verification code. Outputs shown here are preserved model responses; they have not been rewritten to improve the demonstration.</p></section></html>

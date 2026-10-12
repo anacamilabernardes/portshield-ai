@@ -1,0 +1,30 @@
+PORTSHIELD AI — TECHNICAL DEMONSTRATION
+
+Open DEMO.html in a browser. It is a self-contained English presentation of recorded results. Internet access is needed only for the GitHub evidence links.
+
+To rerun verification locally (Python 3.11 or 3.12), from this folder:
+  python -m venv .venv
+  .venv\Scripts\python -m pip install -r requirements.txt
+  .venv\Scripts\python demo.py
+
+The script verifies evidence hashes and reruns the original Pydantic contract and strict comparisons for all 24 validation responses. It then regenerates DEMO.html. It does not load weights or perform new inference. A successful verification means the saved results were reproduced, not that every prediction is correct.
+
+PRESENTATION SCRIPT — 4–5 MINUTES
+
+0:00–0:30 — Scope
+“This is an evidence replay from completed Colab runs. The model responses are recorded; the schema and field checks can be rerun locally. The prototype turns synthetic maritime reports into seven structured fields for human review.”
+
+0:30–1:30 — Working example: SYN-V2R-0006
+“The report explicitly identifies a steering failure affecting vessel manoeuvring. Cargo continues normally, and road conditions are not assessed. The V2 response preserves this distinction. All seven fields match the reference labels. This is the single fully correct V2 validation example, not a representative success rate.”
+
+1:30–3:00 — Known error: SYN-V2R-0001
+“An updated bulletin excludes the initial tug-fault explanation and confirms lightning as the reason docking is stopped. V2 gets the event right, but returns no affected function, partial restriction and unknown equipment condition. Those values satisfy the schema, yet conflict with the reference interpretation of the report.”
+
+3:00–4:00 — Investigation
+“The record ID links the report, original response, expected values and differences. Comparing the existing adapter reveals two regressions: it already got status and equipment right. The snapshots and hashes identify the exact evidence and configuration. We can establish the error, but we cannot infer its cause from one response.”
+
+4:00–5:00 — Decision
+“Across the 12 validation examples, road-access errors improved from five to three, but affected-function errors stayed at eight and status errors rose from five to seven. I did not promote the new adapter. Further work needs reviewed examples and a new independent final evaluation, rather than selecting a model solely by event F1.”
+
+DISCLOSURE
+AI assistance helped prepare the demonstration and verification code. The displayed responses are unchanged measured outputs. Synthetic development cases do not establish production readiness. No cloud endpoint, deployment, RAG or agent capability is demonstrated here.
