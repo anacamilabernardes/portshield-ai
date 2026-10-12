@@ -65,7 +65,7 @@
     "portshield/core.py": "59c37c21905598b90fa2932b2564723d073cdbe15f14326f5fa9c6024a694481",
     "portshield/demo.py": "7d451d24005281f97127034631039bf7db39201deee3b911b37b0980bf90336f",
     "pyproject.toml": "76c71503e4fb6db93d8aea912e8d870fe134b7ad186c722a23d379a05dc69dde",
-    "README.md": "c01945afd3150816be999b19b9761044bd28c6a0b8a1b711a4cfb544c0bcd13d",
+    "README.md": "bb243ca0415a00004bb5a0110b6401eca275700e84d7e11e3e5485f01ea92073",
     "README.pt-BR.md": "e16904019f7d8a1416540501899256eb14a0037c8ccce573210e237434fde49f",
     "results/baseline-cpu.json": "797c454583a1b5ba0154a49b48374b35f9b14099cd9052a220551558134e58cb",
     "results/comparison-template.json": "d0ce50503de38fef435b502ad42f800c2eb5d5ea5281994cb5e22c1a50ca4780",
@@ -155,6 +155,13 @@
     "data/contrastive/candidates-v1/examples.jsonl": "aa6db022b83f26a9866362b61b01a4734b1bbe092fedd81b94fd075a823c5624",
     "data/contrastive/candidates-v1/manifest.json": "8edb552fa5fd6156da0648eb278d01ea74e135cf94e189016fd43c5ea9b6d507",
     "data/contrastive/candidates-v1/README.md": "5f9df1bef1a37e4b5848e44ed5e58dba6c2b997a5a0f69de33057cf3c19c8601",
-    "data/contrastive/candidates-v1/validation.json": "aa3e819bba27e1a5a7177a9541d37bd387385a7c5c4ef915fa8160ae734f4484"
+    "data/contrastive/candidates-v1/validation.json": "aa3e819bba27e1a5a7177a9541d37bd387385a7c5c4ef915fa8160ae734f4484",
+    "data/evaluation/holdout-candidate-v1/inputs.jsonl": "075e5d978c7e420373be0f68dda3e07914beddbadfb83eb140a4cfe4c4f02f97",
+    "data/evaluation/holdout-candidate-v1/expected-labels.jsonl": "79bfa13ed19dce5eb3580118449d25b715d8472355c5c0fa261e9241530ff940",
+    "data/evaluation/holdout-candidate-v1/records.jsonl": "57b1bbf66994c827fe7cb61433092e038ce3fdf16b8ba3b6f5306a8ae61839b0",
+    "data/evaluation/holdout-candidate-v1/diagnostic-registry.json": "7fddf0ca3468debfd7ed42c5e58fe593483f75a863d5c2743d2064d98a2155ed",
+    "data/evaluation/holdout-candidate-v1/README.md": "ab64f8f007a38af35d59118c36e296688e6d68f3f2e1c0e4f549e098ff2f60da",
+    "data/evaluation/holdout-candidate-v1/manifest.json": "ad0dafa21522c340f01589d76bdcd4921b8012d3386601b82783a70086702827",
+    "data/evaluation/holdout-candidate-v1/review-record.json": "8def8afabc90dacf424ac2afbb8ae01255121cd0faf643e5d1c078b94e82dbc0"
   }
 }

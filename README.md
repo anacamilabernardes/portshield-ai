@@ -207,3 +207,8 @@ The [2026-10-12 annotation review](docs/data/label-review-2026-10-12/label-revie
 ## Contrastive development candidates
 
 [15 synthetic English examples](data/contrastive/candidates-v1/README.md) cover unverified rumor versus confirmed cargo impact and cargo restrictions with normal, restricted or unmentioned road access. The package includes all seven target fields, per-field rationales, contrast-group invariants, a generation script and validation results. These are unassigned development candidates pending independent annotation review, not a blind test or an approved training set. Historical splits and model results are unchanged.
+
+
+## Reserved evaluation pilot
+
+The [12-case synthetic evaluation pilot](data/evaluation/holdout-candidate-v1/README.md) is reserved for evaluation only. The project owner reported completing review; texts and target values remain unchanged. Inputs, labels, hashes, protocol and the review record are included. No inference has been run. Previously inspected cases remain development or regression diagnostics. This GitHub-published set is exposed, not a blind holdout; independent reviewer status and real-world generalization are not established.
