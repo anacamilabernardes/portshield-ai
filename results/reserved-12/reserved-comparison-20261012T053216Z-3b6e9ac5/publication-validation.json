@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-12",
+  "original_artifacts_sha256_verified": 23,
+  "responses_verified": 24,
+  "official_metrics_recomputed": true,
+  "raw_field_errors_recomputed": true,
+  "ids_texts_targets_matched_frozen_inputs": true,
+  "new_inference_performed_for_publication": false,
+  "derived_artifacts": [
+    "base-raw-event-confusion.json",
+    "adapter-raw-event-confusion.json"
+  ],
+  "scope": "Data and evidence integrity checks; no application code changes or new training."
+}

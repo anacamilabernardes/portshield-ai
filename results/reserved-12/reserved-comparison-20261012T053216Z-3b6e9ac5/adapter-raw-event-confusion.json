@@ -1,0 +1,23 @@
+{
+  "weather_disruption": {
+    "navigation_restriction": 1,
+    "weather_disruption": 1
+  },
+  "land_access_disruption": {
+    "land_access_disruption": 1,
+    "navigation_restriction": 1
+  },
+  "equipment_failure": {
+    "equipment_failure": 2
+  },
+  "navigation_restriction": {
+    "navigation_restriction": 1,
+    "suspended": 1
+  },
+  "normal_operations": {
+    "normal_operations": 2
+  },
+  "unknown": {
+    "navigation_restriction": 2
+  }
+}

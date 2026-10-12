@@ -5,9 +5,9 @@
   "distinct_narratives": 12,
   "event_classes": 6,
   "records_per_class": 2,
-  "role": "reserved_evaluation_only",
+  "role": "evaluated_diagnostic_only",
   "review_status": "user_reported_review_completed",
-  "evaluated": false,
+  "evaluated": true,
   "training_allowed": false,
   "license": "MIT",
   "files": {
@@ -15,7 +15,7 @@
     "expected-labels.jsonl": "79bfa13ed19dce5eb3580118449d25b715d8472355c5c0fa261e9241530ff940",
     "records.jsonl": "57b1bbf66994c827fe7cb61433092e038ce3fdf16b8ba3b6f5306a8ae61839b0",
     "diagnostic-registry.json": "7fddf0ca3468debfd7ed42c5e58fe593483f75a863d5c2743d2064d98a2155ed",
-    "README.md": "ab64f8f007a38af35d59118c36e296688e6d68f3f2e1c0e4f549e098ff2f60da",
+    "README.md": "fc5a9f623fcf65c1f983c62b004fe8b268d7a6e86bc79c072800d47f71fa3d25",
     "review-record.json": "8def8afabc90dacf424ac2afbb8ae01255121cd0faf643e5d1c078b94e82dbc0"
   },
   "checks": {
@@ -34,5 +34,7 @@
     "records.jsonl": "57b1bbf66994c827fe7cb61433092e038ce3fdf16b8ba3b6f5306a8ae61839b0",
     "diagnostic-registry.json": "7fddf0ca3468debfd7ed42c5e58fe593483f75a863d5c2743d2064d98a2155ed",
     "README.md": "b5a620ef4b1de5212923f0fb9985f61d4c839c934ac89d3918007746d3e5a0b5"
-  }
+  },
+  "evaluation_run": "results/reserved-12/reserved-comparison-20261012T053216Z-3b6e9ac5",
+  "evaluation_date": "2026-10-12"
 }

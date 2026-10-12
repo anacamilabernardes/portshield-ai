@@ -1,0 +1,56 @@
+{
+  "weather_disruption": {
+    "weather_disruption": 1,
+    "land_access_disruption": 0,
+    "equipment_failure": 0,
+    "navigation_restriction": 1,
+    "normal_operations": 0,
+    "unknown": 0,
+    "INVALID": 0
+  },
+  "land_access_disruption": {
+    "weather_disruption": 0,
+    "land_access_disruption": 1,
+    "equipment_failure": 0,
+    "navigation_restriction": 1,
+    "normal_operations": 0,
+    "unknown": 0,
+    "INVALID": 0
+  },
+  "equipment_failure": {
+    "weather_disruption": 0,
+    "land_access_disruption": 0,
+    "equipment_failure": 2,
+    "navigation_restriction": 0,
+    "normal_operations": 0,
+    "unknown": 0,
+    "INVALID": 0
+  },
+  "navigation_restriction": {
+    "weather_disruption": 0,
+    "land_access_disruption": 0,
+    "equipment_failure": 0,
+    "navigation_restriction": 1,
+    "normal_operations": 0,
+    "unknown": 0,
+    "INVALID": 1
+  },
+  "normal_operations": {
+    "weather_disruption": 0,
+    "land_access_disruption": 0,
+    "equipment_failure": 0,
+    "navigation_restriction": 0,
+    "normal_operations": 2,
+    "unknown": 0,
+    "INVALID": 0
+  },
+  "unknown": {
+    "weather_disruption": 0,
+    "land_access_disruption": 0,
+    "equipment_failure": 0,
+    "navigation_restriction": 1,
+    "normal_operations": 0,
+    "unknown": 0,
+    "INVALID": 1
+  }
+}

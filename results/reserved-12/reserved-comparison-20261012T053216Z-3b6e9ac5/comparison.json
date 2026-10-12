@@ -1,0 +1,298 @@
+{
+  "counts": {
+    "incorrect_in_both": 9,
+    "corrected": 2,
+    "correct_in_both": 1
+  },
+  "records": [
+    {
+      "id": "SYN-RESERVE-0001",
+      "category": "incorrect_in_both",
+      "corrected_fields": [
+        "affected_function",
+        "operational_status",
+        "road_access",
+        "information_sufficiency",
+        "human_review_required"
+      ],
+      "regressed_fields": [],
+      "raw_corrected_fields": [
+        "information_sufficiency"
+      ],
+      "raw_regressed_fields": [
+        "equipment_failure"
+      ]
+    },
+    {
+      "id": "SYN-RESERVE-0002",
+      "category": "corrected",
+      "corrected_fields": [
+        "event_type",
+        "affected_function",
+        "operational_status",
+        "road_access",
+        "equipment_failure",
+        "information_sufficiency",
+        "human_review_required"
+      ],
+      "regressed_fields": [],
+      "raw_corrected_fields": [
+        "affected_function",
+        "road_access",
+        "equipment_failure",
+        "information_sufficiency"
+      ],
+      "raw_regressed_fields": []
+    },
+    {
+      "id": "SYN-RESERVE-0003",
+      "category": "incorrect_in_both",
+      "corrected_fields": [
+        "event_type",
+        "affected_function",
+        "operational_status",
+        "road_access",
+        "information_sufficiency",
+        "human_review_required"
+      ],
+      "regressed_fields": [],
+      "raw_corrected_fields": [
+        "information_sufficiency"
+      ],
+      "raw_regressed_fields": [
+        "equipment_failure"
+      ]
+    },
+    {
+      "id": "SYN-RESERVE-0004",
+      "category": "incorrect_in_both",
+      "corrected_fields": [
+        "affected_function",
+        "road_access",
+        "equipment_failure",
+        "information_sufficiency",
+        "human_review_required"
+      ],
+      "regressed_fields": [],
+      "raw_corrected_fields": [
+        "information_sufficiency"
+      ],
+      "raw_regressed_fields": [
+        "event_type"
+      ]
+    },
+    {
+      "id": "SYN-RESERVE-0005",
+      "category": "correct_in_both",
+      "corrected_fields": [],
+      "regressed_fields": [],
+      "raw_corrected_fields": [],
+      "raw_regressed_fields": []
+    },
+    {
+      "id": "SYN-RESERVE-0006",
+      "category": "corrected",
+      "corrected_fields": [
+        "event_type",
+        "affected_function",
+        "operational_status",
+        "road_access",
+        "equipment_failure",
+        "information_sufficiency",
+        "human_review_required"
+      ],
+      "regressed_fields": [],
+      "raw_corrected_fields": [
+        "equipment_failure",
+        "information_sufficiency"
+      ],
+      "raw_regressed_fields": []
+    },
+    {
+      "id": "SYN-RESERVE-0007",
+      "category": "incorrect_in_both",
+      "corrected_fields": [
+        "event_type",
+        "affected_function",
+        "operational_status",
+        "information_sufficiency",
+        "human_review_required"
+      ],
+      "regressed_fields": [],
+      "raw_corrected_fields": [
+        "affected_function",
+        "information_sufficiency"
+      ],
+      "raw_regressed_fields": [
+        "road_access",
+        "equipment_failure"
+      ]
+    },
+    {
+      "id": "SYN-RESERVE-0008",
+      "category": "incorrect_in_both",
+      "corrected_fields": [],
+      "regressed_fields": [],
+      "raw_corrected_fields": [
+        "equipment_failure"
+      ],
+      "raw_regressed_fields": [
+        "event_type"
+      ]
+    },
+    {
+      "id": "SYN-RESERVE-0009",
+      "category": "incorrect_in_both",
+      "corrected_fields": [
+        "equipment_failure"
+      ],
+      "regressed_fields": [],
+      "raw_corrected_fields": [
+        "equipment_failure"
+      ],
+      "raw_regressed_fields": []
+    },
+    {
+      "id": "SYN-RESERVE-0010",
+      "category": "incorrect_in_both",
+      "corrected_fields": [
+        "event_type",
+        "affected_function",
+        "operational_status",
+        "road_access",
+        "information_sufficiency",
+        "human_review_required"
+      ],
+      "regressed_fields": [],
+      "raw_corrected_fields": [
+        "information_sufficiency"
+      ],
+      "raw_regressed_fields": [
+        "equipment_failure"
+      ]
+    },
+    {
+      "id": "SYN-RESERVE-0011",
+      "category": "incorrect_in_both",
+      "corrected_fields": [
+        "road_access",
+        "equipment_failure",
+        "human_review_required"
+      ],
+      "regressed_fields": [],
+      "raw_corrected_fields": [],
+      "raw_regressed_fields": [
+        "information_sufficiency"
+      ]
+    },
+    {
+      "id": "SYN-RESERVE-0012",
+      "category": "incorrect_in_both",
+      "corrected_fields": [],
+      "regressed_fields": [],
+      "raw_corrected_fields": [],
+      "raw_regressed_fields": []
+    }
+  ],
+  "metrics": {
+    "base": {
+      "n": 12,
+      "json_parse_validity": 1.0,
+      "schema_validity": 0.16666666666666666,
+      "macro_f1_event_type": 0.2222222222222222,
+      "exact_match": 0.08333333333333333,
+      "abstention_rate": 0.0,
+      "abstention_precision": null,
+      "abstention_recall": 0.0,
+      "answerable_coverage": 0.2,
+      "field_accuracy": {
+        "event_type": 0.16666666666666666,
+        "affected_function": 0.16666666666666666,
+        "operational_status": 0.16666666666666666,
+        "road_access": 0.08333333333333333,
+        "equipment_failure": 0.08333333333333333,
+        "information_sufficiency": 0.16666666666666666,
+        "human_review_required": 0.16666666666666666
+      },
+      "field_errors": {
+        "event_type": 10,
+        "affected_function": 10,
+        "operational_status": 10,
+        "road_access": 11,
+        "equipment_failure": 11,
+        "information_sufficiency": 10,
+        "human_review_required": 10
+      },
+      "raw_field_errors": {
+        "event_type": 3,
+        "affected_function": 4,
+        "operational_status": 2,
+        "road_access": 2,
+        "equipment_failure": 4,
+        "information_sufficiency": 8,
+        "human_review_required": 0
+      },
+      "exact_match_count": 1,
+      "inference_errors": 0,
+      "schema_invalid_count": 10,
+      "unsupported_assertions": {
+        "affected_function": [
+          "SYN-RESERVE-0011"
+        ],
+        "road_access": [
+          "SYN-RESERVE-0002",
+          "SYN-RESERVE-0009"
+        ]
+      }
+    },
+    "adapter": {
+      "n": 12,
+      "json_parse_validity": 1.0,
+      "schema_validity": 0.8333333333333334,
+      "macro_f1_event_type": 0.611111111111111,
+      "exact_match": 0.25,
+      "abstention_rate": 0.0,
+      "abstention_precision": null,
+      "abstention_recall": 0.0,
+      "answerable_coverage": 0.9,
+      "field_accuracy": {
+        "event_type": 0.5833333333333334,
+        "affected_function": 0.75,
+        "operational_status": 0.6666666666666666,
+        "road_access": 0.6666666666666666,
+        "equipment_failure": 0.5,
+        "information_sufficiency": 0.75,
+        "human_review_required": 0.8333333333333334
+      },
+      "field_errors": {
+        "event_type": 5,
+        "affected_function": 3,
+        "operational_status": 4,
+        "road_access": 4,
+        "equipment_failure": 6,
+        "information_sufficiency": 3,
+        "human_review_required": 2
+      },
+      "raw_field_errors": {
+        "event_type": 5,
+        "affected_function": 2,
+        "operational_status": 2,
+        "road_access": 2,
+        "equipment_failure": 4,
+        "information_sufficiency": 2,
+        "human_review_required": 0
+      },
+      "exact_match_count": 3,
+      "inference_errors": 0,
+      "schema_invalid_count": 2,
+      "unsupported_assertions": {
+        "affected_function": [
+          "SYN-RESERVE-0011"
+        ],
+        "road_access": [
+          "SYN-RESERVE-0009"
+        ]
+      }
+    }
+  }
+}

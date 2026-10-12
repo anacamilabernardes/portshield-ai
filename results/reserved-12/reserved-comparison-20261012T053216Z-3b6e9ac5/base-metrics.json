@@ -1,0 +1,50 @@
+{
+  "n": 12,
+  "json_parse_validity": 1.0,
+  "schema_validity": 0.16666666666666666,
+  "macro_f1_event_type": 0.2222222222222222,
+  "exact_match": 0.08333333333333333,
+  "abstention_rate": 0.0,
+  "abstention_precision": null,
+  "abstention_recall": 0.0,
+  "answerable_coverage": 0.2,
+  "field_accuracy": {
+    "event_type": 0.16666666666666666,
+    "affected_function": 0.16666666666666666,
+    "operational_status": 0.16666666666666666,
+    "road_access": 0.08333333333333333,
+    "equipment_failure": 0.08333333333333333,
+    "information_sufficiency": 0.16666666666666666,
+    "human_review_required": 0.16666666666666666
+  },
+  "field_errors": {
+    "event_type": 10,
+    "affected_function": 10,
+    "operational_status": 10,
+    "road_access": 11,
+    "equipment_failure": 11,
+    "information_sufficiency": 10,
+    "human_review_required": 10
+  },
+  "raw_field_errors": {
+    "event_type": 3,
+    "affected_function": 4,
+    "operational_status": 2,
+    "road_access": 2,
+    "equipment_failure": 4,
+    "information_sufficiency": 8,
+    "human_review_required": 0
+  },
+  "exact_match_count": 1,
+  "inference_errors": 0,
+  "schema_invalid_count": 10,
+  "unsupported_assertions": {
+    "affected_function": [
+      "SYN-RESERVE-0011"
+    ],
+    "road_access": [
+      "SYN-RESERVE-0002",
+      "SYN-RESERVE-0009"
+    ]
+  }
+}

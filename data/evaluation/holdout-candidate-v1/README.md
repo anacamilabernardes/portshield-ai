@@ -1,6 +1,6 @@
 # Reserved synthetic evaluation candidate V1
 
-Status: reserved for evaluation, not evaluated; review completion reported by the project owner on 2026-10-12. See `review-record.json`.
+Status: evaluated and examined on 2026-10-12; diagnostic/regression use for future development, never training. Review completion was reported by the project owner. See `review-record.json`.
 
 This package contains 12 newly authored English scenarios: two per event class. It is a small synthetic evaluation pilot, not real-world validation. The 12 narrative bodies are distinct and not exact copies of the 720 historical rows or the 15 disclosed contrastive examples after prefix removal. This check does not prove semantic independence or absence from model pretraining. The same assistant authored these cases after examining earlier failures; the user has reported completing review. Reviewer independence and detailed adjudication have not been verified.
 
@@ -22,4 +22,8 @@ The files are separated by convention, not encrypted or access-controlled. A rev
 4. Report all-field exact match, seven per-field accuracies, JSON/schema validity, event confusion and macro F1, and abstention precision/recall. Audit unsupported affected-function claims and unsupported road restrictions explicitly. Report counts alongside rates because this pilot is small. Do not choose a version solely on event F1 or silently invent a weighted score after seeing results.
 5. If outcomes inform any prompt, model or annotation change, retire this version to diagnostic status and reserve a fresh set for the next independent comparison. Do not repeatedly tune against this reserve.
 
-No model inference, training or performance claim has been made for this package. The original datasets, their labels and historical results remain unchanged. The set is published to GitHub as evaluation-only material. Publication and owner review do not establish independent real-world validation.
+The base and current adapter were evaluated on these 12 cases on 2026-10-12 without training. The original pre-run snapshot is preserved with the results. These outcomes have now been examined, so future model changes require a fresh final evaluation set. The original datasets, their labels and historical results remain unchanged. The set is published to GitHub as evaluation-only material. Publication and owner review do not establish independent real-world validation.
+
+## Completed comparison
+
+See the [run report](../../../results/reserved-12/reserved-comparison-20261012T053216Z-3b6e9ac5/README.md), including all responses and hashes. Inputs and labels are unchanged. The directory name is retained for provenance; it no longer denotes an untouched holdout.

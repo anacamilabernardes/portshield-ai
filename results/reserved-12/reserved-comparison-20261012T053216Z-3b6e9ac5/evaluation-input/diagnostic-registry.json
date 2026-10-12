@@ -1,0 +1,32 @@
+{
+  "role": "development_or_diagnostic_only",
+  "reason": "Already inspected examples must not be reused as independent evidence for future model selection.",
+  "sets": [
+    {
+      "path": "data/synthetic/{train,validation,test}.jsonl",
+      "source_commit": "390bd592974875342d699828c4986077610e6ddf",
+      "note": "Historical training/validation roles are preserved. Inspected historical test cases remain regression diagnostics."
+    },
+    {
+      "path": "results/qlora-v1/",
+      "note": "Historical results, not a fresh holdout."
+    },
+    {
+      "artifact": "three-scenario-diagnostic.json",
+      "note": "Previously inspected exploratory cases."
+    },
+    {
+      "path": "results/prefix-v2/",
+      "note": "Previously inspected opaque-prefix evaluations and per-record errors."
+    },
+    {
+      "path": "results/no-prefix/",
+      "note": "Previously inspected prefix-removal comparison."
+    },
+    {
+      "path": "data/contrastive/candidates-v1/",
+      "note": "All 15 disclosed examples remain development candidates or diagnostics, not independent evaluation."
+    }
+  ],
+  "historical_files_modified": false
+}
