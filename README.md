@@ -10,6 +10,8 @@ preserve useful task quality while reducing compute relative to larger general-p
 [Português](README.pt-BR.md) · [Architecture](docs/architecture.md) · [Evaluation](docs/evaluation-plan.md)
 · [Runbook](docs/deployment-runbook.md) · [Model card](docs/model-card.md) · [Disclaimer](DISCLAIMER.md)
 
+[PortShield executive summary: experiment, results and contribution](docs/portshield-executive-summary.md)
+
 ## What you can run
 
 | Capability | Implementation and validation boundary |
