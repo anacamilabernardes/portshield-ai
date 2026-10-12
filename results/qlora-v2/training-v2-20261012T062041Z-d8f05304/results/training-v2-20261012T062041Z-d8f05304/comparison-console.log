@@ -1,0 +1,115 @@
+RUN /content/portshield-ai/results/runs/training-v2-20261012T062041Z-d8f05304
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/content/portshield-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/content/portshield-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/content/portshield-venv/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+current validation 1 /12
+current validation 2 /12
+current validation 3 /12
+current validation 4 /12
+current validation 5 /12
+current validation 6 /12
+current validation 7 /12
+current validation 8 /12
+current validation 9 /12
+current validation 10 /12
+current validation 11 /12
+current validation 12 /12
+current diagnostic 1 /12
+current diagnostic 2 /12
+current diagnostic 3 /12
+current diagnostic 4 /12
+current diagnostic 5 /12
+current diagnostic 6 /12
+current diagnostic 7 /12
+current diagnostic 8 /12
+current diagnostic 9 /12
+current diagnostic 10 /12
+current diagnostic 11 /12
+current diagnostic 12 /12
+v2 validation 1 /12
+v2 validation 2 /12
+v2 validation 3 /12
+v2 validation 4 /12
+v2 validation 5 /12
+v2 validation 6 /12
+v2 validation 7 /12
+v2 validation 8 /12
+v2 validation 9 /12
+v2 validation 10 /12
+v2 validation 11 /12
+v2 validation 12 /12
+v2 diagnostic 1 /12
+v2 diagnostic 2 /12
+v2 diagnostic 3 /12
+v2 diagnostic 4 /12
+v2 diagnostic 5 /12
+v2 diagnostic 6 /12
+v2 diagnostic 7 /12
+v2 diagnostic 8 /12
+v2 diagnostic 9 /12
+v2 diagnostic 10 /12
+v2 diagnostic 11 /12
+v2 diagnostic 12 /12
+COMPARISON_COMPLETED /content/portshield-ai/results/runs/training-v2-20261012T062041Z-d8f05304
+{
+  "validation": {
+    "current": {
+      "exact_match_count": 0,
+      "raw_field_errors": {
+        "event_type": 6,
+        "affected_function": 8,
+        "operational_status": 5,
+        "road_access": 5,
+        "equipment_failure": 5,
+        "information_sufficiency": 4,
+        "human_review_required": 0
+      },
+      "schema_invalid_count": 7
+    },
+    "v2": {
+      "exact_match_count": 1,
+      "raw_field_errors": {
+        "event_type": 3,
+        "affected_function": 8,
+        "operational_status": 7,
+        "road_access": 3,
+        "equipment_failure": 3,
+        "information_sufficiency": 2,
+        "human_review_required": 0
+      },
+      "schema_invalid_count": 2
+    }
+  },
+  "diagnostic": {
+    "current": {
+      "exact_match_count": 3,
+      "raw_field_errors": {
+        "event_type": 5,
+        "affected_function": 2,
+        "operational_status": 2,
+        "road_access": 2,
+        "equipment_failure": 4,
+        "information_sufficiency": 2,
+        "human_review_required": 0
+      },
+      "schema_invalid_count": 2
+    },
+    "v2": {
+      "exact_match_count": 7,
+      "raw_field_errors": {
+        "event_type": 0,
+        "affected_function": 2,
+        "operational_status": 1,
+        "road_access": 1,
+        "equipment_failure": 3,
+        "information_sufficiency": 1,
+        "human_review_required": 0
+      },
+      "schema_invalid_count": 1
+    }
+  }
+}

@@ -1,0 +1,626 @@
+[
+  {
+    "id": "SYN-V2-0001",
+    "role": "train",
+    "tokens": 441,
+    "masked_prompt_tokens": 387,
+    "supervised_tokens": 54,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0002",
+    "role": "train",
+    "tokens": 436,
+    "masked_prompt_tokens": 378,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0003",
+    "role": "train",
+    "tokens": 457,
+    "masked_prompt_tokens": 403,
+    "supervised_tokens": 54,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0004",
+    "role": "train",
+    "tokens": 455,
+    "masked_prompt_tokens": 397,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0005",
+    "role": "train",
+    "tokens": 445,
+    "masked_prompt_tokens": 391,
+    "supervised_tokens": 54,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0006",
+    "role": "train",
+    "tokens": 440,
+    "masked_prompt_tokens": 384,
+    "supervised_tokens": 56,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0007",
+    "role": "train",
+    "tokens": 449,
+    "masked_prompt_tokens": 395,
+    "supervised_tokens": 54,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0008",
+    "role": "train",
+    "tokens": 436,
+    "masked_prompt_tokens": 379,
+    "supervised_tokens": 57,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0009",
+    "role": "train",
+    "tokens": 453,
+    "masked_prompt_tokens": 399,
+    "supervised_tokens": 54,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0010",
+    "role": "train",
+    "tokens": 448,
+    "masked_prompt_tokens": 390,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0011",
+    "role": "train",
+    "tokens": 446,
+    "masked_prompt_tokens": 392,
+    "supervised_tokens": 54,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0012",
+    "role": "train",
+    "tokens": 446,
+    "masked_prompt_tokens": 388,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0013",
+    "role": "train",
+    "tokens": 466,
+    "masked_prompt_tokens": 408,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0014",
+    "role": "train",
+    "tokens": 467,
+    "masked_prompt_tokens": 409,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0015",
+    "role": "train",
+    "tokens": 451,
+    "masked_prompt_tokens": 393,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0016",
+    "role": "train",
+    "tokens": 466,
+    "masked_prompt_tokens": 407,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0017",
+    "role": "train",
+    "tokens": 467,
+    "masked_prompt_tokens": 408,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0018",
+    "role": "train",
+    "tokens": 451,
+    "masked_prompt_tokens": 392,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0019",
+    "role": "train",
+    "tokens": 466,
+    "masked_prompt_tokens": 408,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0020",
+    "role": "train",
+    "tokens": 467,
+    "masked_prompt_tokens": 409,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0021",
+    "role": "train",
+    "tokens": 451,
+    "masked_prompt_tokens": 393,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0022",
+    "role": "train",
+    "tokens": 466,
+    "masked_prompt_tokens": 408,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0023",
+    "role": "train",
+    "tokens": 467,
+    "masked_prompt_tokens": 409,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0024",
+    "role": "train",
+    "tokens": 451,
+    "masked_prompt_tokens": 393,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0025",
+    "role": "train",
+    "tokens": 462,
+    "masked_prompt_tokens": 404,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0026",
+    "role": "train",
+    "tokens": 463,
+    "masked_prompt_tokens": 405,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0027",
+    "role": "train",
+    "tokens": 447,
+    "masked_prompt_tokens": 389,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0028",
+    "role": "train",
+    "tokens": 465,
+    "masked_prompt_tokens": 407,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0029",
+    "role": "train",
+    "tokens": 466,
+    "masked_prompt_tokens": 408,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0030",
+    "role": "train",
+    "tokens": 450,
+    "masked_prompt_tokens": 392,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0031",
+    "role": "train",
+    "tokens": 437,
+    "masked_prompt_tokens": 382,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0032",
+    "role": "train",
+    "tokens": 444,
+    "masked_prompt_tokens": 389,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0033",
+    "role": "train",
+    "tokens": 447,
+    "masked_prompt_tokens": 385,
+    "supervised_tokens": 62,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0034",
+    "role": "train",
+    "tokens": 454,
+    "masked_prompt_tokens": 392,
+    "supervised_tokens": 62,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0035",
+    "role": "train",
+    "tokens": 443,
+    "masked_prompt_tokens": 384,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0036",
+    "role": "train",
+    "tokens": 450,
+    "masked_prompt_tokens": 391,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0037",
+    "role": "train",
+    "tokens": 438,
+    "masked_prompt_tokens": 383,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0038",
+    "role": "train",
+    "tokens": 445,
+    "masked_prompt_tokens": 390,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0039",
+    "role": "train",
+    "tokens": 449,
+    "masked_prompt_tokens": 386,
+    "supervised_tokens": 63,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0040",
+    "role": "train",
+    "tokens": 456,
+    "masked_prompt_tokens": 393,
+    "supervised_tokens": 63,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0041",
+    "role": "train",
+    "tokens": 441,
+    "masked_prompt_tokens": 386,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0042",
+    "role": "train",
+    "tokens": 448,
+    "masked_prompt_tokens": 393,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0043",
+    "role": "train",
+    "tokens": 444,
+    "masked_prompt_tokens": 386,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0044",
+    "role": "train",
+    "tokens": 442,
+    "masked_prompt_tokens": 385,
+    "supervised_tokens": 57,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0045",
+    "role": "train",
+    "tokens": 446,
+    "masked_prompt_tokens": 388,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0046",
+    "role": "train",
+    "tokens": 443,
+    "masked_prompt_tokens": 386,
+    "supervised_tokens": 57,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0047",
+    "role": "train",
+    "tokens": 448,
+    "masked_prompt_tokens": 388,
+    "supervised_tokens": 60,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0048",
+    "role": "train",
+    "tokens": 445,
+    "masked_prompt_tokens": 386,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0049",
+    "role": "train",
+    "tokens": 442,
+    "masked_prompt_tokens": 384,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0050",
+    "role": "train",
+    "tokens": 440,
+    "masked_prompt_tokens": 383,
+    "supervised_tokens": 57,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0051",
+    "role": "train",
+    "tokens": 443,
+    "masked_prompt_tokens": 385,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0052",
+    "role": "train",
+    "tokens": 441,
+    "masked_prompt_tokens": 384,
+    "supervised_tokens": 57,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0053",
+    "role": "train",
+    "tokens": 447,
+    "masked_prompt_tokens": 387,
+    "supervised_tokens": 60,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2-0054",
+    "role": "train",
+    "tokens": 445,
+    "masked_prompt_tokens": 386,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0001",
+    "role": "validation",
+    "tokens": 498,
+    "masked_prompt_tokens": 436,
+    "supervised_tokens": 62,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0002",
+    "role": "validation",
+    "tokens": 510,
+    "masked_prompt_tokens": 448,
+    "supervised_tokens": 62,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0003",
+    "role": "validation",
+    "tokens": 479,
+    "masked_prompt_tokens": 420,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0004",
+    "role": "validation",
+    "tokens": 478,
+    "masked_prompt_tokens": 419,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0005",
+    "role": "validation",
+    "tokens": 474,
+    "masked_prompt_tokens": 413,
+    "supervised_tokens": 61,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0006",
+    "role": "validation",
+    "tokens": 480,
+    "masked_prompt_tokens": 418,
+    "supervised_tokens": 62,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0007",
+    "role": "validation",
+    "tokens": 486,
+    "masked_prompt_tokens": 428,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0008",
+    "role": "validation",
+    "tokens": 485,
+    "masked_prompt_tokens": 427,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0009",
+    "role": "validation",
+    "tokens": 473,
+    "masked_prompt_tokens": 418,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0010",
+    "role": "validation",
+    "tokens": 472,
+    "masked_prompt_tokens": 417,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0011",
+    "role": "validation",
+    "tokens": 462,
+    "masked_prompt_tokens": 408,
+    "supervised_tokens": 54,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-V2R-0012",
+    "role": "validation",
+    "tokens": 483,
+    "masked_prompt_tokens": 429,
+    "supervised_tokens": 54,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0001",
+    "role": "diagnostic",
+    "tokens": 461,
+    "masked_prompt_tokens": 402,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0002",
+    "role": "diagnostic",
+    "tokens": 452,
+    "masked_prompt_tokens": 394,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0003",
+    "role": "diagnostic",
+    "tokens": 457,
+    "masked_prompt_tokens": 398,
+    "supervised_tokens": 59,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0004",
+    "role": "diagnostic",
+    "tokens": 454,
+    "masked_prompt_tokens": 394,
+    "supervised_tokens": 60,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0005",
+    "role": "diagnostic",
+    "tokens": 468,
+    "masked_prompt_tokens": 410,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0006",
+    "role": "diagnostic",
+    "tokens": 446,
+    "masked_prompt_tokens": 389,
+    "supervised_tokens": 57,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0007",
+    "role": "diagnostic",
+    "tokens": 461,
+    "masked_prompt_tokens": 403,
+    "supervised_tokens": 58,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0008",
+    "role": "diagnostic",
+    "tokens": 451,
+    "masked_prompt_tokens": 394,
+    "supervised_tokens": 57,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0009",
+    "role": "diagnostic",
+    "tokens": 448,
+    "masked_prompt_tokens": 393,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0010",
+    "role": "diagnostic",
+    "tokens": 442,
+    "masked_prompt_tokens": 387,
+    "supervised_tokens": 55,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0011",
+    "role": "diagnostic",
+    "tokens": 453,
+    "masked_prompt_tokens": 399,
+    "supervised_tokens": 54,
+    "target_matches": true
+  },
+  {
+    "id": "SYN-RESERVE-0012",
+    "role": "diagnostic",
+    "tokens": 452,
+    "masked_prompt_tokens": 395,
+    "supervised_tokens": 57,
+    "target_matches": true
+  }
+]

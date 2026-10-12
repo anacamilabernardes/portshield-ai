@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "counts": {
+    "train": 54,
+    "validation": 12,
+    "diagnostic": 12
+  },
+  "shared_train_validation_families": 0,
+  "exact_overlap": 0,
+  "min_tokens": 436,
+  "max_tokens": 510,
+  "all_assistant_targets_intact": true,
+  "current_adapter_sha256": "32fbfa11cb627c4444df25a1d5087805bc1ba2a67837b62e89ac1568bb56a0b9",
+  "base_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "gpu": "Tesla T4"
+}

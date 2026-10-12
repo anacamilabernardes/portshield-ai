@@ -1,0 +1,50 @@
+{
+  "event_type": {
+    "[\"weather_disruption\", \"weather_disruption\"]": 1,
+    "[\"weather_disruption\", \"equipment_failure\"]": 1,
+    "[\"land_access_disruption\", \"land_access_disruption\"]": 2,
+    "[\"equipment_failure\", \"equipment_failure\"]": 2,
+    "[\"navigation_restriction\", \"navigation_restriction\"]": 2,
+    "[\"normal_operations\", \"equipment_failure\"]": 2,
+    "[\"unknown\", \"unknown\"]": 2
+  },
+  "affected_function": {
+    "[\"vessel_manoeuvring\", \"none\"]": 1,
+    "[\"vessel_manoeuvring\", \"cargo_handling\"]": 1,
+    "[\"land_access\", \"cargo_handling\"]": 2,
+    "[\"vessel_manoeuvring\", \"vessel_manoeuvring\"]": 2,
+    "[\"navigation\", \"navigation\"]": 2,
+    "[\"none\", \"cargo_handling\"]": 2,
+    "[\"unknown\", \"cargo_handling\"]": 2
+  },
+  "operational_status": {
+    "[\"suspended\", \"partial_restriction\"]": 4,
+    "[\"suspended\", \"suspended\"]": 1,
+    "[\"partial_restriction\", \"partial_restriction\"]": 3,
+    "[\"normal\", \"normal\"]": 1,
+    "[\"normal\", \"partial_restriction\"]": 1,
+    "[\"unknown\", \"partial_restriction\"]": 2
+  },
+  "road_access": {
+    "[\"unknown\", \"unknown\"]": 5,
+    "[\"normal\", \"normal\"]": 3,
+    "[\"unknown\", \"restricted\"]": 1,
+    "[\"unknown\", \"normal\"]": 2,
+    "[\"restricted\", \"restricted\"]": 1
+  },
+  "equipment_failure": {
+    "[false, null]": 2,
+    "[null, null]": 5,
+    "[true, true]": 2,
+    "[false, false]": 2,
+    "[null, true]": 1
+  },
+  "information_sufficiency": {
+    "[\"sufficient\", \"sufficient\"]": 8,
+    "[\"sufficient\", \"insufficient\"]": 2,
+    "[\"insufficient\", \"insufficient\"]": 2
+  },
+  "human_review_required": {
+    "[true, true]": 12
+  }
+}

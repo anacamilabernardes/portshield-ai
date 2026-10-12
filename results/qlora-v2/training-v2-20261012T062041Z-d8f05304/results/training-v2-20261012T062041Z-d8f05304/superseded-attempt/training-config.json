@@ -1,0 +1,16 @@
+{
+  "initialization": "fresh base, not resumed from current adapter",
+  "seed": 42,
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "max_length": 2048,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "selection": "final epoch; no checkpoint selection or test tuning",
+  "dataset_commit": "9e3a16fc4b9e6861646509c7553f13eac20f7cec",
+  "validation_role": "exposed development validation",
+  "diagnostic_role": "previously evaluated 12 cases, not independent test"
+}

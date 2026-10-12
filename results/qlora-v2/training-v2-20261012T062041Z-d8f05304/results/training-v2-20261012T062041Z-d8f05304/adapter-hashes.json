@@ -1,0 +1,11 @@
+{
+  "added_tokens.json": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+  "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+  "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+  "adapter_config.json": "cc0e0a7f70d099ffd1133c20ff61f674816963d07f345a4ebd77a40fdc389b00",
+  "tokenizer.json": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+  "tokenizer_config.json": "f91b80bdb7722bdd0a25d79246fa79e513a7d4d78056b2eac8cbf92767937ab8",
+  "adapter_model.safetensors": "caab5d8fa23a442cc0122ddbd702d3fe75650201b344ea621260e97ee50c435f",
+  "special_tokens_map.json": "a36726f7fe394c1324021cac4a9ee3ad6c4f6285c0d98721f9b0b95888ec9905",
+  "README.md": "3f79f765ab2d92ae7daf1af7f5a58a825d93a378beecf1f44c16f73c1fd60377"
+}

@@ -1,0 +1,41 @@
+{
+  "n": 12,
+  "json_parse_validity": 1.0,
+  "schema_validity": 0.9166666666666666,
+  "macro_f1_event_type": 0.9444444444444445,
+  "exact_match": 0.5833333333333334,
+  "abstention_rate": 0.16666666666666666,
+  "abstention_precision": 1.0,
+  "abstention_recall": 1.0,
+  "answerable_coverage": 0.9,
+  "field_accuracy": {
+    "event_type": 0.9166666666666666,
+    "affected_function": 0.8333333333333334,
+    "operational_status": 0.8333333333333334,
+    "road_access": 0.8333333333333334,
+    "equipment_failure": 0.75,
+    "information_sufficiency": 0.9166666666666666,
+    "human_review_required": 0.9166666666666666
+  },
+  "raw_field_errors": {
+    "event_type": 0,
+    "affected_function": 2,
+    "operational_status": 1,
+    "road_access": 1,
+    "equipment_failure": 3,
+    "information_sufficiency": 1,
+    "human_review_required": 0
+  },
+  "field_errors": {
+    "event_type": 1,
+    "affected_function": 2,
+    "operational_status": 2,
+    "road_access": 2,
+    "equipment_failure": 3,
+    "information_sufficiency": 1,
+    "human_review_required": 1
+  },
+  "exact_match_count": 7,
+  "schema_invalid_count": 1,
+  "inference_errors": 0
+}

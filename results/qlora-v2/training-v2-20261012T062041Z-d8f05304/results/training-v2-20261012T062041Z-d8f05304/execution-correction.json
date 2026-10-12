@@ -1,0 +1,4 @@
+{
+  "previous_run": "/content/portshield-ai/results/runs/training-v2-20261012T061611Z-72e4cd48",
+  "reason": "Inferred update count ended at epoch 2.59; explicit 21 updates completes three epochs. No task-metric selection performed."
+}

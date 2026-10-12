@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "individual_responses_rechecked": 48,
+  "paired_cases_rechecked": 24,
+  "original_manifest_matches": 36,
+  "console_log_note": "Final console output continues after original manifest was written; final hash separately checked against Colab.",
+  "adapter_weights_local_backup_confirmed": true,
+  "backup_evidence": "backup-verification.json"
+}

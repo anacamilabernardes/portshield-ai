@@ -1,0 +1,10 @@
+{
+  "verified_on": "2026-10-12",
+  "zip_filename": "portshield-v2-adapter-20261012T062041Z-d8f05304.zip",
+  "zip_bytes": 71967144,
+  "zip_sha256": "bb553378bd81bf112986b56b42787226e7087ce4b33aa8dbe3f390ff5fb603ac",
+  "zip_crc_check": "passed",
+  "adapter_files_verified": 9,
+  "weights_sha256": "caab5d8fa23a442cc0122ddbd702d3fe75650201b344ea621260e97ee50c435f",
+  "weights_published_to_repository": false
+}
