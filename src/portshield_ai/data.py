@@ -20,7 +20,7 @@ def generate(out, per_class=40, seed=42):
         raise ValueError("per_class must be positive")
     out = Path(out); out.mkdir(parents=True, exist_ok=True)
     rng = random.Random(seed)
-    manifest = {"generator_version": "1", "seed": seed, "data_class": "synthetic", "license": "MIT", "split_unit": "template_family", "files": {}}
+    manifest = {"generator_version": "2", "seed": seed, "data_class": "synthetic", "license": "MIT", "split_unit": "template_family", "files": {}}
     for i, split in enumerate(("train", "validation", "test")):
         rows = []
         for label, templates in FAMILIES.items():
@@ -33,17 +33,22 @@ def generate(out, per_class=40, seed=42):
                     road_access="unknown" if unknown or label == "equipment_failure" else ("restricted" if label == "land_access_disruption" else "normal"),
                     equipment_failure=None if unknown or label == "land_access_disruption" else label == "equipment_failure",
                     information_sufficiency="insufficient" if unknown else "sufficient")
-                rows.append({"id": f"SYN-{split}-{label}-{j:04d}", "template_family": f"{label}-{i}",
+                record_id = f"SYN-{split}-{label}-{j:04d}"
+                # Opaque reference: the model input must never contain the split or label.
+                ref = hashlib.sha256(f"{seed}:{record_id}".encode()).hexdigest()[:10]
+                rows.append({"id": record_id, "template_family": f"{label}-{i}",
                     "facility_id": f"SYNTH-PORT-{rng.randrange(10000):04d}", "data_class": "synthetic",
-                    "text": f"Fictional exercise {split}-{label}-{j:04d}: " + text + suffix,
+                    "text": f"Fictional exercise {ref}: " + text + suffix,
                     "target": target.model_dump()})
         rng.shuffle(rows)
         for row in rows:
             EventRecord.model_validate(row)
         content = "".join(json.dumps(row, sort_keys=True) + "\n" for row in rows)
-        (out / f"{split}.jsonl").write_text(content, encoding="utf-8")
-        manifest["files"][split] = {"rows": len(rows), "sha256": hashlib.sha256(content.encode()).hexdigest()}
-    (out / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+        # Write exact UTF-8/LF bytes: text mode translates LF to CRLF on Windows.
+        dataset_path = out / f"{split}.jsonl"
+        dataset_path.write_bytes(content.encode("utf-8"))
+        manifest["files"][split] = {"rows": len(rows), "sha256": hashlib.sha256(dataset_path.read_bytes()).hexdigest()}
+    (out / "manifest.json").write_bytes((json.dumps(manifest, indent=2) + "\n").encode("utf-8"))
     return manifest
 
 def read_rows(path):

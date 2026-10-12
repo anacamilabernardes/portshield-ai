@@ -1,0 +1,3 @@
+# Preserve the bytes covered by the synthetic dataset manifest on every OS.
+data/synthetic/*.jsonl text eol=lf
+data/synthetic/manifest.json text eol=lf

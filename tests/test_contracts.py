@@ -1,4 +1,5 @@
 import json
+import hashlib
 import importlib.util
 from pathlib import Path
 import pytest
@@ -21,9 +22,31 @@ def test_dataset_reproducibility_and_family_split(tmp_path):
         assert len(rows)==18
         for r in rows:
             assert r['data_class']=='synthetic'
+            lowered = r['text'].lower()
+            assert r['target']['event_type'] not in lowered and split not in lowered
             validate(r['target'],EventAnalysis.model_json_schema())
             EventAnalysis.model_validate(r['target'])
     assert not groups[0]&groups[1] and not groups[1]&groups[2] and not groups[0]&groups[2]
+
+def test_dataset_manifest_hashes_match_saved_bytes(tmp_path):
+    manifest = generate(tmp_path, 3, 42)
+    assert json.loads((tmp_path / 'manifest.json').read_bytes()) == manifest
+    for split, metadata in manifest['files'].items():
+        raw = (tmp_path / f'{split}.jsonl').read_bytes()
+        assert b'\r' not in raw
+        assert raw.endswith(b'\n')
+        assert len(raw.splitlines()) == metadata['rows']
+        assert hashlib.sha256(raw).hexdigest() == metadata['sha256']
+
+
+def test_committed_dataset_manifest_matches_bytes():
+    folder = Path(__file__).resolve().parents[1] / 'data' / 'synthetic'
+    manifest = json.loads((folder / 'manifest.json').read_bytes())
+    for split, metadata in manifest['files'].items():
+        raw = (folder / f'{split}.jsonl').read_bytes()
+        assert b'\r' not in raw
+        assert hashlib.sha256(raw).hexdigest() == metadata['sha256']
+
 
 def test_schema_rejects_extra_coercion_and_inconsistent_unknowns():
     target=abstain().model_dump()

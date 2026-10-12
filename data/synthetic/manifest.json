@@ -1,5 +1,5 @@
 {
-  "generator_version": "1",
+  "generator_version": "2",
   "seed": 42,
   "data_class": "synthetic",
   "license": "MIT",
@@ -7,15 +7,15 @@
   "files": {
     "train": {
       "rows": 240,
-      "sha256": "aea0397a4c817338baca88ebcb16efeb62c69243ad992e8db858c659dfa40119"
+      "sha256": "e0e48aa6f1bb688be5b01fe94ed2f7d0b91d12bb6f820e6b17b46db473caa38d"
     },
     "validation": {
       "rows": 240,
-      "sha256": "0d389d4805d98c99d166416ef11835e0e89654b5782b036daca84e9ba192a6d1"
+      "sha256": "786600b4aaa1037a60be90ef00736c9624b49ced073942f9234dd6eb31a7a55f"
     },
     "test": {
       "rows": 240,
-      "sha256": "b42af71d181fb57be6925eb44d795b8d10f9d7abe16aa1a6c26711e0e95f0ecc"
+      "sha256": "7c2d7b063ca152302e8e234480da68bfc5c939ec0e002575b8e7cac53cbf0fbe"
     }
   }
 }

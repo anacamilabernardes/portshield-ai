@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "files": {
     ".dockerignore": "b0545188ef4f8e39b4b49ac36d7e3bbd8a19b8c6861943f0331c6e314431f073",
     ".github/pull_request_template.md": "de689b923532e0c6838089f964259c0d72a159949ecaea7693baf3ee1380b903",
@@ -18,10 +18,10 @@
     "data/README.md": "67df8886d81245a9c14cc37dbf58b0fc01aff8dde3e31ae5d39bd35aad13b40f",
     "data/schemas/event-analysis.schema.json": "128296e46857dc21c20ab245ee4db25c1ff8b91d128a955e4ab1d6a2ef77dfb2",
     "data/schemas/event-record.schema.json": "a70e4cc0969a4af2c844b0ff2223d4e3f52e3ee7a50d356f459e41d006dfa3f9",
-    "data/synthetic/manifest.json": "3b01860633d927daada49d185355f6a459d18e475ecc27576e5c01513e3fbe62",
-    "data/synthetic/test.jsonl": "d2e9f08bab2323fb3aa878800b311bbdcfaaf03ac7a147e519fff6ef0b16b63d",
-    "data/synthetic/train.jsonl": "78efd82ea6afb84a2d9afa3355d9705ab7778ccf33beb9dfab4bffd0370a69c2",
-    "data/synthetic/validation.jsonl": "7f0d44e80d14b63ebf9b18abda25c30a07cc6dc902395d8c086b63a08d707a3a",
+    "data/synthetic/manifest.json": "8ea67b20e24591585b88a1554ce24db89c353902a8f7a050e00a201d441424c5",
+    "data/synthetic/test.jsonl": "7c2d7b063ca152302e8e234480da68bfc5c939ec0e002575b8e7cac53cbf0fbe",
+    "data/synthetic/train.jsonl": "e0e48aa6f1bb688be5b01fe94ed2f7d0b91d12bb6f820e6b17b46db473caa38d",
+    "data/synthetic/validation.jsonl": "786600b4aaa1037a60be90ef00736c9624b49ced073942f9234dd6eb31a7a55f",
     "deploy/k8s/reference.yaml": "66ea4c4ea00a9075acff1b95c725e60a1b39816e70af937714a901987ce35e2e",
     "DISCLAIMER.md": "992de6b4f1c931bee6f663abec1b5607660293d7b308e9ba8a3a6d3a984ac4f8",
     "docker/compose.gpu.yml": "837caf507c36403338f466596701af1e760eb30ab7fd4024686df47395240fed",
@@ -85,7 +85,7 @@
     "src/portshield_ai/baseline.py": "51a26a9e88b462e41a01a5e95fe7b74f8e6ac01546816e384f3530c8bfafb074",
     "src/portshield_ai/benchmark.py": "6df7bf0b708cef1f632a011a01ce39c01699728effa931c63531188cac3f665a",
     "src/portshield_ai/cli.py": "4c1de3523211d912dad08f22881be4c315ec116e0f702d6eb06f0b3b15e835de",
-    "src/portshield_ai/data.py": "350b0771943e755a6b30a6556f32f9ac0f05f7fe29634de2f636ebeb96e7bb2d",
+    "src/portshield_ai/data.py": "c866538927d03d7ebb4c4279172423e533f742a897d7808b47ebf7afb0cbf3a8",
     "src/portshield_ai/evaluation.py": "7d326b2cb5495f53f8273557ef687c11805b31cb6200e2a273a95bdcbf1fac8d",
     "src/portshield_ai/inference.py": "9a397905b23bdb2a756f09cd6d2f6717f5afccba9c358a98261d55c2529cf2ab",
     "src/portshield_ai/prompts.py": "309d2a17ede8a45a114326d379789ce65be81e73a60202bf078c65ea4c49ee49",
@@ -95,7 +95,7 @@
     "src/portshield_ai/training.py": "d3f3739691dae1880b574038dcb373d5d004d559c3d8e7d9366c36af4afcde28",
     "tests/test_api.py": "f7d8301040b0285d21a54681de78e4e2976cea5f758a998e0f57aa954d0c6263",
     "tests/test_benchmark.py": "325d9184c7d39a5e6f819ce9e2066f8bf2609bd95c2a20b7ae743095e5d26eea",
-    "tests/test_contracts.py": "ae65624d136ea28c8f9598c3f776b7481737f9370058cb8329c7bb07d2d02f0f",
+    "tests/test_contracts.py": "7f02a1e2166c1c5e0b325b11673abe6a054e780a22b9bd149034e6b48b8be567",
     "tests/test_workflow.py": "2494bc93464fac903c410ed069d2f04dc3815c62a1a56c1c715aa0ed60248f59",
     "docs/evaluation-v2-protocol.md": "1e41c4c89c9b17f215f2d221664a55c17639b604ba7b5375dd6108759dc3ec88",
     "data/diagnostics/three-scenario-reviewed-labels.json": "01facdae70e2c58d889e0a687eea4ec36f9dfd7f303758fcb93bc0cef22f07c2",
@@ -109,6 +109,7 @@
     "results/qlora-v1/README.md": "bfa5f30643fbd8d72f6591376381fa5577a625bc24a609015012b173fe7622af",
     "results/qlora-v1/report.md": "4ef49e7be4ef47c3957521c1e8ce742839a71f86da57fa9c42da27f4040acc9e",
     "results/qlora-v1/three-scenario-console.txt": "46bbe23e29890c0399e2d0024ab86953d767892949dbf4f74de8d43dba8d2c3b",
-    "results/qlora-v1/three-scenario-diagnostic.json": "b404da3b79068c5cfee0e531d95e918ae76f423fe0ccc34c9f353430bae23096"
+    "results/qlora-v1/three-scenario-diagnostic.json": "b404da3b79068c5cfee0e531d95e918ae76f423fe0ccc34c9f353430bae23096",
+    ".gitattributes": "f48b7757ebacffa20b1dc08286fd8cc4a05495777d9311ae875735fc216fc687"
   }
 }
