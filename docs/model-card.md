@@ -1,6 +1,7 @@
-# Model card: proposed PortShield SLM adapter
+# Model card: PortShield research SLM adapter
 
-Status: training pipeline implemented; no PortShield trained model or adapter distributed. Base option:
+Status: a research QLoRA adapter was trained and restored in Colab. Weights are not included
+in this evidence package; independent validation remains pending. Base model:
 Qwen/Qwen2.5-1.5B-Instruct, Apache-2.0 per upstream model card. Resolve/review the exact revision via
 `scripts/acquire_model.py`; record model checksums, license, dataset manifest, config and dependency freeze.
 
@@ -24,3 +25,15 @@ base-model biases, drift and source poisoning. Safety measures do not remove the
 requires independent domain data, reviewed artifact lineage, access control, resource/SLO testing and rollback.
 After a run, append exact snapshot/adapter hashes, hardware, metrics, known failures and approval decision;
 do not replace unmeasured fields with expectations. Code MIT; weights retain upstream terms.
+
+
+## V1 experimental evidence update
+
+See [reviewed results](experiments/qlora-v1-reviewed-results.md) for measured outcomes and
+[dataset audit](data/dataset-v1-audit-and-v2-plan.md) for label-bearing input identifiers and
+six distinct test scenarios repeated across 240 records. The observed 1.000 event macro-F1
+and 83.3% exact match are not independent domain-validation results. Three exploratory
+scenarios yielded only one schema-valid, checked-field-correct response for each model.
+The adapter is research-only; no operational approval is claimed. Training loss near zero,
+generalization and semantic consistency remain unresolved. Proposed annotation changes are
+documented in [policy V2](data/annotation-policy-v2.md) and are not yet applied to the code.

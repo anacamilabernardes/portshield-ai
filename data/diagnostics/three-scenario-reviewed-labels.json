@@ -1,0 +1,50 @@
+[
+  {
+    "id": "DIAG-weather",
+    "text": "Fictional port: strong winds forced the suspension of crane operations. No information about equipment condition was provided.",
+    "target": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": null,
+      "event_type": "weather_disruption",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "suspended",
+      "road_access": "unknown"
+    },
+    "data_class": "synthetic",
+    "purpose": "post-hoc diagnostic regression; excluded from independent evaluation",
+    "annotation_status": "assistant-reviewed proposal; independent review pending"
+  },
+  {
+    "id": "DIAG-confirmed_failure",
+    "text": "Fictional port: a confirmed crane motor failure forced the suspension of cargo handling. Weather conditions were normal.",
+    "target": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": true,
+      "event_type": "equipment_failure",
+      "human_review_required": true,
+      "information_sufficiency": "sufficient",
+      "operational_status": "suspended",
+      "road_access": "unknown"
+    },
+    "data_class": "synthetic",
+    "purpose": "post-hoc diagnostic regression; excluded from independent evaluation",
+    "annotation_status": "assistant-reviewed proposal; independent review pending"
+  },
+  {
+    "id": "DIAG-unknown_cause",
+    "text": "Fictional port: crane operations are suspended. The cause has not been established, and equipment condition has not been verified.",
+    "target": {
+      "affected_function": "cargo_handling",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "suspended",
+      "road_access": "unknown"
+    },
+    "data_class": "synthetic",
+    "purpose": "post-hoc diagnostic regression; excluded from independent evaluation",
+    "annotation_status": "assistant-reviewed proposal; independent review pending"
+  }
+]

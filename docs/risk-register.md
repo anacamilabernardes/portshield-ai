@@ -21,3 +21,20 @@ not a measured probability. Owners are roles to be assigned, not institutional p
 Release blockers: any nonpublic content, unauthorized retrieval, broken artifact provenance, unauthenticated
 institutional exposure, or claimed performance without measurements. GPU experiment absence blocks a
 performance claim; it does not prevent distributing a clearly labelled research pipeline.
+
+
+## Risks identified in the V1 experiment
+
+All entries below are open; accountable reviewers/owners have not yet been assigned.
+
+| Risk | Evidence / impact | Required mitigation |
+|---|---|---|
+| Target-label leakage | Class names appear in model-visible exercise IDs; scores can be inflated | Remove label-bearing identifiers; independent V2 evaluation |
+| Low semantic diversity | Six test texts repeated 40 times | Author and review diverse scenario groups; group-aware splits |
+| Unsupported assertions | Equipment failure inferred without evidence; roads assumed normal | Evidence-based annotation, true/false/null coverage, full-field diagnostics |
+| Invalid event enum and consistency | suspended used as event_type; insufficient paired with a specific type | Validate contract; human review; do not silently repair scored outputs |
+| Unresolved training-loss behavior | Near-zero displayed training loss despite diagnostic failures | Inspect loss masks, normalization, finite values and gradient accumulation |
+| Post-hoc test exposure | Inspected failures may influence subsequent tuning | Preserve V1 and create an independent final holdout |
+
+References: [reviewed evidence](experiments/qlora-v1-reviewed-results.md),
+[annotation policy](data/annotation-policy-v2.md), [V2 evaluation](evaluation-v2-protocol.md).

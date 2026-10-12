@@ -29,6 +29,21 @@ preserve useful task quality while reducing compute relative to larger general-p
 No model weights or trained adapter is bundled. See `results/validation.json` for actual local checks,
 and `results/baseline-cpu.json` for measured synthetic scores. No fabricated GPU measurements.
 
+## QLoRA V1 experimental evidence
+
+A QLoRA adapter was trained and restored in Colab. Exact match improved from 0% to 83.3%
+and event macro-F1 from 0.667 to 1.000 on the original 240-row synthetic test. However,
+those records contain only six distinct scenario texts and their input identifiers expose
+target labels. These scores do not establish generalization or operational readiness.
+A three-case exploratory comparison yielded only one schema-valid, checked-field-correct
+response per model. No additional training or production deployment is claimed.
+
+- [Reviewed results and limitations](docs/experiments/qlora-v1-reviewed-results.md)
+- [V1 dataset audit and V2 plan](docs/data/dataset-v1-audit-and-v2-plan.md)
+- [Proposed annotation policy](docs/data/annotation-policy-v2.md)
+- [Full-field evaluation protocol](docs/evaluation-v2-protocol.md)
+- [Original reports and diagnostic evidence](results/qlora-v1/README.md)
+
 ## Local quickstart (Python 3.11 or 3.12)
 
 Run all commands from repository root. Linux/macOS:

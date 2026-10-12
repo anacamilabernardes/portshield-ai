@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "SYN-test-unknown-0028",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0028: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0019",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0019: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0013",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0013: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0023",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0023: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0021",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0021: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0027",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0027: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0032",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0032: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0035",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0035: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0020",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0020: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0000",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0000: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0034",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0034: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0024",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0024: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0030",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0030: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0014",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0014: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0009",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0009: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0038",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0038: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0036",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0036: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0037",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0037: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0018",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0018: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0031",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0031: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0010",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0010: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0004",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0004: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0015",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0015: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0007",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0007: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0025",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0025: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0001",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0001: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0008",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0008: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0003",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0003: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0029",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0029: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0017",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0017: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0016",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0016: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0002",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0002: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0026",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0026: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0005",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0005: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0022",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0022: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0006",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0006: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0011",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0011: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0039",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0039: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0012",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0012: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "SYN-test-unknown-0033",
+    "template_family": "unknown-2",
+    "text": "Fictional exercise test-unknown-0033: A rumour about cargo operations has no verified status.",
+    "expected": {
+      "affected_function": "unknown",
+      "equipment_failure": null,
+      "event_type": "unknown",
+      "human_review_required": true,
+      "information_sufficiency": "insufficient",
+      "operational_status": "unknown",
+      "road_access": "unknown"
+    },
+    "predicted": {
+      "event_type": "unknown",
+      "affected_function": "cargo_handling",
+      "operational_status": "unknown",
+      "road_access": "unknown",
+      "equipment_failure": null,
+      "information_sufficiency": "insufficient",
+      "human_review_required": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": null, \"event_type\": \"unknown\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"unknown\", \"road_access\": \"unknown\"}",
+    "differences": {
+      "affected_function": {
+        "expected": "unknown",
+        "predicted": "cargo_handling"
+      }
+    },
+    "error": null
+  }
+]

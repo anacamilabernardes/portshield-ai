@@ -43,3 +43,12 @@ The small generator cannot establish these gates. Domain and security owners sig
 Run `portshield-ai evaluate` per backend, `benchmark` at concurrency 1/4/8 with fixed warmup and prompts,
 and notebook06 for RAG. Include signed JWT negative tests and source poisoning/injection cases.
 MLflow logging is opt-in and local; only scalar metrics and synthetic report artifacts are uploaded.
+
+
+## V1 evidence review and V2 follow-up
+
+V1 model-visible identifiers contain target-class names, creating direct label leakage.
+Its 240 test rows contain six distinct scenario texts. See the [dataset audit](data/dataset-v1-audit-and-v2-plan.md)
+and [V2 evaluation protocol](evaluation-v2-protocol.md). Previously inspected test and diagnostic
+cases are development material; a new independent holdout is required after changes informed
+by their errors. V1 aggregate scores do not satisfy independent-set research gates.

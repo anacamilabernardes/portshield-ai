@@ -1,0 +1,96 @@
+[
+  {
+    "model": "base",
+    "case": "weather",
+    "text": "Fictional port: strong winds forced the suspension of crane operations. No information about equipment condition was provided.",
+    "expected_fields": {
+      "event_type": "weather_disruption",
+      "equipment_failure": null
+    },
+    "raw_response": "{\n  \"event_type\": \"navigation_restriction\",\n  \"affected_function\": \"cargo_handling\",\n  \"operational_status\": \"suspended\",\n  \"road_access\": \"unknown\",\n  \"equipment_failure\": null,\n  \"information_sufficiency\": \"insufficient\",\n  \"human_review_required\": true\n}",
+    "schema_valid": false,
+    "checked_fields_correct": false,
+    "error": "1 validation error for EventAnalysis\n  Value error, Insufficient evidence must abstain on event type [type=value_error, input_value={'event_type': 'navigatio..._review_required': True}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error"
+  },
+  {
+    "model": "base",
+    "case": "confirmed_failure",
+    "text": "Fictional port: a confirmed crane motor failure forced the suspension of cargo handling. Weather conditions were normal.",
+    "expected_fields": {
+      "event_type": "equipment_failure",
+      "equipment_failure": true
+    },
+    "raw_response": "{\n  \"event_type\": \"equipment_failure\",\n  \"affected_function\": \"cargo_handling\",\n  \"operational_status\": \"suspended\",\n  \"road_access\": \"normal\",\n  \"equipment_failure\": true,\n  \"information_sufficiency\": \"sufficient\",\n  \"human_review_required\": true\n}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "suspended",
+      "road_access": "normal",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "schema_valid": true,
+    "checked_fields_correct": true
+  },
+  {
+    "model": "base",
+    "case": "unknown_cause",
+    "text": "Fictional port: crane operations are suspended. The cause has not been established, and equipment condition has not been verified.",
+    "expected_fields": {
+      "event_type": "unknown",
+      "equipment_failure": null
+    },
+    "raw_response": "{\n  \"event_type\": \"navigation_restriction\",\n  \"affected_function\": \"cargo_handling\",\n  \"operational_status\": \"suspended\",\n  \"road_access\": \"unknown\",\n  \"equipment_failure\": null,\n  \"information_sufficiency\": \"insufficient\",\n  \"human_review_required\": true\n}",
+    "schema_valid": false,
+    "checked_fields_correct": false,
+    "error": "1 validation error for EventAnalysis\n  Value error, Insufficient evidence must abstain on event type [type=value_error, input_value={'event_type': 'navigatio..._review_required': True}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error"
+  },
+  {
+    "model": "qlora",
+    "case": "weather",
+    "text": "Fictional port: strong winds forced the suspension of crane operations. No information about equipment condition was provided.",
+    "expected_fields": {
+      "event_type": "weather_disruption",
+      "equipment_failure": null
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": false, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"suspended\", \"road_access\": \"unknown\"}",
+    "schema_valid": false,
+    "checked_fields_correct": false,
+    "error": "1 validation error for EventAnalysis\n  Value error, Insufficient evidence must abstain on event type [type=value_error, input_value={'affected_function': 'ca...road_access': 'unknown'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/value_error"
+  },
+  {
+    "model": "qlora",
+    "case": "confirmed_failure",
+    "text": "Fictional port: a confirmed crane motor failure forced the suspension of cargo handling. Weather conditions were normal.",
+    "expected_fields": {
+      "event_type": "equipment_failure",
+      "equipment_failure": true
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"equipment_failure\", \"human_review_required\": true, \"information_sufficiency\": \"sufficient\", \"operational_status\": \"suspended\", \"road_access\": \"unknown\"}",
+    "prediction": {
+      "event_type": "equipment_failure",
+      "affected_function": "cargo_handling",
+      "operational_status": "suspended",
+      "road_access": "unknown",
+      "equipment_failure": true,
+      "information_sufficiency": "sufficient",
+      "human_review_required": true
+    },
+    "schema_valid": true,
+    "checked_fields_correct": true
+  },
+  {
+    "model": "qlora",
+    "case": "unknown_cause",
+    "text": "Fictional port: crane operations are suspended. The cause has not been established, and equipment condition has not been verified.",
+    "expected_fields": {
+      "event_type": "unknown",
+      "equipment_failure": null
+    },
+    "raw_response": "{\"affected_function\": \"cargo_handling\", \"equipment_failure\": true, \"event_type\": \"suspended\", \"human_review_required\": true, \"information_sufficiency\": \"insufficient\", \"operational_status\": \"suspended\", \"road_access\": \"unknown\"}",
+    "schema_valid": false,
+    "checked_fields_correct": false,
+    "error": "1 validation error for EventAnalysis\nevent_type\n  Input should be 'weather_disruption', 'land_access_disruption', 'equipment_failure', 'navigation_restriction', 'normal_operations' or 'unknown' [type=literal_error, input_value='suspended', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/literal_error"
+  }
+]
