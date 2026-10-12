@@ -202,3 +202,8 @@ Removing opaque prefixes raised event macro F1 from 0.8609 to 1.0000, but reduce
 ## Existing-label review before further training
 
 The [2026-10-12 annotation review](docs/data/label-review-2026-10-12/label-review.md) examined all 720 records across 18 narrative bodies. No labels required changes under the reviewed rules: an unverified rumor does not confirm an affected function, and cargo restrictions do not imply road restrictions. Record-level rationales, source hashes and a reproducible review script are preserved. More varied contrastive training examples and independent annotation review remain necessary.
+
+
+## Contrastive development candidates
+
+[15 synthetic English examples](data/contrastive/candidates-v1/README.md) cover unverified rumor versus confirmed cargo impact and cargo restrictions with normal, restricted or unmentioned road access. The package includes all seven target fields, per-field rationales, contrast-group invariants, a generation script and validation results. These are unassigned development candidates pending independent annotation review, not a blind test or an approved training set. Historical splits and model results are unchanged.

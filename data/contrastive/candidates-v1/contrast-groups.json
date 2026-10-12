@@ -1,0 +1,89 @@
+[
+  {
+    "id": "contrast-01",
+    "records": [
+      "SYN-CONTRAST-0001",
+      "SYN-CONTRAST-0002"
+    ],
+    "contrast": "unverified claim versus confirmed cargo impact",
+    "must_remain_equal": [
+      "road_access",
+      "human_review_required"
+    ]
+  },
+  {
+    "id": "contrast-02",
+    "records": [
+      "SYN-CONTRAST-0003",
+      "SYN-CONTRAST-0004"
+    ],
+    "contrast": "unverified claim versus confirmed cargo impact",
+    "must_remain_equal": [
+      "road_access",
+      "human_review_required"
+    ]
+  },
+  {
+    "id": "contrast-03",
+    "records": [
+      "SYN-CONTRAST-0005",
+      "SYN-CONTRAST-0006"
+    ],
+    "contrast": "unverified claim versus confirmed cargo impact",
+    "must_remain_equal": [
+      "road_access",
+      "human_review_required"
+    ]
+  },
+  {
+    "id": "contrast-04",
+    "records": [
+      "SYN-CONTRAST-0007",
+      "SYN-CONTRAST-0008",
+      "SYN-CONTRAST-0009"
+    ],
+    "contrast": "normal versus restricted versus unmentioned road access",
+    "must_remain_equal": [
+      "event_type",
+      "affected_function",
+      "operational_status",
+      "equipment_failure",
+      "information_sufficiency",
+      "human_review_required"
+    ]
+  },
+  {
+    "id": "contrast-05",
+    "records": [
+      "SYN-CONTRAST-0010",
+      "SYN-CONTRAST-0011",
+      "SYN-CONTRAST-0012"
+    ],
+    "contrast": "normal versus restricted versus unmentioned road access",
+    "must_remain_equal": [
+      "event_type",
+      "affected_function",
+      "operational_status",
+      "equipment_failure",
+      "information_sufficiency",
+      "human_review_required"
+    ]
+  },
+  {
+    "id": "contrast-06",
+    "records": [
+      "SYN-CONTRAST-0013",
+      "SYN-CONTRAST-0014",
+      "SYN-CONTRAST-0015"
+    ],
+    "contrast": "normal versus restricted versus unmentioned road access",
+    "must_remain_equal": [
+      "event_type",
+      "affected_function",
+      "operational_status",
+      "equipment_failure",
+      "information_sufficiency",
+      "human_review_required"
+    ]
+  }
+]

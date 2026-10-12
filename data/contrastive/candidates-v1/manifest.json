@@ -1,0 +1,18 @@
+{
+  "version": "contrastive-candidates-1",
+  "date": "2026-10-12",
+  "records": 15,
+  "contrast_groups": 6,
+  "license": "MIT",
+  "data_class": "synthetic",
+  "split": "unassigned-development-only",
+  "review_status": "pending_independent_review",
+  "historical_data_modified": false,
+  "files": {
+    "examples.jsonl": "aa6db022b83f26a9866362b61b01a4734b1bbe092fedd81b94fd075a823c5624",
+    "annotations.jsonl": "b3f91f6c879245e53e58da4b949e79075612dd4111f78bc4dd2ba458a8fa6f2f",
+    "contrast-groups.json": "4c32e70496b0ec09e2e194385cda38cbf75deda68f55b85ff80a201863e22f65",
+    "README.md": "5f9df1bef1a37e4b5848e44ed5e58dba6c2b997a5a0f69de33057cf3c19c8601",
+    "build_examples.py": "8312534c7508c9785b511e8a6de20874e21a746059415a73e6b3bc7c25398ab6"
+  }
+}

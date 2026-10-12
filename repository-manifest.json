@@ -65,7 +65,7 @@
     "portshield/core.py": "59c37c21905598b90fa2932b2564723d073cdbe15f14326f5fa9c6024a694481",
     "portshield/demo.py": "7d451d24005281f97127034631039bf7db39201deee3b911b37b0980bf90336f",
     "pyproject.toml": "76c71503e4fb6db93d8aea912e8d870fe134b7ad186c722a23d379a05dc69dde",
-    "README.md": "b784ddf96f85bdcfbfb15bafd48871285d0a72748398f8d7a4320120a1a3430b",
+    "README.md": "c01945afd3150816be999b19b9761044bd28c6a0b8a1b711a4cfb544c0bcd13d",
     "README.pt-BR.md": "e16904019f7d8a1416540501899256eb14a0037c8ccce573210e237434fde49f",
     "results/baseline-cpu.json": "797c454583a1b5ba0154a49b48374b35f9b14099cd9052a220551558134e58cb",
     "results/comparison-template.json": "d0ce50503de38fef435b502ad42f800c2eb5d5ea5281994cb5e22c1a50ca4780",
@@ -148,6 +148,13 @@
     "docs/data/label-review-2026-10-12/label-review-summary.json": "3e8e76689c76b89197e9e9f0b9fed6a462e7834598affb5008ce188cffa96230",
     "docs/data/label-review-2026-10-12/label-review.md": "dea50a01d02a2a7b4f92de3ea1ef04bb695c06434c4b7a52252ec2d7c73958ca",
     "docs/data/label-review-2026-10-12/review_labels.py": "d14c3453637483256ac737c5f734a2b38d3cf868dc338990f016d67725097c16",
-    "docs/data/label-review-2026-10-12/source-snapshot.json": "beedc40559d3d543039488e428fecf88af3e819fd510a26e056ddabb74c93d49"
+    "docs/data/label-review-2026-10-12/source-snapshot.json": "beedc40559d3d543039488e428fecf88af3e819fd510a26e056ddabb74c93d49",
+    "data/contrastive/candidates-v1/annotations.jsonl": "b3f91f6c879245e53e58da4b949e79075612dd4111f78bc4dd2ba458a8fa6f2f",
+    "data/contrastive/candidates-v1/build_examples.py": "8312534c7508c9785b511e8a6de20874e21a746059415a73e6b3bc7c25398ab6",
+    "data/contrastive/candidates-v1/contrast-groups.json": "4c32e70496b0ec09e2e194385cda38cbf75deda68f55b85ff80a201863e22f65",
+    "data/contrastive/candidates-v1/examples.jsonl": "aa6db022b83f26a9866362b61b01a4734b1bbe092fedd81b94fd075a823c5624",
+    "data/contrastive/candidates-v1/manifest.json": "8edb552fa5fd6156da0648eb278d01ea74e135cf94e189016fd43c5ea9b6d507",
+    "data/contrastive/candidates-v1/README.md": "5f9df1bef1a37e4b5848e44ed5e58dba6c2b997a5a0f69de33057cf3c19c8601",
+    "data/contrastive/candidates-v1/validation.json": "aa3e819bba27e1a5a7177a9541d37bd387385a7c5c4ef915fa8160ae734f4484"
   }
 }
