@@ -1,0 +1,15 @@
+{
+  "source_commit": "390bd592974875342d699828c4986077610e6ddf",
+  "review_date": "2026-10-12",
+  "records_reviewed": 720,
+  "distinct_bodies": 18,
+  "changed_records": 0,
+  "changed_fields": 0,
+  "source_sha256": {
+    "data/synthetic/train.jsonl": "e0e48aa6f1bb688be5b01fe94ed2f7d0b91d12bb6f820e6b17b46db473caa38d",
+    "data/synthetic/validation.jsonl": "786600b4aaa1037a60be90ef00736c9624b49ced073942f9234dd6eb31a7a55f",
+    "data/synthetic/test.jsonl": "7c2d7b063ca152302e8e234480da68bfc5c939ec0e002575b8e7cac53cbf0fbe"
+  },
+  "changes": [],
+  "status": "Assistant review complete; independent domain annotation review remains pending."
+}

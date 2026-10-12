@@ -65,7 +65,7 @@
     "portshield/core.py": "59c37c21905598b90fa2932b2564723d073cdbe15f14326f5fa9c6024a694481",
     "portshield/demo.py": "7d451d24005281f97127034631039bf7db39201deee3b911b37b0980bf90336f",
     "pyproject.toml": "76c71503e4fb6db93d8aea912e8d870fe134b7ad186c722a23d379a05dc69dde",
-    "README.md": "d3f009553abc834a20ee4d4051b7f7160eb979858bf7638e93e9418c7b8f022c",
+    "README.md": "b784ddf96f85bdcfbfb15bafd48871285d0a72748398f8d7a4320120a1a3430b",
     "README.pt-BR.md": "e16904019f7d8a1416540501899256eb14a0037c8ccce573210e237434fde49f",
     "results/baseline-cpu.json": "797c454583a1b5ba0154a49b48374b35f9b14099cd9052a220551558134e58cb",
     "results/comparison-template.json": "d0ce50503de38fef435b502ad42f800c2eb5d5ea5281994cb5e22c1a50ca4780",
@@ -143,6 +143,11 @@
     "results/no-prefix/diagnostic-20261012T044151Z-a123d07e/generation-config.json": "08928ddacc6211d81b09108051f8b79ca0fddf905dbebf5804ce16d4b1dc2ac5",
     "results/no-prefix/diagnostic-20261012T044151Z-a123d07e/test-no-prefix.jsonl": "1a257d3b8be3fb1a1c3fb3858a4445a57632f0f742ca141730b304bce85dd9c6",
     "results/no-prefix/diagnostic-20261012T044151Z-a123d07e/paired-comparison.json": "04147475e12c3360a12b369c9bf9b0a98fecc3798caba4fdd8466aefda1f0a2a",
-    "results/no-prefix/diagnostic-20261012T044151Z-a123d07e/report.md": "1ac55bfd69d981cd0d2486f539635c3f96e13d322c29a5f5c931a68bad08844b"
+    "results/no-prefix/diagnostic-20261012T044151Z-a123d07e/report.md": "1ac55bfd69d981cd0d2486f539635c3f96e13d322c29a5f5c931a68bad08844b",
+    "docs/data/label-review-2026-10-12/label-review-records.jsonl": "f67fd029f10237c7a88f2d49b48305c9785e0443f2b21da489e70687b85d5fa0",
+    "docs/data/label-review-2026-10-12/label-review-summary.json": "3e8e76689c76b89197e9e9f0b9fed6a462e7834598affb5008ce188cffa96230",
+    "docs/data/label-review-2026-10-12/label-review.md": "dea50a01d02a2a7b4f92de3ea1ef04bb695c06434c4b7a52252ec2d7c73958ca",
+    "docs/data/label-review-2026-10-12/review_labels.py": "d14c3453637483256ac737c5f734a2b38d3cf868dc338990f016d67725097c16",
+    "docs/data/label-review-2026-10-12/source-snapshot.json": "beedc40559d3d543039488e428fecf88af3e819fd510a26e056ddabb74c93d49"
   }
 }
